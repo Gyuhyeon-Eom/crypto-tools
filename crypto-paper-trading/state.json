@@ -1,0 +1,98 @@
+{
+  "balance": 1617.3447512977114,
+  "initial_balance": 3597.12,
+  "positions": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry_price": 67049.9,
+      "size_usdt": 504.16025512500005,
+      "position_value": 5041.60255125,
+      "leverage": 10,
+      "entry_time": "2026-04-05T14:41:36.916211+09:00",
+      "sl": 65708.90199999999,
+      "tp": 69396.64649999999,
+      "entry_fee": 2.5208012756250002,
+      "reasons": [
+        "RSI 30 과매도",
+        "BB 하단 터치"
+      ],
+      "rsi": 29.8845265588901,
+      "confidence": 3
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "SHORT",
+      "entry_price": 0.2421,
+      "size_usdt": 555.3838104006567,
+      "position_value": 5553.838104006567,
+      "leverage": 10,
+      "entry_time": "2026-04-05T17:46:58.650552+09:00",
+      "sl": 0.24694200000000002,
+      "tp": 0.23362650000000001,
+      "entry_fee": 2.7769190520032834,
+      "reasons": [
+        "EMA9<21(하락추세)",
+        "RSI 65 고점권",
+        "3봉 연속하락",
+        "BB 상단 터치"
+      ],
+      "rsi": 65.00000000000104,
+      "confidence": 4
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry_price": 2024.02,
+      "size_usdt": 540.0149420025748,
+      "position_value": 5400.1494200257475,
+      "leverage": 10,
+      "entry_time": "2026-04-05T21:45:00.921694+09:00",
+      "sl": 1983.5395999999998,
+      "tp": 2094.8606999999997,
+      "entry_fee": 2.7000747100128737,
+      "reasons": [
+        "RSI 15 과매도",
+        "거래량 3.9x 급증",
+        "BB 하단 터치"
+      ],
+      "rsi": 15.487949427103473,
+      "confidence": 4
+    }
+  ],
+  "closed_trades": [
+    {
+      "symbol": "FETUSDT",
+      "side": "LONG",
+      "entry_price": 0.2307,
+      "exit_price": 0.226,
+      "pnl_pct": -2.04,
+      "pnl_usdt": -183.21,
+      "net_pnl": -187.7,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 185.2,
+      "entry_fee": 4.4963999999999995,
+      "exit_fee": 4.4963999999999995,
+      "close_time": "2026-04-05T17:46:49.825082+09:00"
+    },
+    {
+      "symbol": "ZECUSDT",
+      "side": "LONG",
+      "entry_price": 245.19,
+      "exit_price": 238.88,
+      "pnl_pct": -2.57,
+      "net_pnl": -176.65,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 423.2,
+      "close_time": "2026-04-05T21:44:51.557104+09:00",
+      "reasons_entry": [
+        "RSI 18 과매도",
+        "3봉 연속상승",
+        "BB 하단 터치"
+      ]
+    }
+  ],
+  "total_fees": 23.723954037641157,
+  "scan_count": 161,
+  "start_time": "2026-04-05T14:41:25.123157+09:00"
+}

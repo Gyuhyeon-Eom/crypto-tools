@@ -1,0 +1,116 @@
+============================================================
+  DISTRIBUTION SHIFT DIAGNOSIS
+============================================================
+
+  135 coins loaded
+
+  Building full dataset (with XS)...
+  Train: 27143 (2961+)  Test: 6786 (604+)
+  Features: 106
+
+============================================================
+  ADVERSARIAL VALIDATION
+============================================================
+
+  AUC (train vs test 구분 능력): 0.674
+  → MILD: 약간의 shift. 주의 필요.
+
+  Shift 주범 피처 TOP 20:
+    vol_usd_7d                          0.1693
+    vol_usd_1d                          0.1588
+    vol_usd_7d_xs_pct                   0.0505 ← XS
+    rsi_min_14d                         0.0462
+    price_pos_60d                       0.0403
+    atr_ratio                           0.0400
+    rsi_oversold_days                   0.0294
+    recovery_from_low                   0.0290
+    rsi_max_14d                         0.0251
+    macd_histogram                      0.0198
+    macd_signal                         0.0191
+    bb_width                            0.0186
+    volatility_contraction              0.0185
+    avg_upper_wick                      0.0172
+    volatility_ratio_7_30               0.0158
+    price_vs_60d_high                   0.0146
+    drawdown_30d                        0.0126
+    price_vs_ma50                       0.0125
+    macd_line                           0.0113
+    distance_from_support               0.0113
+
+  XS 피처 총 importance: 0.148
+  Base 피처 총 importance: 0.852
+
+============================================================
+  PSI ANALYSIS (Population Stability Index)
+============================================================
+
+  전체: 106개 피처
+  심각 (PSI > 0.25): 2개 ← 제거 대상
+  경미 (0.1~0.25): 7개
+  안정 (< 0.1): 97개
+
+  심각 피처 (PSI > 0.25):
+    vol_usd_7d                          PSI=1.009
+    vol_usd_1d                          PSI=0.791
+
+  경미 피처 (0.1~0.25) TOP 10:
+    price_pos_60d                       PSI=0.201
+    recovery_from_low                   PSI=0.176
+    atr_ratio                           PSI=0.146
+    rsi_max_14d                         PSI=0.142
+    macd_signal                         PSI=0.139
+    distance_from_support               PSI=0.105
+    price_vs_ma50                       PSI=0.100
+
+  XS 피처 평균 PSI: 0.001
+  Base 피처 평균 PSI: 0.055
+
+============================================================
+  ABLATION STUDY
+============================================================
+
+  Building datasets...
+  PSI pruning: 106 → 104 features
+
+  [R5_baseline (no XS, no S2)]...
+    P=15.1% R=3.0% (18/119) PR-AUC=0.128
+
+  [R7_full (XS + LogReg S2)]...
+    P=18.6% R=22.4% (135/727) PR-AUC=0.137
+
+  [R7_no_xs (LogReg S2 only)]...
+    P=26.3% R=0.8% (5/19) PR-AUC=0.128
+
+  [R7_no_stage2 (XS only)]...
+    P=17.2% R=16.2% (98/569) PR-AUC=0.137
+
+  [XS + LGBM S2]...
+    P=18.0% R=17.7% (107/594) PR-AUC=0.137
+
+  [no XS + LGBM S2]...
+    P=17.1% R=13.1% (79/463) PR-AUC=0.128
+
+  [PSI-pruned + no S2]...
+    P=19.6% R=14.6% (88/450) PR-AUC=0.140
+
+  [PSI-pruned + LGBM S2]...
+    P=18.3% R=12.9% (78/427) PR-AUC=0.140
+
+============================================================
+  ABLATION RESULTS
+============================================================
+
+  Config                                 Prec  Recall  Preds  Hits  PR-AUC
+  ----------------------------------- ------- ------- ------ ----- -------
+  R7_no_xs (LogReg S2 only)            26.3%   0.8%     19     5   0.128
+  PSI-pruned + no S2                   19.6%  14.6%    450    88   0.140
+  R7_full (XS + LogReg S2)             18.6%  22.4%    727   135   0.137
+  PSI-pruned + LGBM S2                 18.3%  12.9%    427    78   0.140
+  XS + LGBM S2                         18.0%  17.7%    594   107   0.137
+  R7_no_stage2 (XS only)               17.2%  16.2%    569    98   0.137
+  no XS + LGBM S2                      17.1%  13.1%    463    79   0.128
+  R5_baseline (no XS, no S2)           15.1%   3.0%    119    18   0.128
+
+============================================================
+  완료: 1.4분
+============================================================

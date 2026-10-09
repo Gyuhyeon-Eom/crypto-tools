@@ -1,0 +1,130 @@
+============================================================
+Round 6 v2: Advanced Surge Detection
+============================================================
+
+[1] Loading data...
+  299 coins loaded
+
+[2] Computing cross-sectional features...
+  82431 cross-sectional feature sets computed
+
+[3] Building dataset (dynamic triple barrier)...
+  Dataset: 13618 samples (surge:1361, drop:4925, neutral:7332)
+  Excluded (recent surge): 4729
+  Features: 93
+  Feature names: ['ret_1d', 'ret_2d', 'ret_3d', 'ret_5d', 'ret_7d', 'ret_10d', 'ret_14d', 'ret_21d', 'price_vs_ma5', 'price_vs_ma7']... (93 total)
+
+[4] Computing sample weights (uniqueness)...
+  Weight stats: min=0.730 max=1.951 mean=1.000
+
+  Train: 10894 (1031+)  Test: 2724 (330+)
+
+[5] Training Stage 1 (high-recall primary)...
+  Stage 1 PR-AUC: 0.1469
+  Stage 1 @0.30: P=12.9% R=73.9% (1898 preds)
+
+[6] Training Stage 2 (meta-labeling)...
+  [Stage 2] Trained on 5708 Stage1+ samples (1031+), s1_threshold=0.30
+
+[7] Optimizing meta threshold...
+    mt=0.30: P=13.0% R=2.7% (9/69)
+    mt=0.35: P=14.1% R=2.7% (9/64)
+    mt=0.40: P=14.5% R=2.7% (9/62)
+    mt=0.45: P=15.0% R=2.7% (9/60)
+    mt=0.50: P=15.3% R=2.7% (9/59)
+    mt=0.55: P=15.8% R=2.7% (9/57)
+    mt=0.60: P=16.1% R=2.7% (9/56)
+    mt=0.65: P=17.0% R=2.7% (9/53)
+    mt=0.70: P=17.6% R=2.7% (9/51)
+    mt=0.75: P=19.1% R=2.7% (9/47)
+    mt=0.80: P=18.6% R=2.4% (8/43)
+
+  Best meta_threshold=0.75: P=19.1% R=2.7%
+
+[8] Walk-Forward Backtest (6 windows)...
+  [Stage 2] Trained on 636 Stage1+ samples (636+), s1_threshold=0.30
+    Window 1: Train=5447 Test=1361 P=0.0% R=0.0% (0/0)
+  [Stage 2] Trained on 674 Stage1+ samples (674+), s1_threshold=0.30
+    Window 2: Train=6808 Test=1361 P=0.0% R=0.0% (0/0)
+  [Stage 2] Trained on 5996 Stage1+ samples (895+), s1_threshold=0.30
+    Window 3: Train=8169 Test=1361 P=10.3% R=12.5% (8/78)
+  [Stage 2] Trained on 979 Stage1+ samples (959+), s1_threshold=0.30
+    Window 4: Train=9530 Test=1361 P=7.1% R=2.8% (2/28)
+  [Stage 2] Trained on 2220 Stage1+ samples (1031+), s1_threshold=0.30
+    Window 5: Train=10891 Test=1361 P=22.2% R=2.0% (2/9)
+  [Stage 2] Trained on 1241 Stage1+ samples (1130+), s1_threshold=0.30
+    Window 6: Train=12252 Test=1361 P=33.3% R=2.6% (6/18)
+
+  === Walk-Forward Aggregate ===
+  Precision:  13.5%
+  Recall:     2.5%
+  F1:         0.042
+  PR-AUC:     0.0910
+  P@50:       12.0%
+  P@100:      8.0%
+  Lift(top10%): 0.97x
+  Sim PnL:    -360.8%
+  Win Rate:   13.5%
+  Max Consec Losses: 61
+  Trades:     133
+
+[9] Final evaluation on holdout test set...
+  Precision:    19.1%
+  Recall:       2.7%
+  F1:           0.048
+  PR-AUC:       0.1342
+  Predictions:  47
+  Hits:         9
+  Sim PnL:      -6.1% (47 trades, 19% win)
+  Max Consec L: 27
+
+[10] Live Scan...
+
+[Scan] Fetching Bybit tickers...
+  Scanning 62 altcoins...
+  Derivatives data fetched for 36 coins
+
+*Round 6 v2 완료* (14분)
+Dynamic Barrier + 2-Stage Meta + Purged CV + Walk-Forward
+```Holdout Test:
+  Precision:   19.1%
+  Recall:      2.7%
+  F1:          0.048
+  PR-AUC:      0.1342
+  Predictions: 47
+  Hits:        9/330 surges
+  Sim PnL:     -6.1% (47 trades)
+  Win Rate:    19%
+
+Walk-Forward (6 windows):
+  Precision:   13.5%
+  PR-AUC:      0.0910
+  Lift(top10%): 0.97x
+  Sim PnL:     -360.8%
+```
+
+*전조 후보:*
+```
+ # 코인             확률    S1 현재가              7d     14d  RSI       FR
+ 1 LIT         2.2% 82.8% $0.9198       -0.6%  -11.8%   45 -0.0101% 
+ 2 PUMP        0.2% 62.3% $0.0018       -2.2%  -12.6%   46    n/a 
+ 3 ZRO         0.1% 66.6% $1.4550       -9.7%  -27.0%   34 -0.0189% 
+ 4 COINX       0.1% 34.2% $181.7100     -9.0%   -8.1%   43    n/a 
+ 5 FIL         0.1% 52.1% $0.9258       -0.5%   -7.3%   52 -0.0055% 
+ 6 POL         0.1% 65.9% $0.0940       -0.3%   +3.7%   56 +0.0050% 
+ 7 CRCLX       0.1% 52.8% $95.2600      -5.3%  -10.5%   46    n/a 
+ 8 SKY         0.1% 31.9% $0.0791       -7.4%   +2.8%   48 -0.0101% 
+ 9 CATI        0.1% 41.0% $0.0502       +8.8%   +0.9%   58 +0.0050% 
+10 BONK        0.1% 44.6% $0.0000       -2.0%   -4.4%   53    n/a 
+11 GRASS       0.1% 35.8% $0.3274      -27.3%   -8.5%   46 +0.0050% 
+12 ICP         0.1% 52.2% $2.4010       -3.4%   -9.6%   46 -0.0133% 
+13 CRV         0.1% 64.5% $0.2327       +4.8%   -0.3%   55 +0.0100% 
+14 WLD         0.0% 61.1% $0.2456       -7.1%  -24.5%   38 +0.0053% 
+15 APT         0.0% 34.3% $1.0085       +5.9%   +0.7%   60 +0.0091% 
+```
+전조 후보: 0개
+
+[11] Saving model...
+  Saved: ml_data/best_model_v2.pkl + ml_model_config_v2.json
+
+Total time: 14.0 minutes

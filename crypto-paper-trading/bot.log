@@ -1,0 +1,956 @@
+봇 시작: 2026-04-05 14:41:25 KST
+자금: 3597.12 USDT | x10 | SL -2.0% | TP 3.5%
+
+--- 스캔 #1 | 14:41:25 | 잔고 3597.1 | 포지션 0 ---
+  >>> OPEN LONG FETUSDT @ 0.2307 | 899.3 USDT x10
+  >>> OPEN LONG ZECUSDT @ 245.19 | 673.3 USDT x10
+  >>> OPEN LONG BTCUSDT @ 67049.9 | 504.2 USDT x10
+
+--- 스캔 #2 | 14:46:37 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT +0.09% (+7.8 USDT)
+  ... HOLD LONG ZECUSDT +0.16% (+10.7 USDT)
+  ... HOLD LONG BTCUSDT +0.02% (+0.9 USDT)
+
+--- 스캔 #3 | 14:51:37 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -0.30% (-27.3 USDT)
+  ... HOLD LONG ZECUSDT -0.15% (-9.9 USDT)
+  ... HOLD LONG BTCUSDT -0.10% (-5.2 USDT)
+
+--- 스캔 #4 | 14:56:38 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -0.52% (-46.8 USDT)
+  ... HOLD LONG ZECUSDT -0.22% (-14.6 USDT)
+  ... HOLD LONG BTCUSDT -0.19% (-9.8 USDT)
+
+--- 스캔 #5 | 15:01:38 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -0.91% (-81.9 USDT)
+  ... HOLD LONG ZECUSDT -0.49% (-32.7 USDT)
+  ... HOLD LONG BTCUSDT -0.25% (-12.6 USDT)
+
+--- 스캔 #6 | 15:06:38 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.08% (-97.5 USDT)
+  ... HOLD LONG ZECUSDT -0.53% (-35.4 USDT)
+  ... HOLD LONG BTCUSDT -0.33% (-16.7 USDT)
+
+--- 스캔 #7 | 15:11:38 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.43% (-128.6 USDT)
+  ... HOLD LONG ZECUSDT -0.68% (-45.9 USDT)
+  ... HOLD LONG BTCUSDT -0.54% (-27.0 USDT)
+
+--- 스캔 #8 | 15:16:39 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.78% (-159.8 USDT)
+  ... HOLD LONG ZECUSDT -0.69% (-46.4 USDT)
+  ... HOLD LONG BTCUSDT -0.67% (-33.7 USDT)
+
+--- 스캔 #9 | 15:21:39 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.65% (-148.1 USDT)
+  ... HOLD LONG ZECUSDT -0.42% (-28.6 USDT)
+  ... HOLD LONG BTCUSDT -0.49% (-24.6 USDT)
+
+--- 스캔 #10 | 15:26:39 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.60% (-144.2 USDT)
+  ... HOLD LONG ZECUSDT -0.62% (-41.5 USDT)
+  ... HOLD LONG BTCUSDT -0.48% (-24.2 USDT)
+
+--- 스캔 #11 | 15:31:40 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.52% (-136.4 USDT)
+  ... HOLD LONG ZECUSDT -0.57% (-38.2 USDT)
+  ... HOLD LONG BTCUSDT -0.45% (-22.9 USDT)
+
+--- 스캔 #12 | 15:36:40 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.47% (-132.5 USDT)
+  ... HOLD LONG ZECUSDT -0.28% (-18.9 USDT)
+  ... HOLD LONG BTCUSDT -0.41% (-20.6 USDT)
+
+--- 스캔 #13 | 15:41:41 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.52% (-136.4 USDT)
+  ... HOLD LONG ZECUSDT +0.15% (+10.4 USDT)
+  ... HOLD LONG BTCUSDT -0.38% (-19.2 USDT)
+
+--- 스캔 #14 | 15:46:41 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.43% (-128.6 USDT)
+  ... HOLD LONG ZECUSDT +0.09% (+6.3 USDT)
+  ... HOLD LONG BTCUSDT -0.39% (-19.8 USDT)
+
+--- 스캔 #15 | 15:51:41 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.65% (-148.1 USDT)
+  ... HOLD LONG ZECUSDT +0.04% (+2.5 USDT)
+  ... HOLD LONG BTCUSDT -0.36% (-18.4 USDT)
+
+--- 스캔 #16 | 15:56:42 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.65% (-148.1 USDT)
+  ... HOLD LONG ZECUSDT +0.07% (+4.7 USDT)
+  ... HOLD LONG BTCUSDT -0.38% (-19.1 USDT)
+
+--- 스캔 #17 | 16:01:42 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.65% (-148.1 USDT)
+  ... HOLD LONG ZECUSDT +0.03% (+1.9 USDT)
+  ... HOLD LONG BTCUSDT -0.34% (-16.9 USDT)
+
+--- 스캔 #18 | 16:06:42 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.78% (-159.8 USDT)
+  ... HOLD LONG ZECUSDT +0.13% (+9.1 USDT)
+  ... HOLD LONG BTCUSDT -0.28% (-14.1 USDT)
+
+--- 스캔 #19 | 16:11:43 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.86% (-167.6 USDT)
+  ... HOLD LONG ZECUSDT +0.17% (+11.3 USDT)
+  ... HOLD LONG BTCUSDT -0.28% (-14.3 USDT)
+
+--- 스캔 #20 | 16:16:43 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.60% (-144.2 USDT)
+  ... HOLD LONG ZECUSDT +0.24% (+16.5 USDT)
+  ... HOLD LONG BTCUSDT -0.27% (-13.5 USDT)
+
+--- 스캔 #21 | 16:21:43 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.56% (-140.3 USDT)
+  ... HOLD LONG ZECUSDT +0.20% (+13.2 USDT)
+  ... HOLD LONG BTCUSDT -0.36% (-18.1 USDT)
+
+--- 스캔 #22 | 16:26:43 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.69% (-152.0 USDT)
+  ... HOLD LONG ZECUSDT +0.15% (+9.9 USDT)
+  ... HOLD LONG BTCUSDT -0.41% (-20.5 USDT)
+
+--- 스캔 #23 | 16:31:44 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.78% (-159.8 USDT)
+  ... HOLD LONG ZECUSDT +0.06% (+3.8 USDT)
+  ... HOLD LONG BTCUSDT -0.44% (-22.2 USDT)
+
+--- 스캔 #24 | 16:36:44 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.69% (-152.0 USDT)
+  ... HOLD LONG ZECUSDT -0.14% (-9.6 USDT)
+  ... HOLD LONG BTCUSDT -0.52% (-26.4 USDT)
+
+--- 스캔 #25 | 16:41:45 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.52% (-136.4 USDT)
+  ... HOLD LONG ZECUSDT -0.27% (-17.9 USDT)
+  ... HOLD LONG BTCUSDT -0.50% (-25.2 USDT)
+
+--- 스캔 #26 | 16:46:45 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.47% (-132.5 USDT)
+  ... HOLD LONG ZECUSDT -0.40% (-26.6 USDT)
+  ... HOLD LONG BTCUSDT -0.48% (-23.9 USDT)
+
+--- 스캔 #27 | 16:51:45 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.52% (-136.4 USDT)
+  ... HOLD LONG ZECUSDT -0.35% (-23.9 USDT)
+  ... HOLD LONG BTCUSDT -0.48% (-24.1 USDT)
+
+--- 스캔 #28 | 16:56:46 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.26% (-113.0 USDT)
+  ... HOLD LONG ZECUSDT -0.41% (-27.5 USDT)
+  ... HOLD LONG BTCUSDT -0.40% (-20.4 USDT)
+
+--- 스캔 #29 | 17:01:46 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.47% (-132.5 USDT)
+  ... HOLD LONG ZECUSDT -0.49% (-32.7 USDT)
+  ... HOLD LONG BTCUSDT -0.37% (-18.9 USDT)
+
+--- 스캔 #30 | 17:06:46 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.43% (-128.6 USDT)
+  ... HOLD LONG ZECUSDT -0.15% (-9.9 USDT)
+  ... HOLD LONG BTCUSDT -0.34% (-17.2 USDT)
+
+--- 스캔 #31 | 17:11:47 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.56% (-140.3 USDT)
+  ... HOLD LONG ZECUSDT -0.02% (-1.6 USDT)
+  ... HOLD LONG BTCUSDT -0.30% (-15.3 USDT)
+
+--- 스캔 #32 | 17:16:47 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.56% (-140.3 USDT)
+  ... HOLD LONG ZECUSDT -0.01% (-0.8 USDT)
+  ... HOLD LONG BTCUSDT -0.32% (-16.3 USDT)
+
+--- 스캔 #33 | 17:21:47 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.73% (-155.9 USDT)
+  ... HOLD LONG ZECUSDT +0.03% (+1.9 USDT)
+  ... HOLD LONG BTCUSDT -0.29% (-14.5 USDT)
+
+--- 스캔 #34 | 17:26:48 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.73% (-155.9 USDT)
+  ... HOLD LONG ZECUSDT -0.14% (-9.3 USDT)
+  ... HOLD LONG BTCUSDT -0.29% (-14.8 USDT)
+
+--- 스캔 #35 | 17:31:48 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.82% (-163.7 USDT)
+  ... HOLD LONG ZECUSDT -0.17% (-11.5 USDT)
+  ... HOLD LONG BTCUSDT -0.34% (-16.9 USDT)
+
+--- 스캔 #36 | 17:36:48 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.78% (-159.8 USDT)
+  ... HOLD LONG ZECUSDT -0.33% (-22.5 USDT)
+  ... HOLD LONG BTCUSDT -0.31% (-15.8 USDT)
+
+--- 스캔 #37 | 17:41:49 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG FETUSDT -1.95% (-175.4 USDT)
+  ... HOLD LONG ZECUSDT -0.29% (-19.5 USDT)
+  ... HOLD LONG BTCUSDT -0.31% (-15.7 USDT)
+
+--- 스캔 #38 | 17:46:49 | 잔고 1510.0 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.31% (-21.1 USDT)
+  ... HOLD LONG BTCUSDT -0.31% (-15.7 USDT)
+  <<< CLOSE LONG FETUSDT | STOP_LOSS | -187.70 USDT
+  >>> OPEN SHORT ADAUSDT @ 0.2421 | 555.4 USDT x10
+
+--- 스캔 #39 | 17:51:58 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.08% (-5.5 USDT)
+  ... HOLD LONG BTCUSDT -0.27% (-13.8 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+
+--- 스캔 #40 | 17:56:59 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.04% (+2.7 USDT)
+  ... HOLD LONG BTCUSDT -0.24% (-12.0 USDT)
+  ... HOLD SHORT ADAUSDT +0.00% (+0.0 USDT)
+
+--- 스캔 #41 | 18:01:59 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.06% (+3.8 USDT)
+  ... HOLD LONG BTCUSDT -0.22% (-11.3 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+
+--- 스캔 #42 | 18:06:59 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.57% (+38.2 USDT)
+  ... HOLD LONG BTCUSDT -0.24% (-12.3 USDT)
+  ... HOLD SHORT ADAUSDT +0.00% (+0.0 USDT)
+
+--- 스캔 #43 | 18:11:59 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.61% (+40.9 USDT)
+  ... HOLD LONG BTCUSDT -0.26% (-12.9 USDT)
+  ... HOLD SHORT ADAUSDT +0.00% (+0.0 USDT)
+
+--- 스캔 #44 | 18:17:00 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.58% (+39.0 USDT)
+  ... HOLD LONG BTCUSDT -0.24% (-11.9 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+
+--- 스캔 #45 | 18:22:00 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.92% (+61.8 USDT)
+  ... HOLD LONG BTCUSDT -0.15% (-7.5 USDT)
+  ... HOLD SHORT ADAUSDT -0.12% (-6.9 USDT)
+
+--- 스캔 #46 | 18:27:00 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.51% (+101.6 USDT)
+  ... HOLD LONG BTCUSDT -0.12% (-5.9 USDT)
+  ... HOLD SHORT ADAUSDT -0.08% (-4.6 USDT)
+
+--- 스캔 #47 | 18:32:01 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.49% (+100.2 USDT)
+  ... HOLD LONG BTCUSDT -0.15% (-7.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.08% (-4.6 USDT)
+
+--- 스캔 #48 | 18:37:01 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.40% (+94.2 USDT)
+  ... HOLD LONG BTCUSDT -0.15% (-7.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.04% (+2.3 USDT)
+
+--- 스캔 #49 | 18:42:02 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.37% (+92.0 USDT)
+  ... HOLD LONG BTCUSDT -0.11% (-5.3 USDT)
+  ... HOLD SHORT ADAUSDT -0.12% (-6.9 USDT)
+
+--- 스캔 #50 | 18:47:02 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.47% (+98.9 USDT)
+  ... HOLD LONG BTCUSDT -0.10% (-5.3 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+
+--- 스캔 #51 | 18:52:03 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.49% (+100.5 USDT)
+  ... HOLD LONG BTCUSDT -0.07% (-3.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.12% (-6.9 USDT)
+
+--- 스캔 #52 | 18:57:03 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.38% (+93.1 USDT)
+  ... HOLD LONG BTCUSDT -0.09% (-4.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+
+--- 스캔 #53 | 19:02:03 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.44% (+97.2 USDT)
+  ... HOLD LONG BTCUSDT -0.10% (-5.0 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+
+--- 스캔 #54 | 19:07:04 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.44% (+97.2 USDT)
+  ... HOLD LONG BTCUSDT -0.09% (-4.4 USDT)
+  ... HOLD SHORT ADAUSDT -0.08% (-4.6 USDT)
+
+--- 스캔 #55 | 19:12:04 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.04% (+70.3 USDT)
+  ... HOLD LONG BTCUSDT -0.15% (-7.7 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+
+--- 스캔 #56 | 19:17:04 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.74% (+49.7 USDT)
+  ... HOLD LONG BTCUSDT -0.16% (-7.9 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+
+--- 스캔 #57 | 19:22:05 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.98% (+65.9 USDT)
+  ... HOLD LONG BTCUSDT -0.15% (-7.5 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+
+--- 스캔 #58 | 19:27:05 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.86% (+57.7 USDT)
+  ... HOLD LONG BTCUSDT -0.15% (-7.3 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+
+--- 스캔 #59 | 19:32:05 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.88% (+59.3 USDT)
+  ... HOLD LONG BTCUSDT -0.15% (-7.5 USDT)
+  ... HOLD SHORT ADAUSDT +0.17% (+9.2 USDT)
+
+
+=== v3 재시작 Sun Apr  5 19:34:42 KST 2026 ===
+봇 시작: 2026-04-05 19:34:42 KST
+종료 예정: 2026-04-06 21:55 KST
+
+--- 스캔 #60 | 04/05 19:34:42 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.83% (+55.7 USDT)
+  ... HOLD LONG BTCUSDT -0.14% (-6.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+
+--- 스캔 #61 | 04/05 19:39:43 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +1.04% (+70.3 USDT)
+  ... HOLD LONG BTCUSDT +0.05% (+2.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.21% (-11.5 USDT)
+
+--- 스캔 #62 | 04/05 19:44:43 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.47% (+31.9 USDT)
+  ... HOLD LONG BTCUSDT -0.02% (-1.0 USDT)
+  ... HOLD SHORT ADAUSDT +0.00% (+0.0 USDT)
+
+--- 스캔 #63 | 04/05 19:49:43 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT +0.16% (+11.0 USDT)
+  ... HOLD LONG BTCUSDT -0.06% (-3.0 USDT)
+  ... HOLD SHORT ADAUSDT +0.29% (+16.1 USDT)
+
+--- 스캔 #64 | 04/05 19:54:44 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.14% (-9.3 USDT)
+  ... HOLD LONG BTCUSDT -0.09% (-4.5 USDT)
+  ... HOLD SHORT ADAUSDT +0.41% (+22.9 USDT)
+
+--- 스캔 #65 | 04/05 19:59:44 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.24% (-16.2 USDT)
+  ... HOLD LONG BTCUSDT -0.05% (-2.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.70% (+39.0 USDT)
+
+--- 스캔 #66 | 04/05 20:04:44 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.39% (-26.1 USDT)
+  ... HOLD LONG BTCUSDT -0.07% (-3.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.41% (+22.9 USDT)
+
+[HOURLY REPORT]
+[04/05 20:04 정시 리포트]
+총 평가금: 3389 USDT (4,711,171원)
+손익: -207.8 USDT (-5.78%) | -288,826원
+거래: 1건 (승0/패1) 승률 0%
+수수료: 17.7 USDT
+
+보유 포지션 (3개):
+  LONG ZEC | 진입 245.19 -> 현재 244.24 | -0.39% (-26.1 USDT)
+  LONG BTC | 진입 67049.9 -> 현재 66999.7 | -0.07% (-3.8 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2411 | +0.41% (+22.9 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+
+--- 스캔 #67 | 04/05 20:09:45 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.32% (-21.4 USDT)
+  ... HOLD LONG BTCUSDT -0.04% (-1.9 USDT)
+  ... HOLD SHORT ADAUSDT +0.37% (+20.6 USDT)
+
+--- 스캔 #68 | 04/05 20:14:45 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.47% (-31.9 USDT)
+  ... HOLD LONG BTCUSDT -0.01% (-0.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.17% (+9.2 USDT)
+
+--- 스캔 #69 | 04/05 20:19:45 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.27% (-18.4 USDT)
+  ... HOLD LONG BTCUSDT -0.01% (-0.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.08% (+4.6 USDT)
+
+--- 스캔 #70 | 04/05 20:24:46 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.36% (-24.4 USDT)
+  ... HOLD LONG BTCUSDT -0.04% (-2.2 USDT)
+  ... HOLD SHORT ADAUSDT +0.04% (+2.3 USDT)
+
+--- 스캔 #71 | 04/05 20:29:46 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.51% (-34.6 USDT)
+  ... HOLD LONG BTCUSDT -0.10% (-5.2 USDT)
+  ... HOLD SHORT ADAUSDT +0.08% (+4.6 USDT)
+
+--- 스캔 #72 | 04/05 20:34:46 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.57% (-38.2 USDT)
+  ... HOLD LONG BTCUSDT -0.13% (-6.8 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+
+--- 스캔 #73 | 04/05 20:39:47 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.76% (-51.1 USDT)
+  ... HOLD LONG BTCUSDT -0.13% (-6.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.00% (+0.0 USDT)
+
+--- 스캔 #74 | 04/05 20:44:47 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.70% (-47.2 USDT)
+  ... HOLD LONG BTCUSDT -0.13% (-6.4 USDT)
+  ... HOLD SHORT ADAUSDT +0.08% (+4.6 USDT)
+
+--- 스캔 #75 | 04/05 20:49:47 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.72% (-48.6 USDT)
+  ... HOLD LONG BTCUSDT -0.14% (-7.0 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+
+--- 스캔 #76 | 04/05 20:54:48 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.69% (-46.1 USDT)
+  ... HOLD LONG BTCUSDT -0.14% (-7.0 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+
+--- 스캔 #77 | 04/05 20:59:48 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -0.71% (-47.8 USDT)
+  ... HOLD LONG BTCUSDT -0.11% (-5.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.08% (-4.6 USDT)
+
+--- 스캔 #78 | 04/05 21:04:48 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -1.43% (-96.4 USDT)
+  ... HOLD LONG BTCUSDT -0.22% (-11.3 USDT)
+  ... HOLD SHORT ADAUSDT +0.17% (+9.2 USDT)
+
+[HOURLY REPORT]
+[04/05 21:04 정시 리포트]
+총 평가금: 3298 USDT (4,583,825원)
+손익: -299.4 USDT (-8.32%) | -416,172원
+거래: 1건 (승0/패1) 승률 0%
+수수료: 17.7 USDT
+
+보유 포지션 (3개):
+  LONG ZEC | 진입 245.19 -> 현재 241.68 | -1.43% (-96.4 USDT)
+  LONG BTC | 진입 67049.9 -> 현재 66899.3 | -0.22% (-11.3 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2417 | +0.17% (+9.2 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+
+--- 스캔 #79 | 04/05 21:09:49 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -1.25% (-84.3 USDT)
+  ... HOLD LONG BTCUSDT -0.19% (-9.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+
+--- 스캔 #80 | 04/05 21:14:49 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -1.36% (-91.7 USDT)
+  ... HOLD LONG BTCUSDT -0.25% (-12.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.25% (+13.8 USDT)
+
+--- 스캔 #81 | 04/05 21:19:49 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -1.38% (-93.1 USDT)
+  ... HOLD LONG BTCUSDT -0.23% (-11.4 USDT)
+  ... HOLD SHORT ADAUSDT +0.33% (+18.4 USDT)
+
+--- 스캔 #82 | 04/05 21:24:50 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -1.34% (-90.1 USDT)
+  ... HOLD LONG BTCUSDT -0.24% (-12.2 USDT)
+  ... HOLD SHORT ADAUSDT +0.29% (+16.1 USDT)
+
+--- 스캔 #83 | 04/05 21:29:50 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -1.60% (-107.9 USDT)
+  ... HOLD LONG BTCUSDT -0.29% (-14.4 USDT)
+  ... HOLD SHORT ADAUSDT +0.33% (+18.4 USDT)
+
+--- 스캔 #84 | 04/05 21:34:50 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -1.62% (-109.3 USDT)
+  ... HOLD LONG BTCUSDT -0.44% (-22.3 USDT)
+  ... HOLD SHORT ADAUSDT +0.58% (+32.1 USDT)
+
+--- 스캔 #85 | 04/05 21:39:51 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG ZECUSDT -1.84% (-123.6 USDT)
+  ... HOLD LONG BTCUSDT -0.50% (-25.2 USDT)
+  ... HOLD SHORT ADAUSDT +0.41% (+22.9 USDT)
+
+--- 스캔 #86 | 04/05 21:44:51 | 잔고 1663.4 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.49% (-24.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.54% (+29.8 USDT)
+  <<< CLOSE LONG ZECUSDT | STOP_LOSS | -176.65 USDT
+  >>> OPEN LONG ETHUSDT @ 2024.02 | 540.0 USDT x10
+
+--- 스캔 #87 | 04/05 21:50:01 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.55% (-27.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.66% (+36.7 USDT)
+  ... HOLD LONG ETHUSDT -0.01% (-0.3 USDT)
+
+--- 스캔 #88 | 04/05 21:55:01 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.45% (-22.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.45% (+25.2 USDT)
+  ... HOLD LONG ETHUSDT +0.17% (+9.2 USDT)
+
+--- 스캔 #89 | 04/05 22:00:01 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.45% (-22.4 USDT)
+  ... HOLD SHORT ADAUSDT +0.41% (+22.9 USDT)
+  ... HOLD LONG ETHUSDT +0.17% (+8.9 USDT)
+
+[HOURLY REPORT]
+[04/05 22:00 정시 리포트]
+총 평가금: 3226 USDT (4,484,582원)
+손익: -370.8 USDT (-10.31%) | -515,415원
+거래: 2건 (승0/패2) 승률 0%
+수수료: 23.7 USDT
+
+보유 포지션 (3개):
+  LONG BTC | 진입 67049.9 -> 현재 66751.5 | -0.45% (-22.4 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2411 | +0.41% (+22.9 USDT)
+  LONG ETH | 진입 2024.02 -> 현재 2027.36 | +0.17% (+8.9 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+  [L] LONG ZEC | -176.7 USDT (-2.6%) | STOP_LOSS
+
+--- 스캔 #90 | 04/05 22:05:02 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.34% (-17.2 USDT)
+  ... HOLD SHORT ADAUSDT +0.29% (+16.1 USDT)
+  ... HOLD LONG ETHUSDT +0.26% (+13.8 USDT)
+
+--- 스캔 #91 | 04/05 22:10:03 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.39% (-19.7 USDT)
+  ... HOLD SHORT ADAUSDT +0.29% (+16.1 USDT)
+  ... HOLD LONG ETHUSDT +0.22% (+12.0 USDT)
+
+--- 스캔 #92 | 04/05 22:15:03 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.48% (-24.3 USDT)
+  ... HOLD SHORT ADAUSDT +0.58% (+32.1 USDT)
+  ... HOLD LONG ETHUSDT +0.07% (+3.9 USDT)
+
+--- 스캔 #93 | 04/05 22:20:04 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.42% (-21.1 USDT)
+  ... HOLD SHORT ADAUSDT +0.45% (+25.2 USDT)
+  ... HOLD LONG ETHUSDT +0.17% (+9.0 USDT)
+
+--- 스캔 #94 | 04/05 22:25:04 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.36% (-18.4 USDT)
+  ... HOLD SHORT ADAUSDT +0.33% (+18.4 USDT)
+  ... HOLD LONG ETHUSDT +0.30% (+16.0 USDT)
+
+--- 스캔 #95 | 04/05 22:30:04 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.56% (-28.1 USDT)
+  ... HOLD SHORT ADAUSDT +0.66% (+36.7 USDT)
+  ... HOLD LONG ETHUSDT +0.03% (+1.7 USDT)
+
+--- 스캔 #96 | 04/05 22:35:05 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.40% (-20.3 USDT)
+  ... HOLD SHORT ADAUSDT +0.41% (+22.9 USDT)
+  ... HOLD LONG ETHUSDT +0.23% (+12.6 USDT)
+
+--- 스캔 #97 | 04/05 22:40:05 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.35% (-17.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.29% (+16.1 USDT)
+  ... HOLD LONG ETHUSDT +0.25% (+13.3 USDT)
+
+--- 스캔 #98 | 04/05 22:45:05 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.37% (-18.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.33% (+18.4 USDT)
+  ... HOLD LONG ETHUSDT +0.23% (+12.2 USDT)
+
+--- 스캔 #99 | 04/05 22:50:06 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.33% (-16.7 USDT)
+  ... HOLD SHORT ADAUSDT +0.17% (+9.2 USDT)
+  ... HOLD LONG ETHUSDT +0.38% (+20.4 USDT)
+
+--- 스캔 #100 | 04/05 22:55:06 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.31% (-15.7 USDT)
+  ... HOLD SHORT ADAUSDT +0.37% (+20.6 USDT)
+  ... HOLD LONG ETHUSDT +0.40% (+21.7 USDT)
+
+--- 스캔 #101 | 04/05 23:00:06 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.28% (-14.0 USDT)
+  ... HOLD SHORT ADAUSDT +0.17% (+9.2 USDT)
+  ... HOLD LONG ETHUSDT +0.56% (+30.4 USDT)
+
+[HOURLY REPORT]
+[04/05 23:00 정시 리포트]
+총 평가금: 3242 USDT (4,507,073원)
+손익: -354.6 USDT (-9.86%) | -492,923원
+거래: 2건 (승0/패2) 승률 0%
+수수료: 23.7 USDT
+
+보유 포지션 (3개):
+  LONG BTC | 진입 67049.9 -> 현재 66863.4 | -0.28% (-14.0 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2417 | +0.17% (+9.2 USDT)
+  LONG ETH | 진입 2024.02 -> 현재 2035.43 | +0.56% (+30.4 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+  [L] LONG ZEC | -176.7 USDT (-2.6%) | STOP_LOSS
+
+--- 스캔 #102 | 04/05 23:05:06 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.18% (-9.0 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+  ... HOLD LONG ETHUSDT +0.83% (+44.6 USDT)
+
+--- 스캔 #103 | 04/05 23:10:07 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.23% (-11.4 USDT)
+  ... HOLD SHORT ADAUSDT +0.08% (+4.6 USDT)
+  ... HOLD LONG ETHUSDT +0.68% (+37.0 USDT)
+
+--- 스캔 #104 | 04/05 23:15:07 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.31% (-15.5 USDT)
+  ... HOLD SHORT ADAUSDT +0.25% (+13.8 USDT)
+  ... HOLD LONG ETHUSDT +0.57% (+30.5 USDT)
+
+--- 스캔 #105 | 04/05 23:20:08 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.32% (-16.0 USDT)
+  ... HOLD SHORT ADAUSDT +0.17% (+9.2 USDT)
+  ... HOLD LONG ETHUSDT +0.64% (+34.4 USDT)
+
+--- 스캔 #106 | 04/05 23:25:08 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.29% (-14.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+  ... HOLD LONG ETHUSDT +0.69% (+37.3 USDT)
+
+--- 스캔 #107 | 04/05 23:30:09 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.25% (-12.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.08% (+4.6 USDT)
+  ... HOLD LONG ETHUSDT +0.75% (+40.7 USDT)
+
+--- 스캔 #108 | 04/05 23:35:09 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.28% (-13.9 USDT)
+  ... HOLD SHORT ADAUSDT +0.08% (+4.6 USDT)
+  ... HOLD LONG ETHUSDT +0.69% (+37.3 USDT)
+
+--- 스캔 #109 | 04/05 23:40:09 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.21% (-10.7 USDT)
+  ... HOLD SHORT ADAUSDT +0.00% (+0.0 USDT)
+  ... HOLD LONG ETHUSDT +0.78% (+42.3 USDT)
+
+--- 스캔 #110 | 04/05 23:45:09 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.20% (-10.3 USDT)
+  ... HOLD SHORT ADAUSDT -0.04% (-2.3 USDT)
+  ... HOLD LONG ETHUSDT +0.76% (+41.1 USDT)
+
+--- 스캔 #111 | 04/05 23:50:10 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.23% (-11.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.04% (+2.3 USDT)
+  ... HOLD LONG ETHUSDT +0.70% (+38.0 USDT)
+
+--- 스캔 #112 | 04/05 23:55:10 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.22% (-11.0 USDT)
+  ... HOLD SHORT ADAUSDT +0.04% (+2.3 USDT)
+  ... HOLD LONG ETHUSDT +0.68% (+36.9 USDT)
+
+--- 스캔 #113 | 04/06 00:00:10 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.23% (-11.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.08% (+4.6 USDT)
+  ... HOLD LONG ETHUSDT +0.64% (+34.8 USDT)
+
+[HOURLY REPORT]
+[04/06 00:00 정시 리포트]
+총 평가금: 3244 USDT (4,509,014원)
+손익: -353.2 USDT (-9.82%) | -490,983원
+거래: 2건 (승0/패2) 승률 0%
+수수료: 23.7 USDT
+
+보유 포지션 (3개):
+  LONG BTC | 진입 67049.9 -> 현재 66892.6 | -0.23% (-11.8 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2419 | +0.08% (+4.6 USDT)
+  LONG ETH | 진입 2024.02 -> 현재 2036.85 | +0.63% (+34.2 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+  [L] LONG ZEC | -176.7 USDT (-2.6%) | STOP_LOSS
+
+--- 스캔 #114 | 04/06 00:05:11 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.31% (-15.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.29% (+16.1 USDT)
+  ... HOLD LONG ETHUSDT +0.61% (+32.9 USDT)
+
+--- 스캔 #115 | 04/06 00:10:11 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.22% (-11.1 USDT)
+  ... HOLD SHORT ADAUSDT +0.17% (+9.2 USDT)
+  ... HOLD LONG ETHUSDT +0.68% (+36.8 USDT)
+
+--- 스캔 #116 | 04/06 00:15:12 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.19% (-9.8 USDT)
+  ... HOLD SHORT ADAUSDT +0.12% (+6.9 USDT)
+  ... HOLD LONG ETHUSDT +0.77% (+41.8 USDT)
+
+--- 스캔 #117 | 04/06 00:20:12 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.15% (-7.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.21% (+11.5 USDT)
+  ... HOLD LONG ETHUSDT +0.84% (+45.1 USDT)
+
+--- 스캔 #118 | 04/06 00:25:12 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT -0.15% (-7.6 USDT)
+  ... HOLD SHORT ADAUSDT +0.25% (+13.8 USDT)
+  ... HOLD LONG ETHUSDT +0.77% (+41.6 USDT)
+
+--- 스캔 #119 | 04/06 00:30:13 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.63% (+31.7 USDT)
+  ... HOLD SHORT ADAUSDT -0.83% (-45.9 USDT)
+  ... HOLD LONG ETHUSDT +1.80% (+97.1 USDT)
+
+--- 스캔 #120 | 04/06 00:35:13 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.57% (+28.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.83% (-45.9 USDT)
+  ... HOLD LONG ETHUSDT +1.61% (+86.8 USDT)
+
+--- 스캔 #121 | 04/06 00:40:13 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.47% (+23.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.70% (-39.0 USDT)
+  ... HOLD LONG ETHUSDT +1.52% (+81.9 USDT)
+
+--- 스캔 #122 | 04/06 00:45:13 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.55% (+27.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.78% (-43.6 USDT)
+  ... HOLD LONG ETHUSDT +1.71% (+92.2 USDT)
+
+--- 스캔 #123 | 04/06 00:50:14 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.49% (+24.8 USDT)
+  ... HOLD SHORT ADAUSDT -0.74% (-41.3 USDT)
+  ... HOLD LONG ETHUSDT +1.60% (+86.4 USDT)
+
+--- 스캔 #124 | 04/06 00:55:14 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.41% (+20.8 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.52% (+81.8 USDT)
+
+--- 스캔 #125 | 04/06 01:00:14 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.38% (+19.0 USDT)
+  ... HOLD SHORT ADAUSDT -0.54% (-29.8 USDT)
+  ... HOLD LONG ETHUSDT +1.48% (+80.0 USDT)
+
+[HOURLY REPORT]
+[04/06 01:00 정시 리포트]
+총 평가금: 3286 USDT (4,567,752원)
+손익: -311.0 USDT (-8.64%) | -432,245원
+거래: 2건 (승0/패2) 승률 0%
+수수료: 23.7 USDT
+
+보유 포지션 (3개):
+  LONG BTC | 진입 67049.9 -> 현재 67303.7 | +0.38% (+19.1 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2434 | -0.54% (-29.8 USDT)
+  LONG ETH | 진입 2024.02 -> 현재 2054.0 | +1.48% (+80.0 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+  [L] LONG ZEC | -176.7 USDT (-2.6%) | STOP_LOSS
+
+--- 스캔 #126 | 04/06 01:05:15 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.43% (+21.5 USDT)
+  ... HOLD SHORT ADAUSDT -0.54% (-29.8 USDT)
+  ... HOLD LONG ETHUSDT +1.54% (+83.3 USDT)
+
+--- 스캔 #127 | 04/06 01:10:15 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.38% (+19.1 USDT)
+  ... HOLD SHORT ADAUSDT -0.45% (-25.2 USDT)
+  ... HOLD LONG ETHUSDT +1.51% (+81.6 USDT)
+
+--- 스캔 #128 | 04/06 01:15:15 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.34% (+16.9 USDT)
+  ... HOLD SHORT ADAUSDT -0.50% (-27.5 USDT)
+  ... HOLD LONG ETHUSDT +1.53% (+82.7 USDT)
+
+--- 스캔 #129 | 04/06 01:20:15 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.41% (+20.5 USDT)
+  ... HOLD SHORT ADAUSDT -0.54% (-29.8 USDT)
+  ... HOLD LONG ETHUSDT +1.58% (+85.2 USDT)
+
+--- 스캔 #130 | 04/06 01:25:16 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.43% (+21.9 USDT)
+  ... HOLD SHORT ADAUSDT -0.45% (-25.2 USDT)
+  ... HOLD LONG ETHUSDT +1.57% (+84.8 USDT)
+
+--- 스캔 #131 | 04/06 01:30:16 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.36% (+17.9 USDT)
+  ... HOLD SHORT ADAUSDT -0.37% (-20.6 USDT)
+  ... HOLD LONG ETHUSDT +1.47% (+79.6 USDT)
+
+--- 스캔 #132 | 04/06 01:35:16 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.42% (+21.3 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.61% (+87.1 USDT)
+
+--- 스캔 #133 | 04/06 01:40:17 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.32% (+16.3 USDT)
+  ... HOLD SHORT ADAUSDT -0.50% (-27.5 USDT)
+  ... HOLD LONG ETHUSDT +1.54% (+83.2 USDT)
+
+--- 스캔 #134 | 04/06 01:45:17 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.35% (+17.5 USDT)
+  ... HOLD SHORT ADAUSDT -0.58% (-32.1 USDT)
+  ... HOLD LONG ETHUSDT +1.53% (+82.7 USDT)
+
+--- 스캔 #135 | 04/06 01:50:17 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.20% (+10.1 USDT)
+  ... HOLD SHORT ADAUSDT -0.50% (-27.5 USDT)
+  ... HOLD LONG ETHUSDT +1.41% (+76.0 USDT)
+
+--- 스캔 #136 | 04/06 01:55:17 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.21% (+10.4 USDT)
+  ... HOLD SHORT ADAUSDT -0.41% (-22.9 USDT)
+  ... HOLD LONG ETHUSDT +1.33% (+71.9 USDT)
+
+--- 스캔 #137 | 04/06 02:00:18 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.19% (+9.7 USDT)
+  ... HOLD SHORT ADAUSDT -0.33% (-18.4 USDT)
+  ... HOLD LONG ETHUSDT +1.33% (+71.6 USDT)
+
+[HOURLY REPORT]
+[04/06 02:00 정시 리포트]
+총 평가금: 3280 USDT (4,558,943원)
+손익: -317.3 USDT (-8.82%) | -441,053원
+거래: 2건 (승0/패2) 승률 0%
+수수료: 23.7 USDT
+
+보유 포지션 (3개):
+  LONG BTC | 진입 67049.9 -> 현재 67179.0 | +0.19% (+9.7 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2429 | -0.33% (-18.4 USDT)
+  LONG ETH | 진입 2024.02 -> 현재 2050.84 | +1.33% (+71.6 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+  [L] LONG ZEC | -176.7 USDT (-2.6%) | STOP_LOSS
+
+--- 스캔 #138 | 04/06 02:05:18 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.21% (+10.7 USDT)
+  ... HOLD SHORT ADAUSDT -0.37% (-20.6 USDT)
+  ... HOLD LONG ETHUSDT +1.30% (+70.3 USDT)
+
+--- 스캔 #139 | 04/06 02:10:19 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.30% (+15.1 USDT)
+  ... HOLD SHORT ADAUSDT -0.54% (-29.8 USDT)
+  ... HOLD LONG ETHUSDT +1.52% (+81.9 USDT)
+
+--- 스캔 #140 | 04/06 02:15:19 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.31% (+15.4 USDT)
+  ... HOLD SHORT ADAUSDT -0.58% (-32.1 USDT)
+  ... HOLD LONG ETHUSDT +1.53% (+82.7 USDT)
+
+--- 스캔 #141 | 04/06 02:20:19 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.18% (+9.2 USDT)
+  ... HOLD SHORT ADAUSDT -0.37% (-20.6 USDT)
+  ... HOLD LONG ETHUSDT +1.35% (+73.1 USDT)
+
+--- 스캔 #142 | 04/06 02:25:20 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.25% (+12.8 USDT)
+  ... HOLD SHORT ADAUSDT -0.37% (-20.6 USDT)
+  ... HOLD LONG ETHUSDT +1.40% (+75.6 USDT)
+
+--- 스캔 #143 | 04/06 02:30:20 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.39% (+19.9 USDT)
+  ... HOLD SHORT ADAUSDT -0.41% (-22.9 USDT)
+  ... HOLD LONG ETHUSDT +1.56% (+84.1 USDT)
+
+--- 스캔 #144 | 04/06 02:35:20 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.35% (+17.5 USDT)
+  ... HOLD SHORT ADAUSDT -0.33% (-18.4 USDT)
+  ... HOLD LONG ETHUSDT +1.50% (+81.1 USDT)
+
+--- 스캔 #145 | 04/06 02:40:20 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.44% (+22.2 USDT)
+  ... HOLD SHORT ADAUSDT -0.54% (-29.8 USDT)
+  ... HOLD LONG ETHUSDT +1.55% (+83.8 USDT)
+
+--- 스캔 #146 | 04/06 02:45:21 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.42% (+21.2 USDT)
+  ... HOLD SHORT ADAUSDT -0.66% (-36.7 USDT)
+  ... HOLD LONG ETHUSDT +1.76% (+95.1 USDT)
+
+--- 스캔 #147 | 04/06 02:50:21 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.38% (+19.3 USDT)
+  ... HOLD SHORT ADAUSDT -0.66% (-36.7 USDT)
+  ... HOLD LONG ETHUSDT +1.78% (+96.0 USDT)
+
+--- 스캔 #148 | 04/06 02:55:21 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.42% (+20.9 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.78% (+96.1 USDT)
+
+--- 스캔 #149 | 04/06 03:00:22 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.43% (+21.7 USDT)
+  ... HOLD SHORT ADAUSDT -0.70% (-39.0 USDT)
+  ... HOLD LONG ETHUSDT +1.84% (+99.3 USDT)
+
+[HOURLY REPORT]
+[04/06 03:00 정시 리포트]
+총 평가금: 3299 USDT (4,585,443원)
+손익: -298.2 USDT (-8.29%) | -414,554원
+거래: 2건 (승0/패2) 승률 0%
+수수료: 23.7 USDT
+
+보유 포지션 (3개):
+  LONG BTC | 진입 67049.9 -> 현재 67338.1 | +0.43% (+21.7 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2438 | -0.70% (-39.0 USDT)
+  LONG ETH | 진입 2024.02 -> 현재 2061.24 | +1.84% (+99.3 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+  [L] LONG ZEC | -176.7 USDT (-2.6%) | STOP_LOSS
+
+--- 스캔 #150 | 04/06 03:05:22 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.35% (+17.8 USDT)
+  ... HOLD SHORT ADAUSDT -0.58% (-32.1 USDT)
+  ... HOLD LONG ETHUSDT +1.76% (+95.3 USDT)
+
+--- 스캔 #151 | 04/06 03:10:22 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.34% (+17.1 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.73% (+93.3 USDT)
+
+--- 스캔 #152 | 04/06 03:15:23 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.34% (+17.2 USDT)
+  ... HOLD SHORT ADAUSDT -0.41% (-22.9 USDT)
+  ... HOLD LONG ETHUSDT +1.67% (+90.0 USDT)
+
+--- 스캔 #153 | 04/06 03:20:23 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.31% (+15.5 USDT)
+  ... HOLD SHORT ADAUSDT -0.25% (-13.8 USDT)
+  ... HOLD LONG ETHUSDT +1.63% (+87.8 USDT)
+
+--- 스캔 #154 | 04/06 03:25:23 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.34% (+17.2 USDT)
+  ... HOLD SHORT ADAUSDT -0.29% (-16.1 USDT)
+  ... HOLD LONG ETHUSDT +1.66% (+89.7 USDT)
+
+--- 스캔 #155 | 04/06 03:30:23 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.36% (+18.3 USDT)
+  ... HOLD SHORT ADAUSDT -0.33% (-18.4 USDT)
+  ... HOLD LONG ETHUSDT +1.66% (+89.7 USDT)
+
+--- 스캔 #156 | 04/06 03:35:24 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.51% (+25.6 USDT)
+  ... HOLD SHORT ADAUSDT -0.58% (-32.1 USDT)
+  ... HOLD LONG ETHUSDT +1.87% (+101.0 USDT)
+
+--- 스캔 #157 | 04/06 03:40:24 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.55% (+27.9 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.99% (+107.3 USDT)
+
+--- 스캔 #158 | 04/06 03:45:24 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.52% (+26.0 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.98% (+106.7 USDT)
+
+--- 스캔 #159 | 04/06 03:50:25 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.49% (+24.7 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.91% (+103.4 USDT)
+
+--- 스캔 #160 | 04/06 03:55:25 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.48% (+24.4 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.84% (+99.2 USDT)
+
+--- 스캔 #161 | 04/06 04:00:25 | 잔고 1617.3 | 포지션 3 ---
+  ... HOLD LONG BTCUSDT +0.48% (+24.0 USDT)
+  ... HOLD SHORT ADAUSDT -0.62% (-34.4 USDT)
+  ... HOLD LONG ETHUSDT +1.84% (+99.4 USDT)
+
+[HOURLY REPORT]
+[04/06 04:00 정시 리포트]
+총 평가금: 3306 USDT (4,595,225원)
+손익: -291.2 USDT (-8.10%) | -404,772원
+거래: 2건 (승0/패2) 승률 0%
+수수료: 23.7 USDT
+
+보유 포지션 (3개):
+  LONG BTC | 진입 67049.9 -> 현재 67368.9 | +0.48% (+24.0 USDT)
+  SHORT ADA | 진입 0.2421 -> 현재 0.2436 | -0.62% (-34.4 USDT)
+  LONG ETH | 진입 2024.02 -> 현재 2061.29 | +1.84% (+99.4 USDT)
+
+최근 거래:
+  [L] LONG FET | -187.7 USDT (-2.0%) | STOP_LOSS
+  [L] LONG ZEC | -176.7 USDT (-2.6%) | STOP_LOSS

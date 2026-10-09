@@ -1,0 +1,13 @@
+티커 목록 가져오는 중...
+  대상: 141개 코인
+  [20/141] SKRUSDT: 100일치
+  [40/141] VVVUSDT: 406일치
+  [60/141] ATHUSDT: 688일치
+  [80/141] ARBUSDT: 1000일치
+  [100/141] ENAUSDT: 759일치
+  [120/141] KASUSDT: 967일치
+  [140/141] RECALLUSDT: 198일치
+
+완료: 135개 코인
+  일수: min=63 median=732 max=1000
+  저장: /Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ml_data/raw_data_extended.json (5.3MB)

@@ -1,0 +1,22 @@
+{
+  "round": 8,
+  "version": "r8_tuned",
+  "method": "R7_full + vol_transform + soft_voting",
+  "features": 108,
+  "soft_threshold": 0.12,
+  "holdout": {
+    "precision": 0.15316455696202533,
+    "recall": 0.40066225165562913,
+    "preds": 1580,
+    "hits": 242,
+    "pr_auc": 0.13953482377227372
+  },
+  "walk_forward": {
+    "precision": 0.12740384615384615,
+    "recall": 0.02679474216380182,
+    "preds": 416,
+    "hits": 53,
+    "pr_auc": 0.11713429004995482
+  },
+  "trained_at": "2026-04-30T21:58:12.015285"
+}

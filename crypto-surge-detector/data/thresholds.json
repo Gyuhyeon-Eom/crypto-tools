@@ -1,0 +1,156 @@
+{
+  "vol_trend_7d": {
+    "weight": 0.5754185262188618,
+    "direction": "higher",
+    "surge_mean": 0.05832498231342738,
+    "surge_std": 0.15109932301703316,
+    "normal_mean": -0.016755416147645117,
+    "normal_std": 0.12900834743547837,
+    "cohens_d": 0.5754185262188618,
+    "p_value": 7.458478279431802e-13,
+    "source": "A"
+  },
+  "atr_14d_ratio": {
+    "weight": 0.28914891663669706,
+    "direction": "lower",
+    "surge_mean": 0.08656205021839138,
+    "surge_std": 0.04191650250714593,
+    "normal_mean": 0.09826415115467343,
+    "normal_std": 0.04035840609429722,
+    "cohens_d": -0.28914891663669706,
+    "p_value": 2.478878495804082e-06,
+    "source": "A"
+  },
+  "volatility_contraction": {
+    "weight": 0.37742397508161624,
+    "direction": "higher",
+    "surge_mean": 0.9864077999726504,
+    "surge_std": 0.24201341722518666,
+    "normal_mean": 0.913614188328924,
+    "normal_std": 0.18925698101173144,
+    "cohens_d": 0.37742397508161624,
+    "p_value": 8.387510632035244e-06,
+    "source": "A"
+  },
+  "price_vs_60d_high": {
+    "weight": 0.32953485609738925,
+    "direction": "higher",
+    "surge_mean": 0.7017217613978134,
+    "surge_std": 0.18934296658073319,
+    "normal_mean": 0.6335679409602689,
+    "normal_std": 0.20776791818637744,
+    "cohens_d": 0.32953485609738925,
+    "p_value": 6.130841213858318e-05,
+    "source": "A"
+  },
+  "price_ret_7d": {
+    "weight": 0.4593990980636932,
+    "direction": "higher",
+    "surge_mean": 0.04611800161283349,
+    "surge_std": 0.12365245048944208,
+    "normal_mean": -0.015274653035869138,
+    "normal_std": 0.13417514463242597,
+    "cohens_d": 0.4593990980636932,
+    "p_value": 1.0178524689763435e-12,
+    "source": "A"
+  },
+  "price_vs_ma20": {
+    "weight": 0.3275870739408389,
+    "direction": "higher",
+    "surge_mean": 0.005940587659605277,
+    "surge_std": 0.14399664513565075,
+    "normal_mean": -0.03214135901882955,
+    "normal_std": 0.11422204256757669,
+    "cohens_d": 0.3275870739408389,
+    "p_value": 0.000607384284080581,
+    "source": "A"
+  },
+  "rsi_14": {
+    "weight": 0.3564508473215862,
+    "direction": "higher",
+    "surge_mean": 48.49569158985724,
+    "surge_std": 11.046199328842922,
+    "normal_mean": 44.88250778531585,
+    "normal_std": 10.071625099861038,
+    "cohens_d": 0.3564508473215862,
+    "p_value": 4.6385231862178244e-06,
+    "source": "A"
+  },
+  "rsi_trend_7d": {
+    "weight": 0.5890031009725502,
+    "direction": "higher",
+    "surge_mean": 6.037711884756577,
+    "surge_std": 9.152211050198016,
+    "normal_mean": 0.5842282638609859,
+    "normal_std": 9.260990041247334,
+    "cohens_d": 0.5890031009725502,
+    "p_value": 5.484501741648273e-13,
+    "source": "A"
+  },
+  "consecutive_red": {
+    "weight": 0.25161273400263,
+    "direction": "lower",
+    "surge_mean": 0.7131782945736435,
+    "surge_std": 0.9416610628874552,
+    "normal_mean": 1.0477815699658704,
+    "normal_std": 1.349886212613157,
+    "cohens_d": -0.25161273400263,
+    "p_value": 0.03459570538530676,
+    "source": "A"
+  },
+  "green_ratio_3d": {
+    "weight": 0.6059749176787385,
+    "direction": "higher",
+    "surge_mean": 0.6511627906976745,
+    "surge_std": 0.2841202482150586,
+    "normal_mean": 0.4802535348610434,
+    "normal_std": 0.28177119419052393,
+    "cohens_d": 0.6059749176787385,
+    "p_value": 1.145061601093289e-09,
+    "source": "A"
+  },
+  "coin_ret_7d": {
+    "weight": 0.4593990980636932,
+    "direction": "higher",
+    "surge_mean": 0.04611800161283349,
+    "surge_std": 0.12365245048944208,
+    "normal_mean": -0.015274653035869138,
+    "normal_std": 0.13417514463242597,
+    "cohens_d": 0.4593990980636932,
+    "p_value": 1.0178524689763435e-12,
+    "source": "A"
+  },
+  "bb_width": {
+    "weight": 0.36544548353442186,
+    "direction": "higher",
+    "surge_mean": 0.2208826251261758,
+    "surge_std": 0.17486687096037773,
+    "normal_mean": 0.1647139636723579,
+    "normal_std": 0.0979321377365166,
+    "cohens_d": 0.5220649764777455,
+    "p_value": 5.424878990467619e-08,
+    "source": "B"
+  },
+  "rsi_consolidation_days": {
+    "weight": 0.1612790202980684,
+    "direction": "lower",
+    "surge_mean": 6.061032863849765,
+    "surge_std": 4.128343898748965,
+    "normal_mean": 7.081423695758167,
+    "normal_std": 4.456704460459901,
+    "cohens_d": -0.230398600425812,
+    "p_value": 0.0012903708573828165,
+    "source": "B"
+  },
+  "accumulation_signal": {
+    "weight": 0.16084834538644227,
+    "direction": "lower",
+    "surge_mean": 0.4612275171937511,
+    "surge_std": 0.32861535318152013,
+    "normal_mean": 0.579987286296537,
+    "normal_std": 0.5323367170500277,
+    "cohens_d": -0.2297833505520604,
+    "p_value": 3.8211865645010334e-06,
+    "source": "B"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "scan_time": "2026-10-09T16:40:04.030871",
+  "timeframe": "4H",
+  "next_candle": "17:00",
+  "total_scanned": 177,
+  "passed": 63,
+  "results": [
+    {
+      "sym": "ATOM",
+      "price": 1.951,
+      "chg24": 9.9774,
+      "turnover_m": 28.1280059793,
+      "funding": 0.01,
+      "vol_surge": 3.661279998847251,
+      "recent_chg": 3.9424613745338344,
+      "bullish": 3,
+      "full_chg": 5.74525745257453,
+      "score": 8
+    },
+    {
+      "sym": "BTR",
+      "price": 0.05434,
+      "chg24": 21.1594,
+      "turnover_m": 5.589662313900001,
+      "funding": 0.009343,
+      "vol_surge": 4.208195595112111,
+      "recent_chg": 6.084243369734786,
+      "bullish": 3,
+      "full_chg": 7.149891668308045,
+      "score": 8
+    },
+    {
+      "sym": "MAGIC",
+      "price": 0.07849,
+      "chg24": 22.182399999999998,
+      "turnover_m": 3.1998828484,
+      "funding": 0.005,
+      "vol_surge": 10.610602598829185,
+      "recent_chg": 2.693514644351454,
+      "bullish": 3,
+      "full_chg": 17.751124437781115,
+      "score": 8
+    },
+    {
+      "sym": "SKY",
+      "price": 0.07849,
+      "chg24": -1.6416,
+      "turnover_m": 4.1032743714,
+      "funding": 0.005,
+      "vol_surge": 2.1964798039526774,
+      "recent_chg": 0.3450479233226918,
+      "bullish": 3,
+      "full_chg": 1.2899896800825605,
+      "score": 8
+    },
+    {
+      "sym": "APT",
+      "price": 0.8384,
+      "chg24": 8.4886,
+      "turnover_m": 34.1677144618,
+      "funding": 0.01,
+      "vol_surge": 1.5818639742860057,
+      "recent_chg": 3.595699987643644,
+      "bullish": 3,
+      "full_chg": 9.02470741222367,
+      "score": 7
+    },
+    {
+      "sym": "AVAX",
+      "price": 10.407,
+      "chg24": -4.6454,
+      "turnover_m": 73.6619311636,
+      "funding": 0.002305,
+      "vol_surge": 1.5989789778287213,
+      "recent_chg": 0.6676342525399037,
+      "bullish": 3,
+      "full_chg": 1.166861143523913,
+      "score": 7
+    },
+    {
+      "sym": "CAP",
+      "price": 0.07323,
+      "chg24": 1.9632,
+      "turnover_m": 6.710567899400001,
+      "funding": 0.005,
+      "vol_surge": 1.6075911211748821,
+      "recent_chg": 0.909341416368137,
+      "bullish": 3,
+      "full_chg": 0.3700150746882368,
+      "score": 7
+    },
+    {
+      "sym": "WLD",
+      "price": 0.5,
+      "chg24": -5.4999,
+      "turnover_m": 84.4386690595,
+      "funding": 0.005157,
+      "vol_surge": 2.254020654196127,
+      "recent_chg": 0.9289176090468596,
+      "bullish": 2,
+      "full_chg": 1.8129965369729106,
+      "score": 7
+    },
+    {
+      "sym": "0G",
+      "price": 0.2923,
+      "chg24": -6.8218,
+      "turnover_m": 3.8697001932,
+      "funding": -0.0012649999999999998,
+      "vol_surge": 1.4465827804509337,
+      "recent_chg": 1.3522884882108235,
+      "bullish": 3,
+      "full_chg": 2.7416520210896413,
+      "score": 6
+    },
+    {
+      "sym": "BOME",
+      "price": 0.0010647,
+      "chg24": -0.6717,
+      "turnover_m": 4.6048602674,
+      "funding": 0.005,
+      "vol_surge": 1.2239203538158847,
+      "recent_chg": 1.6032064128256487,
+      "bullish": 3,
+      "full_chg": 0.5477382189064154,
+      "score": 6
+    }
+  ]
+}

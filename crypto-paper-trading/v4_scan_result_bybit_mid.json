@@ -1,0 +1,552 @@
+{
+  "scan_time": "2026-04-28T14:15:22.920631+09:00",
+  "btc_trend": "STRONG_BEAR",
+  "btc_score": -6,
+  "total_scanned": 42,
+  "signals_found": 24,
+  "top_signals": [
+    {
+      "symbol": "DOGEUSDT",
+      "price": 0.09974,
+      "side": "SHORT",
+      "score": 4,
+      "rsi_1h": 95.1,
+      "ema9": 0.09910701032822009,
+      "ema21": 0.09887076776522177,
+      "vol_spike": 0.5,
+      "accum_score": 8,
+      "accum_reasons": [
+        "횡보+볼륨증가(1.4x)",
+        "1h OBV상승(매집)",
+        "1h 하단꼬리2회",
+        "1h BB수축(2.9%)",
+        "4h OBV강세"
+      ],
+      "change_24h": 0.6,
+      "vol_24h_m": 154.0,
+      "sym_trend": "STRONG_BULL",
+      "sym_score": 6,
+      "reasons": [
+        "1h RSI95",
+        "1h BB상단",
+        "BTC약세"
+      ],
+      "support": 0.0967,
+      "resistance": 0.10094
+    },
+    {
+      "symbol": "ADAUSDT",
+      "price": 0.2478,
+      "side": "SHORT",
+      "score": 7,
+      "rsi_1h": 73.6,
+      "ema9": 0.24718256292603075,
+      "ema21": 0.24776613636609254,
+      "vol_spike": 0.2,
+      "accum_score": 4,
+      "accum_reasons": [
+        "1h 하단꼬리4회",
+        "1h BB스퀴즈(1.9%)"
+      ],
+      "change_24h": -1.2,
+      "vol_24h_m": 63.4,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "MTF하락(4h:DN/1h:DN/15m:UP)",
+        "1h EMA9<21",
+        "1h RSI74",
+        "1h BB상단",
+        "BTC약세"
+      ],
+      "support": 0.2429,
+      "resistance": 0.256
+    },
+    {
+      "symbol": "BNBUSDT",
+      "price": 625.5,
+      "side": "SHORT",
+      "score": 7,
+      "rsi_1h": 70.9,
+      "ema9": 624.960268289061,
+      "ema21": 626.3716676243649,
+      "vol_spike": 0.2,
+      "accum_score": 4,
+      "accum_reasons": [
+        "1h OBV순매수",
+        "1h 하단꼬리2회",
+        "1h BB스퀴즈(1.1%)"
+      ],
+      "change_24h": -0.9,
+      "vol_24h_m": 31.7,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "MTF하락(4h:DN/1h:DN/15m:UP)",
+        "1h EMA9<21",
+        "1h RSI71",
+        "1h BB상단",
+        "BTC약세"
+      ],
+      "support": 618.2,
+      "resistance": 639.7
+    },
+    {
+      "symbol": "DOTUSDT",
+      "price": 1.2366,
+      "side": "SHORT",
+      "score": 7,
+      "rsi_1h": 73.3,
+      "ema9": 1.2314653972903682,
+      "ema21": 1.23395678971975,
+      "vol_spike": 0.3,
+      "accum_score": 4,
+      "accum_reasons": [
+        "1h OBV상승(매집)",
+        "1h BB수축(2.3%)",
+        "4h OBV강세"
+      ],
+      "change_24h": -1.5,
+      "vol_24h_m": 22.3,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "MTF하락(4h:DN/1h:DN/15m:UP)",
+        "1h EMA9<21",
+        "1h RSI73",
+        "1h BB상단",
+        "BTC약세"
+      ],
+      "support": 1.2087,
+      "resistance": 1.2743
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "price": 9.222,
+      "side": "SHORT",
+      "score": 6,
+      "rsi_1h": 69.2,
+      "ema9": 9.219767891874852,
+      "ema21": 9.250377207243426,
+      "vol_spike": 0.2,
+      "accum_score": 4,
+      "accum_reasons": [
+        "1h 하단꼬리4회",
+        "1h BB스퀴즈(1.8%)"
+      ],
+      "change_24h": -1.7,
+      "vol_24h_m": 26.9,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "1h RSI69",
+        "BTC약세"
+      ],
+      "support": 9.075,
+      "resistance": 9.559
+    },
+    {
+      "symbol": "BTCUSDT",
+      "price": 76913.7,
+      "side": "SHORT",
+      "score": 5,
+      "rsi_1h": 54.0,
+      "ema9": 76962.06664651702,
+      "ema21": 77314.23543020773,
+      "vol_spike": 0.2,
+      "accum_score": 4,
+      "accum_reasons": [
+        "1h OBV순매수",
+        "1h 하단꼬리3회",
+        "1h BB수축(2.1%)"
+      ],
+      "change_24h": -1.9,
+      "vol_24h_m": 5361.1,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "BTC약세"
+      ],
+      "support": 76415.8,
+      "resistance": 79457.4
+    },
+    {
+      "symbol": "SOLUSDT",
+      "price": 84.16,
+      "side": "SHORT",
+      "score": 5,
+      "rsi_1h": 51.3,
+      "ema9": 84.29075712142019,
+      "ema21": 84.83426531349265,
+      "vol_spike": 0.1,
+      "accum_score": 4,
+      "accum_reasons": [
+        "1h 하단꼬리3회",
+        "1h BB스퀴즈(1.9%)"
+      ],
+      "change_24h": -3.0,
+      "vol_24h_m": 634.7,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "BTC약세"
+      ],
+      "support": 83.57,
+      "resistance": 88.07
+    },
+    {
+      "symbol": "WIFUSDT",
+      "price": 0.17831,
+      "side": "SHORT",
+      "score": 4,
+      "rsi_1h": 72.7,
+      "ema9": 0.17753880741714578,
+      "ema21": 0.1774620309370494,
+      "vol_spike": 0.3,
+      "accum_score": 4,
+      "accum_reasons": [
+        "1h OBV상승(매집)",
+        "1h BB수축(2.7%)",
+        "4h OBV강세"
+      ],
+      "change_24h": -0.7,
+      "vol_24h_m": 27.1,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "1h RSI73",
+        "1h BB상단",
+        "BTC약세"
+      ],
+      "support": 0.17161,
+      "resistance": 0.18457
+    },
+    {
+      "symbol": "WLDUSDT",
+      "price": 0.2522,
+      "side": "SHORT",
+      "score": 7,
+      "rsi_1h": 73.4,
+      "ema9": 0.25240551749166806,
+      "ema21": 0.25349017341056385,
+      "vol_spike": 0.1,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h 하단꼬리3회",
+        "1h BB수축(2.8%)"
+      ],
+      "change_24h": -2.5,
+      "vol_24h_m": 20.6,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "1h RSI73",
+        "BTC약세"
+      ],
+      "support": 0.2456,
+      "resistance": 0.2649
+    },
+    {
+      "symbol": "ETHUSDT",
+      "price": 2288.15,
+      "side": "SHORT",
+      "score": 6,
+      "rsi_1h": 61.8,
+      "ema9": 2291.9067375314485,
+      "ema21": 2306.032082786334,
+      "vol_spike": 0.2,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h OBV순매수",
+        "1h 하단꼬리2회",
+        "1h BB수축(2.3%)"
+      ],
+      "change_24h": -3.1,
+      "vol_24h_m": 2947.6,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "1h RSI62",
+        "BTC약세"
+      ],
+      "support": 2264.05,
+      "resistance": 2403.84
+    },
+    {
+      "symbol": "ENAUSDT",
+      "price": 0.10642,
+      "side": "SHORT",
+      "score": 6,
+      "rsi_1h": 63.6,
+      "ema9": 0.10631848586358317,
+      "ema21": 0.10683760736774303,
+      "vol_spike": 0.2,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h OBV순매수",
+        "1h 하단꼬리2회",
+        "1h BB수축(2.5%)"
+      ],
+      "change_24h": -3.2,
+      "vol_24h_m": 51.5,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "1h RSI64",
+        "BTC약세"
+      ],
+      "support": 0.10403,
+      "resistance": 0.11356
+    },
+    {
+      "symbol": "LTCUSDT",
+      "price": 55.34,
+      "side": "SHORT",
+      "score": 6,
+      "rsi_1h": 60.7,
+      "ema9": 55.38351025127491,
+      "ema21": 55.50057291729841,
+      "vol_spike": 0.1,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h 하단꼬리2회",
+        "1h BB스퀴즈(0.9%)"
+      ],
+      "change_24h": -1.4,
+      "vol_24h_m": 26.2,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "1h RSI61",
+        "BTC약세"
+      ],
+      "support": 54.91,
+      "resistance": 56.76
+    },
+    {
+      "symbol": "XRPUSDT",
+      "price": 1.3922,
+      "side": "SHORT",
+      "score": 5,
+      "rsi_1h": 57.3,
+      "ema9": 1.3940054826917052,
+      "ema21": 1.4020841994668682,
+      "vol_spike": 0.1,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h 하단꼬리3회",
+        "1h BB수축(2.2%)"
+      ],
+      "change_24h": -2.4,
+      "vol_24h_m": 230.9,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "BTC약세"
+      ],
+      "support": 1.3829,
+      "resistance": 1.4467
+    },
+    {
+      "symbol": "SUIUSDT",
+      "price": 0.9315,
+      "side": "SHORT",
+      "score": 5,
+      "rsi_1h": 67.8,
+      "ema9": 0.9299281830200874,
+      "ema21": 0.931778192423509,
+      "vol_spike": 0.2,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h 하단꼬리2회",
+        "1h BB스퀴즈(1.8%)"
+      ],
+      "change_24h": -1.1,
+      "vol_24h_m": 41.7,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "MTF하락(4h:DN/1h:DN/15m:UP)",
+        "1h EMA9<21",
+        "1h RSI68",
+        "BTC약세"
+      ],
+      "support": 0.9116,
+      "resistance": 0.9631
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "price": 2.517,
+      "side": "SHORT",
+      "score": 5,
+      "rsi_1h": 63.8,
+      "ema9": 2.5161645562046693,
+      "ema21": 2.529918110939714,
+      "vol_spike": 0.1,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h 하단꼬리3회",
+        "1h BB수축(2.5%)"
+      ],
+      "change_24h": -1.5,
+      "vol_24h_m": 38.1,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "MTF하락(4h:DN/1h:DN/15m:UP)",
+        "1h EMA9<21",
+        "1h RSI64",
+        "BTC약세"
+      ],
+      "support": 2.424,
+      "resistance": 2.982
+    },
+    {
+      "symbol": "NEARUSDT",
+      "price": 1.3612,
+      "side": "SHORT",
+      "score": 5,
+      "rsi_1h": 65.4,
+      "ema9": 1.3587770509587827,
+      "ema21": 1.3650453614617972,
+      "vol_spike": 0.5,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h OBV순매수",
+        "1h 하단꼬리2회",
+        "1h BB수축(2.5%)"
+      ],
+      "change_24h": -1.5,
+      "vol_24h_m": 22.3,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "MTF하락(4h:DN/1h:DN/15m:UP)",
+        "1h EMA9<21",
+        "1h RSI65",
+        "BTC약세"
+      ],
+      "support": 1.3396,
+      "resistance": 1.4207
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "price": 0.87602,
+      "side": "SHORT",
+      "score": 4,
+      "rsi_1h": 58.9,
+      "ema9": 0.877270085818388,
+      "ema21": 0.877389577181287,
+      "vol_spike": 0.2,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h 하단꼬리4회",
+        "4h OBV강세"
+      ],
+      "change_24h": -1.4,
+      "vol_24h_m": 26.0,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "MTF하락(4h:DN/1h:DN/15m:UP)",
+        "1h EMA9<21",
+        "BTC약세"
+      ],
+      "support": 0.71,
+      "resistance": 1.11544
+    },
+    {
+      "symbol": "APEUSDT",
+      "price": 0.15175,
+      "side": "SHORT",
+      "score": 4,
+      "rsi_1h": 70.6,
+      "ema9": 0.14527759469706092,
+      "ema21": 0.14411449389726233,
+      "vol_spike": 0.9,
+      "accum_score": 3,
+      "accum_reasons": [
+        "1h OBV상승(매집)",
+        "4h OBV강세"
+      ],
+      "change_24h": 0.5,
+      "vol_24h_m": 24.3,
+      "sym_trend": "STRONG_BULL",
+      "sym_score": 6,
+      "reasons": [
+        "1h RSI71",
+        "1h BB상단",
+        "BTC약세"
+      ],
+      "support": 0.13786,
+      "resistance": 0.22229
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "price": 4645.1,
+      "side": "SHORT",
+      "score": 5,
+      "rsi_1h": 41.0,
+      "ema9": 4662.618378427411,
+      "ema21": 4672.436576669369,
+      "vol_spike": 1.9,
+      "accum_score": 2,
+      "accum_reasons": [
+        "1h BB스퀴즈(1.0%)"
+      ],
+      "change_24h": -1.1,
+      "vol_24h_m": 48.7,
+      "sym_trend": "STRONG_BEAR",
+      "sym_score": -6,
+      "reasons": [
+        "MTF약세(4h:DN/1h:DN/15m:DN)",
+        "1h EMA9<21",
+        "BTC약세"
+      ],
+      "support": 4641.3,
+      "resistance": 4711.5
+    },
+    {
+      "symbol": "LINKUSDT",
+      "price": 9.278,
+      "side": "SHORT",
+      "score": 5,
+      "rsi_1h": 68.6,
+      "ema9": 9.273812115698274,
+      "ema21": 9.304505016086445,
+      "vol_spike": 0.1,
+      "accum_score": 2,
+      "accum_reasons": [
+        "1h BB스퀴즈(1.9%)"
+      ],
+      "change_24h": -1.4,
+      "vol_24h_m": 35.3,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "MTF하락(4h:DN/1h:DN/15m:UP)",
+        "1h EMA9<21",
+        "1h RSI69",
+        "BTC약세"
+      ],
+      "support": 9.147,
+      "resistance": 9.588
+    }
+  ]
+}

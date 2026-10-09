@@ -1,0 +1,72 @@
+
+Traceback (most recent call last):
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1550, in <module>
+    main()
+    ~~~~^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1544, in main
+    run_scan(update_watchlist=args.update_watchlist)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1387, in run_scan
+    track_results()
+    ~~~~~~~~~~~~~^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1517, in track_results
+    with open(RESULTS_FILE, "w") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device: '/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_results.jsonl'
+Traceback (most recent call last):
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1550, in <module>
+    main()
+    ~~~~^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1544, in main
+    run_scan(update_watchlist=args.update_watchlist)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1387, in run_scan
+    track_results()
+    ~~~~~~~~~~~~~^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1517, in track_results
+    with open(RESULTS_FILE, "w") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device: '/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_results.jsonl'
+Traceback (most recent call last):
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1550, in <module>
+    main()
+    ~~~~^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1544, in main
+    run_scan(update_watchlist=args.update_watchlist)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1131, in run_scan
+    save_json(SCORE_HISTORY_FILE, score_history)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 141, in save_json
+    with open(path, "w") as f:
+         ~~~~^^^^^^^^^^^
+OSError: [Errno 28] No space left on device: '/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/score_history.json'
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+Traceback (most recent call last):
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1550, in <module>
+    main()
+    ~~~~^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1544, in main
+    run_scan(update_watchlist=args.update_watchlist)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1131, in run_scan
+    save_json(SCORE_HISTORY_FILE, score_history)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 141, in save_json
+    with open(path, "w") as f:
+         ~~~~^^^^^^^^^^^
+OSError: [Errno 28] No space left on device: '/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/score_history.json'
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+Traceback (most recent call last):
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1550, in <module>
+    main()
+    ~~~~^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1544, in main
+    run_scan(update_watchlist=args.update_watchlist)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eomgyuhyeon/.openclaw/workspace/surge-alert/ignition_scanner.py", line 1131, in run_scan
+    save_json(SCORE_HISTORY_FILE, score_history)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+object address  : 0x11759b740
+object refcount : 3
+object type     : 0x100d32b40

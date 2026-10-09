@@ -1,0 +1,210 @@
+======================================================================
+  ROUND 7 FINAL: Production Surge Detection Pipeline
+======================================================================
+
+[1] Loading data...
+  135 coins loaded from raw_data_extended.json
+
+============================================================
+[1] LEAK VERIFICATION REPORT
+============================================================
+
+  [1a] Look-ahead check on extract_features...
+    PASS: extract_features uses slicing up to idx+1 (no look-ahead)
+    Verified: RSI(c[:idx+1]), ATR(h[:idx+1],l[:idx+1],c[:idx+1]),
+              MACD(c[:idx+1]), OBV(c[max(0,idx-29):idx+1],v[...])
+
+  [1b] Survivorship bias check...
+    Coins in dataset: 135
+    Candle lengths: min=63, max=1000, avg=648
+    WARNING: Dataset only contains currently Bybit-listed coins.
+    Delisted/failed coins are not represented (survivorship bias).
+    Mitigation: Noted as limitation. Cannot fix without historical delisting data.
+
+  [1c] CV leak check (TimeSeriesSplit vs PurgedKFold)...
+    Will be evaluated after dataset build (deferred to training phase).
+
+[3] Building cross-sectional panel + normalized features...
+  [3a] Quick dataset for preliminary feature importance...
+  Dataset: 33929 samples (surge:3565, drop:11820, neutral:18544)
+  Excluded (recent surge): 14518
+  [3b] Selecting top 20 features from preliminary model (85 base)...
+    Top 20: ['momentum_acceleration', 'ma5_ma10_cross', 'avg_upper_wick', 'ma20_slope', 'volatility_ratio_7_30', 'price_vs_60d_high', 'price_pos_60d', 'recovery_from_low', 'avg_lower_wick', 'vol_trend_14d', 'macd_histogram', 'rsi_range_14d', 'bb_width', 'rsi_max_14d', 'volatility_contraction', 'range_squeeze', 'vol_ratio_7d_30d', 'rsi_min_14d', 'vol_usd_7d', 'atr_ratio']
+  [3c] Building cross-sectional panel...
+    Building timestamp-aligned panel...
+    Panel: 941 timestamps, 79 coins
+  [3d] Computing normalized features (xs_pct + self_z)...
+    Computing normalized features...
+    Normalized features computed: 49000 data points
+  Extra features: 30
+
+[4] Rebuilding dataset with normalized features + dynamic barrier...
+  Dataset: 33929 samples (surge:3565, drop:11820, neutral:18544)
+  Excluded (recent surge): 14518
+  Total features: 115 (base ~85 + 30 normalized)
+
+[5] Computing sample weights (uniqueness)...
+  Weight stats: min=0.549 max=10.099 mean=1.000
+
+[6] Train/Test split:
+  Train: 27143 (2961+)  Test: 6786 (604+)
+
+[2c] CV leak check (now with full dataset)...
+    TimeSeriesSplit precision: 10.8%
+    PurgedKFold precision:     11.5%
+    Difference: -0.7pp
+    OK: No significant leak detected (-0.7pp difference)
+
+  === LEAK VERIFICATION SUMMARY ===
+    look_ahead: PASS - only uses data up to idx
+    survivorship: WARNING - 135 coins, only Bybit-listed survivors. Delisted coins missing (potential upward bias).
+    cv_leak: PASS - -0.7pp drop (TS=10.8%, PK=11.5%)
+
+[7] Training Stage 1 (high-recall LGBM)...
+  Stage 1 best CV AP: 0.1471
+  Stage 1 test PR-AUC: 0.1447
+  Stage 1 @0.30: P=8.9% R=100.0% (6755 preds)
+
+[8] Calibrating Stage 1 (IsotonicRegression)...
+  Calibrated probs: min=0.000 max=0.800 mean=0.135
+
+[9] Training Stage 2 (LogisticRegression on Stage1 positives)...
+    [Stage 2] Train: P=49.6% R=54.2% (954 preds from 2417 S1+)
+
+[10] Optimizing thresholds (grid search s1_t x s2_t)...
+  Best: s1_t=0.30 s2_t=0.65 P=33.3% R=1.7%
+
+[11] Training multi-seed ensemble (5 seeds)...
+    Seed 42 (1/5)...
+    [Stage 2] Train: P=49.6% R=54.2% (954 preds from 2417 S1+)
+      Val: P=33.3% R=1.7% (10/30) s2_t=0.65
+    Seed 123 (2/5)...
+    [Stage 2] Train: P=58.3% R=58.3% (1287 preds from 3110 S1+)
+      Val: P=16.2% R=15.9% (96/592) s2_t=0.35
+    Seed 456 (3/5)...
+    [Stage 2] Train: P=58.4% R=54.9% (125 preds from 322 S1+)
+      Val: P=10.0% R=0.3% (2/20) s2_t=0.45
+    Seed 789 (4/5)...
+    [Stage 2] Train: P=58.0% R=52.5% (648 preds from 1797 S1+)
+      Val: P=50.0% R=0.5% (3/6) s2_t=0.70
+    Seed 1000 (5/5)...
+    [Stage 2] Train: P=54.6% R=56.7% (1399 preds from 3435 S1+)
+      Val: P=50.0% R=0.7% (4/8) s2_t=0.75
+
+  Ensemble evaluation on test set...
+  Ensemble (4/5 vote): P=0.0% R=0.0% (0/1)
+
+[12] Walk-Forward Backtest (6 windows)...
+    [Stage 2] Train: P=74.0% R=64.1% (990 preds from 2192 S1+)
+    Window 1: Train=13571 Test=3393 P=0.0% R=0.0% (0/3)
+    [Stage 2] Train: P=70.7% R=60.4% (1070 preds from 2434 S1+)
+    Window 2: Train=16964 Test=3393 P=4.2% R=0.2% (1/24)
+    [Stage 2] Train: P=62.4% R=60.5% (1483 preds from 3306 S1+)
+    Window 3: Train=20357 Test=3393 P=0.0% R=0.0% (0/5)
+    [Stage 2] Train: P=48.3% R=51.6% (1011 preds from 2640 S1+)
+    Window 4: Train=23750 Test=3393 P=0.0% R=0.0% (0/0)
+    [Stage 2] Train: P=49.6% R=54.2% (954 preds from 2417 S1+)
+    Window 5: Train=27143 Test=3393 P=0.0% R=0.0% (0/3)
+    [Stage 2] Train: P=54.1% R=55.1% (969 preds from 2506 S1+)
+    Window 6: Train=30536 Test=3393 P=0.0% R=0.0% (0/0)
+
+  === Walk-Forward Aggregate ===
+  Precision:  2.9%
+  Recall:     0.1%
+  F1:         0.001
+  PR-AUC:     0.1013
+
+[13] Full evaluation metrics...
+  Precision:    0.0%
+  Recall:       0.0%
+  F1:           0.000
+  PR-AUC:       0.1245
+  P@10:         10.0%
+  P@20:         5.0%
+  P@50:         10.0%
+  Lift(top10%): 2.14x
+  Sim PnL:      -0.8%
+  Sharpe:       0.00
+  Max DD:       0.0%
+  Profit Factor:0.00
+  Win Rate:     0.0%
+  Max Consec L: 1
+  Trades:       1
+
+[14] Realistic PnL simulation (fee=0.1%, slip=0.3%, max_pos=5)...
+  (See metrics above)
+
+[15] Live scan with derivatives...
+
+[Scan] Fetching Bybit tickers...
+  Scanning 64 altcoins...
+
+[16] Saving model + generating report...
+  Saved: ml_data/best_model_r7.pkl + ml_model_config_r7.json
+
+*Round 7 Final 완료* (50분)
+Ensemble(5seed) + LGBM(S1) + LogReg(S2) + PurgedCV + WalkForward + CrossSectional
+```
+=== Holdout Test ===
+  Precision:     0.0%
+  Recall:        0.0%
+  F1:            0.000
+  PR-AUC:        0.1245
+  P@10/20/50:    10%/5%/10%
+  Lift(top10%):  2.14x
+  Preds/Hits:    1/0 (surges:604)
+
+=== PnL Simulation ===
+  Total Return:  -0.8%
+  Sharpe:        0.00
+  Max DD:        0.0%
+  Profit Factor: 0.00
+  Win Rate:      0%
+  Trades:        1
+  Max ConsecL:   1
+
+=== Walk-Forward (6 windows) ===
+  Precision:     2.9%
+  Recall:        0.1%
+  PR-AUC:        0.1013
+
+=== Leak Verification ===
+  look_ahead: PASS - only uses data up to idx
+  survivorship: WARNING - 135 coins, only Bybit-listed survivors. Delisted coins missing (potential upward bias).
+  cv_leak: PASS - -0.7pp drop (TS=10.8%, PK=11.5%)
+```
+
+*R5 vs v2 vs R7 Comparison:*
+```
+Metric                       R5         v2         R7
+----------------------------------------------------
+Precision                24.8%     13.2%      0.0%
+Recall                   12.2%     53.6%      0.0%
+F1                          n/a     0.212     0.000
+PR-AUC                      n/a    0.1190    0.1245
+Sim PnL                     n/a  -3216.0%     -0.8%
+Features                     85         93        115
+Stage 2                    LGBM       LGBM     LogReg
+Ensemble                     no         no     5-seed
+```
+
+*전조 후보 (4/5 vote):*
+```
+ # 코인         Votes    S1    S2 현재가              7d     14d  RSI       FR Stealth
+ 1 SPX            1 31.4% 13.0% $0.3632       -8.3%   +1.7%   54 -0.0172%       1 
+ 2 APT            1 30.6% 8.5% $0.9972       +4.7%   -0.4%   59 +0.0018%       1 
+ 3 S              1 30.3% 7.7% $0.0432       -1.9%   -6.7%   48 -0.0001%       0 
+ 4 TA             0 37.7% 11.3% $0.0509       +6.8%  +20.1%   60 +0.0210%       0 
+ 5 OP             0 26.3% 3.5% $0.1215       -0.1%   -8.2%   51 -0.0111%       1 
+ 6 NIGHT          0 24.2% 4.3% $0.0331       -9.7%   -9.7%   33 +0.0036%       1 
+ 7 VIRTUAL        0 23.1% 0.0% $0.6916       -1.4%   -6.2%   50 +0.0050%       1 
+ 8 WLD            0 23.1% 0.0% $0.2424       -8.3%  -25.5%   37 -0.0254%       1 
+ 9 CATI           0 21.8% 0.0% $0.0498       +8.0%   +0.1%   56 +0.0050%       0 
+10 BONK           0 20.6% 2.6% $0.0000       -1.8%   -4.2%   53    n/a       1 
+11 JUP            0 20.3% 0.0% $0.1789       +3.2%   -0.8%   54 -0.0180%       1 
+12 ZRO            0 20.1% 0.0% $1.4440      -10.4%  -27.5%   34 +0.0050%       1 
+```
+전조 후보: 0개 (총 12개 스캔)
+
+Total time: 50.1 minutes
+Done.

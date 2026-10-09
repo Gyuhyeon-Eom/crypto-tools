@@ -1,0 +1,12 @@
+{
+  "backtest_days": 30,
+  "surge_threshold": 0.5,
+  "total_surges": 218,
+  "best_config": {
+    "score_threshold": 75,
+    "top_n": 10,
+    "precision": 0.023529411764705882,
+    "recall": 0.027522935779816515,
+    "f1": 0.025369978858350954
+  }
+}

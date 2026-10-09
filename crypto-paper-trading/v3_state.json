@@ -1,0 +1,73 @@
+{
+  "version": "v3",
+  "balance": 2421.825955137939,
+  "initial_balance": 5755,
+  "positions": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry_price": 67414.8,
+      "size_usdt": 1438.75,
+      "position_value": 7193.75,
+      "leverage": 5,
+      "entry_time": "2026-04-06T06:26:47.831216+09:00",
+      "sl": 66403.57800000001,
+      "tp": 69437.244,
+      "entry_fee": 3.5968750000000003,
+      "reasons": [
+        "EMA9>21 상승추세",
+        "BB 하단 터치",
+        "BTC 상승추세"
+      ],
+      "rsi": 54.15183867141162,
+      "confidence": 4,
+      "max_pnl_pct": 0.055477432255223155
+    },
+    {
+      "symbol": "APTUSDT",
+      "side": "LONG",
+      "entry_price": 0.8299,
+      "size_usdt": 1078.16328125,
+      "position_value": 5390.81640625,
+      "leverage": 5,
+      "entry_time": "2026-04-06T06:29:53.328883+09:00",
+      "sl": 0.8174515,
+      "tp": 0.854797,
+      "entry_fee": 2.695408203125,
+      "reasons": [
+        "RSI 34 과매도",
+        "거래량 2.7x 급증",
+        "BB 하단 터치",
+        "BTC 상승추세"
+      ],
+      "rsi": 33.62068965517237,
+      "confidence": 4,
+      "max_pnl_pct": 0
+    },
+    {
+      "symbol": "FETUSDT",
+      "side": "LONG",
+      "entry_price": 0.2264,
+      "size_usdt": 807.9486088867187,
+      "position_value": 4039.7430444335937,
+      "leverage": 5,
+      "entry_time": "2026-04-06T06:29:53.330867+09:00",
+      "sl": 0.22300399999999998,
+      "tp": 0.23319199999999998,
+      "entry_fee": 2.019871522216797,
+      "reasons": [
+        "RSI 37 과매도",
+        "거래량 3.6x 급증",
+        "BB 하단 터치",
+        "BTC 상승추세"
+      ],
+      "rsi": 37.31343283582076,
+      "confidence": 4,
+      "max_pnl_pct": 0
+    }
+  ],
+  "closed_trades": [],
+  "total_fees": 8.312154725341799,
+  "scan_count": 2,
+  "start_time": "2026-04-06T06:26:42.515114+09:00"
+}

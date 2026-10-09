@@ -1,0 +1,553 @@
+{
+  "scan_time": "2026-04-28T08:51:01.785959+09:00",
+  "btc_trend": "NEUTRAL",
+  "btc_score": 0,
+  "total_scanned": 61,
+  "signals_found": 44,
+  "top_signals": [
+    {
+      "symbol": "SUIUSDT",
+      "price": 0.9322,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 75.7,
+      "ema9": 0.9316912138219454,
+      "ema21": 0.9298652030012418,
+      "vol_spike": 0.2,
+      "accum_score": 10,
+      "accum_reasons": [
+        "횡보+볼륨증가(1.5x)",
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "BB스퀴즈(1.1%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -1.6,
+      "vol_24h_m": 148.6,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "횡보+볼륨증가(1.5x)",
+        "OBV상승(매집)",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "LDOUSDT",
+      "price": 0.4049,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 76.2,
+      "ema9": 0.4040968289168803,
+      "ema21": 0.40294380169433397,
+      "vol_spike": 0.1,
+      "accum_score": 8,
+      "accum_reasons": [
+        "횡보+볼륨증가(1.3x)",
+        "OBV상승(매집)",
+        "BB스퀴즈(1.2%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -9.7,
+      "vol_24h_m": 133.8,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "횡보+볼륨증가(1.3x)",
+        "OBV상승(매집)",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "DOTUSDT",
+      "price": 1.229,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 76.9,
+      "ema9": 1.228375463388781,
+      "ema21": 1.2254728713272278,
+      "vol_spike": 0.7,
+      "accum_score": 8,
+      "accum_reasons": [
+        "횡보+볼륨증가(1.6x)",
+        "OBV상승(매집)",
+        "BB스퀴즈(1.3%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -2.6,
+      "vol_24h_m": 64.1,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "횡보+볼륨증가(1.6x)",
+        "OBV상승(매집)",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "ETHUSDT",
+      "price": 2298.39,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 69.6,
+      "ema9": 2295.4479654785123,
+      "ema21": 2293.1750629919516,
+      "vol_spike": 0.3,
+      "accum_score": 7,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "BB스퀴즈(0.5%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -3.2,
+      "vol_24h_m": 10380.6,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "ZECUSDT",
+      "price": 354.91,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 57.1,
+      "ema9": 354.85348386905986,
+      "ema21": 354.09376978011585,
+      "vol_spike": 0.7,
+      "accum_score": 7,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "하단꼬리4회",
+        "BB스퀴즈(1.2%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -0.1,
+      "vol_24h_m": 433.2,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "OBV상승(매집)",
+        "하단꼬리4회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "TAOUSDT",
+      "price": 247.54,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 64.8,
+      "ema9": 247.3071693844954,
+      "ema21": 247.02078762315676,
+      "vol_spike": 0.3,
+      "accum_score": 7,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "BB스퀴즈(0.7%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -1.8,
+      "vol_24h_m": 128.4,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "CLUSDT",
+      "price": 96.67,
+      "side": "LONG",
+      "score": 7,
+      "rsi": 74.2,
+      "ema9": 96.61692311234702,
+      "ema21": 96.5717547396101,
+      "vol_spike": 0.2,
+      "accum_score": 6,
+      "accum_reasons": [
+        "OBV순매수",
+        "하단꼬리3회",
+        "BB스퀴즈(0.5%)",
+        "1h OBV강세"
+      ],
+      "change_24h": 0.6,
+      "vol_24h_m": 501.6,
+      "sym_trend": "STRONG_BULL",
+      "sym_score": 6,
+      "reasons": [
+        "MTF강세(1h:UP/15m:UP/5m:UP)",
+        "OBV순매수",
+        "하단꼬리3회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "0GUSDT",
+      "price": 0.5472,
+      "side": "LONG",
+      "score": 7,
+      "rsi": 51.7,
+      "ema9": 0.5459090169360463,
+      "ema21": 0.5454723422706341,
+      "vol_spike": 0.8,
+      "accum_score": 6,
+      "accum_reasons": [
+        "볼륨증가 2.0x",
+        "OBV상승(매집)",
+        "하단꼬리2회",
+        "BB스퀴즈(0.8%)"
+      ],
+      "change_24h": -0.9,
+      "vol_24h_m": 62.5,
+      "sym_trend": "STRONG_BULL",
+      "sym_score": 6,
+      "reasons": [
+        "MTF강세(1h:UP/15m:UP/5m:UP)",
+        "볼륨증가 2.0x",
+        "OBV상승(매집)",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "XAUUSDT",
+      "price": 4697.34,
+      "side": "LONG",
+      "score": 5,
+      "rsi": 87.1,
+      "ema9": 4695.138980660135,
+      "ema21": 4692.782504819136,
+      "vol_spike": 0.0,
+      "accum_score": 6,
+      "accum_reasons": [
+        "OBV순매수",
+        "하단꼬리3회",
+        "BB스퀴즈(0.2%)",
+        "1h OBV강세"
+      ],
+      "change_24h": 0.3,
+      "vol_24h_m": 757.0,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "OBV순매수",
+        "하단꼬리3회",
+        "EMA9>21",
+        "BB하단"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "price": 4682.59,
+      "side": "LONG",
+      "score": 5,
+      "rsi": 87.1,
+      "ema9": 4680.580274624024,
+      "ema21": 4678.475647096325,
+      "vol_spike": 0.1,
+      "accum_score": 6,
+      "accum_reasons": [
+        "OBV순매수",
+        "하단꼬리3회",
+        "BB스퀴즈(0.2%)",
+        "1h OBV강세"
+      ],
+      "change_24h": 0.3,
+      "vol_24h_m": 54.6,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "OBV순매수",
+        "하단꼬리3회",
+        "EMA9>21",
+        "BB하단"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "price": 0.09884,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 73.3,
+      "ema9": 0.0988327649511049,
+      "ema21": 0.09865479790072627,
+      "vol_spike": 0.1,
+      "accum_score": 6,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "하단꼬리2회",
+        "BB스퀴즈(0.9%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -0.5,
+      "vol_24h_m": 553.7,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "OBV상승(매집)",
+        "하단꼬리2회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "price": 41.562,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 54.7,
+      "ema9": 41.529163504420275,
+      "ema21": 41.494245292038336,
+      "vol_spike": 0.5,
+      "accum_score": 6,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "BB스퀴즈(0.7%)"
+      ],
+      "change_24h": -2.2,
+      "vol_24h_m": 323.1,
+      "sym_trend": "BEAR",
+      "sym_score": -4,
+      "reasons": [
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "price": 0.0038942,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 71.3,
+      "ema9": 0.003894518513891809,
+      "ema21": 0.003878228819171495,
+      "vol_spike": 0.2,
+      "accum_score": 6,
+      "accum_reasons": [
+        "횡보+볼륨증가(2.0x)",
+        "OBV상승(매집)",
+        "1h OBV강세"
+      ],
+      "change_24h": -0.3,
+      "vol_24h_m": 320.9,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "횡보+볼륨증가(2.0x)",
+        "OBV상승(매집)",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "ENAUSDT",
+      "price": 0.10656,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 51.3,
+      "ema9": 0.10666243482749795,
+      "ema21": 0.10649037114140435,
+      "vol_spike": 0.1,
+      "accum_score": 6,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "하단꼬리2회",
+        "BB스퀴즈(1.3%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -2.9,
+      "vol_24h_m": 94.0,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "OBV상승(매집)",
+        "하단꼬리2회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "FILUSDT",
+      "price": 0.918,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 72.7,
+      "ema9": 0.9175279155363254,
+      "ema21": 0.9156629366652685,
+      "vol_spike": 0.0,
+      "accum_score": 6,
+      "accum_reasons": [
+        "볼륨증가 1.5x",
+        "OBV상승(매집)",
+        "BB스퀴즈(1.1%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -2.9,
+      "vol_24h_m": 68.5,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "볼륨증가 1.5x",
+        "OBV상승(매집)",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "LTCUSDT",
+      "price": 55.46,
+      "side": "LONG",
+      "score": 4,
+      "rsi": 79.2,
+      "ema9": 55.432494920111594,
+      "ema21": 55.39151748784298,
+      "vol_spike": 0.0,
+      "accum_score": 6,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "하단꼬리2회",
+        "BB스퀴즈(0.5%)",
+        "1h OBV강세"
+      ],
+      "change_24h": -1.5,
+      "vol_24h_m": 64.2,
+      "sym_trend": "NEUTRAL",
+      "sym_score": 0,
+      "reasons": [
+        "OBV상승(매집)",
+        "하단꼬리2회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "XAGUSDT",
+      "price": 75.98,
+      "side": "LONG",
+      "score": 8,
+      "rsi": 67.9,
+      "ema9": 75.98579080868807,
+      "ema21": 75.91433197576106,
+      "vol_spike": 0.0,
+      "accum_score": 5,
+      "accum_reasons": [
+        "하단꼬리4회",
+        "BB스퀴즈(0.3%)",
+        "1h OBV강세"
+      ],
+      "change_24h": 1.5,
+      "vol_24h_m": 616.7,
+      "sym_trend": "STRONG_BULL",
+      "sym_score": 6,
+      "reasons": [
+        "MTF강세(1h:UP/15m:UP/5m:UP)",
+        "하단꼬리4회",
+        "BB스퀴즈(0.3%)",
+        "EMA9>21",
+        "BB하단"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "INTCUSDT",
+      "price": 84.81,
+      "side": "LONG",
+      "score": 8,
+      "rsi": 49.2,
+      "ema9": 84.76968266523707,
+      "ema21": 84.75741137626001,
+      "vol_spike": 0.0,
+      "accum_score": 5,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "BB스퀴즈(0.3%)",
+        "1h OBV강세"
+      ],
+      "change_24h": 2.5,
+      "vol_24h_m": 62.0,
+      "sym_trend": "STRONG_BULL",
+      "sym_score": 6,
+      "reasons": [
+        "MTF강세(1h:UP/15m:UP/5m:UP)",
+        "OBV상승(매집)",
+        "BB스퀴즈(0.3%)",
+        "EMA9>21",
+        "BB하단"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "AGTUSDT",
+      "price": 0.019452,
+      "side": "LONG",
+      "score": 7,
+      "rsi": 55.2,
+      "ema9": 0.019448396021127485,
+      "ema21": 0.019380264101831586,
+      "vol_spike": 0.2,
+      "accum_score": 5,
+      "accum_reasons": [
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "1h OBV강세"
+      ],
+      "change_24h": -27.8,
+      "vol_24h_m": 163.1,
+      "sym_trend": "STRONG_BULL",
+      "sym_score": 6,
+      "reasons": [
+        "MTF강세(1h:UP/15m:UP/5m:UP)",
+        "OBV상승(매집)",
+        "하단꼬리3회",
+        "EMA9>21"
+      ],
+      "bb_width": null
+    },
+    {
+      "symbol": "RIVERUSDT",
+      "price": 6.659,
+      "side": "LONG",
+      "score": 5,
+      "rsi": 48.0,
+      "ema9": 6.646603277429515,
+      "ema21": 6.655731352318247,
+      "vol_spike": 0.5,
+      "accum_score": 5,
+      "accum_reasons": [
+        "하단꼬리5회",
+        "BB스퀴즈(1.4%)",
+        "1h OBV강세"
+      ],
+      "change_24h": 3.2,
+      "vol_24h_m": 52.7,
+      "sym_trend": "BULL",
+      "sym_score": 4,
+      "reasons": [
+        "MTF상승(1h:UP/15m:UP/5m:DN)",
+        "하단꼬리5회",
+        "BB스퀴즈(1.4%)"
+      ],
+      "bb_width": null
+    }
+  ]
+}

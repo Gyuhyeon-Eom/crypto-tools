@@ -1,0 +1,626 @@
+{
+  "scan_time": "2026-04-22T09:52:31.331083+09:00",
+  "total_scanned": 58,
+  "signals_found": 31,
+  "top_signals": [
+    {
+      "symbol": "HYPEUSDT",
+      "price": 39.729,
+      "side": "SHORT",
+      "score": 9,
+      "long_score": 3,
+      "short_score": 9,
+      "rsi_4h": 35.8,
+      "rsi_1h": 27.2,
+      "rsi_1d": 52.9,
+      "ema9_4h": 40.27866041227323,
+      "ema21_4h": 41.26473759663141,
+      "bb_width_4h": 12.89,
+      "obv_trend": "DISTRIBUTION",
+      "macd_hist_4h": -0.158072,
+      "change_24h": -2.0,
+      "vol_24h_m": 395.5,
+      "supports": [
+        38.867
+      ],
+      "resistances": [
+        44.28,
+        45.75
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 41.576571,
+      "tp1": 36.957643,
+      "tp2": 35.110071,
+      "sl_pct": 4.7,
+      "tp1_pct": 7.0,
+      "tp2_pct": 11.6,
+      "atr_4h": 0.923786,
+      "reasons": [
+        "4h EMA9<21",
+        "4h 가격<EMA50",
+        "4h MACD-",
+        "4h OBV 분산",
+        "1h EMA하락",
+        "일봉 EMA20 아래"
+      ]
+    },
+    {
+      "symbol": "MUSDT",
+      "price": 4.2926,
+      "side": "LONG",
+      "score": 9,
+      "long_score": 9,
+      "short_score": 4,
+      "rsi_4h": 74.8,
+      "rsi_1h": 54.7,
+      "rsi_1d": 78.5,
+      "ema9_4h": 4.009162906155194,
+      "ema21_4h": 3.8001972760800764,
+      "bb_width_4h": 38.1,
+      "obv_trend": "ACCUMULATION",
+      "macd_hist_4h": 0.078429,
+      "change_24h": 22.2,
+      "vol_24h_m": 100.4,
+      "supports": [
+        2.7716,
+        2.7006
+      ],
+      "resistances": [
+        4.45,
+        4.7789
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 3.556243,
+      "tp1": 5.397136,
+      "tp2": 6.133493,
+      "sl_pct": 17.2,
+      "tp1_pct": 25.7,
+      "tp2_pct": 42.9,
+      "atr_4h": 0.368179,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 매집",
+        "1h EMA상승",
+        "일봉 EMA20 위"
+      ]
+    },
+    {
+      "symbol": "CRCLUSDT",
+      "price": 98.76,
+      "side": "SHORT",
+      "score": 9,
+      "long_score": 3,
+      "short_score": 9,
+      "rsi_4h": 39.8,
+      "rsi_1h": 21.1,
+      "rsi_1d": 56.3,
+      "ema9_4h": 101.00653201117963,
+      "ema21_4h": 102.5183489906319,
+      "bb_width_4h": 10.4,
+      "obv_trend": "DISTRIBUTION",
+      "macd_hist_4h": -0.815759,
+      "change_24h": -6.2,
+      "vol_24h_m": 90.2,
+      "supports": [
+        95.23
+      ],
+      "resistances": [
+        106.94,
+        111.82
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 104.664286,
+      "tp1": 89.903571,
+      "tp2": 83.999286,
+      "sl_pct": 6.0,
+      "tp1_pct": 9.0,
+      "tp2_pct": 14.9,
+      "atr_4h": 2.952143,
+      "reasons": [
+        "4h EMA9<21",
+        "4h 가격<EMA50",
+        "4h MACD-",
+        "4h OBV 분산",
+        "1h EMA하락",
+        "일봉 EMA20 아래"
+      ]
+    },
+    {
+      "symbol": "NEARUSDT",
+      "price": 1.382,
+      "side": "LONG",
+      "score": 9,
+      "long_score": 9,
+      "short_score": 3,
+      "rsi_4h": 55.6,
+      "rsi_1h": 44.4,
+      "rsi_1d": 55.2,
+      "ema9_4h": 1.371646214985352,
+      "ema21_4h": 1.3697373667423873,
+      "bb_width_4h": 4.92,
+      "obv_trend": "ACCUMULATION",
+      "macd_hist_4h": 0.004132,
+      "change_24h": 0.9,
+      "vol_24h_m": 87.9,
+      "supports": [
+        1.321
+      ],
+      "resistances": [
+        1.398,
+        1.442
+      ],
+      "entry_quality": "GOOD",
+      "sl": 1.327286,
+      "tp1": 1.464071,
+      "tp2": 1.518786,
+      "sl_pct": 4.0,
+      "tp1_pct": 5.9,
+      "tp2_pct": 9.9,
+      "atr_4h": 0.027357,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 매집",
+        "1h EMA상승",
+        "일봉 EMA20 위"
+      ]
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "price": 2.858,
+      "side": "SHORT",
+      "score": 9,
+      "long_score": 1,
+      "short_score": 9,
+      "rsi_4h": 55.9,
+      "rsi_1h": 44.7,
+      "rsi_1d": 46.9,
+      "ema9_4h": 2.853940489921629,
+      "ema21_4h": 2.865446795322188,
+      "bb_width_4h": 3.41,
+      "obv_trend": "DISTRIBUTION",
+      "macd_hist_4h": 0.00168,
+      "change_24h": -0.9,
+      "vol_24h_m": 63.9,
+      "supports": [
+        2.766,
+        2.764
+      ],
+      "resistances": [
+        2.914,
+        3.117
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 2.952,
+      "tp1": 2.717,
+      "tp2": 2.623,
+      "sl_pct": 3.3,
+      "tp1_pct": 4.9,
+      "tp2_pct": 8.2,
+      "atr_4h": 0.047,
+      "reasons": [
+        "4h EMA9<21",
+        "4h 가격<EMA50",
+        "4h RSI 56",
+        "4h OBV 분산",
+        "1h EMA하락",
+        "일봉 EMA20 아래"
+      ]
+    },
+    {
+      "symbol": "BTCUSDT",
+      "price": 76217.1,
+      "side": "LONG",
+      "score": 8,
+      "long_score": 8,
+      "short_score": 4,
+      "rsi_4h": 58.4,
+      "rsi_1h": 43.6,
+      "rsi_1d": 65.2,
+      "ema9_4h": 75848.65733278349,
+      "ema21_4h": 75652.05055033021,
+      "bb_width_4h": 3.42,
+      "obv_trend": "NET_BUY",
+      "macd_hist_4h": 24.572072,
+      "change_24h": 0.4,
+      "vol_24h_m": 12625.5,
+      "supports": [
+        73669.0,
+        72953.3
+      ],
+      "resistances": [
+        76999.0,
+        78300.0
+      ],
+      "entry_quality": "GOOD",
+      "sl": 74120.871429,
+      "tp1": 79361.442857,
+      "tp2": 81457.671429,
+      "sl_pct": 2.8,
+      "tp1_pct": 4.1,
+      "tp2_pct": 6.9,
+      "atr_4h": 1048.114286,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 순매수",
+        "1h EMA상승",
+        "일봉 EMA20 위"
+      ]
+    },
+    {
+      "symbol": "XAUUSDT",
+      "price": 4744.0,
+      "side": "SHORT",
+      "score": 8,
+      "long_score": 2,
+      "short_score": 8,
+      "rsi_4h": 40.0,
+      "rsi_1h": 38.1,
+      "rsi_1d": 52.3,
+      "ema9_4h": 4759.361840698009,
+      "ema21_4h": 4781.598536188792,
+      "bb_width_4h": 3.06,
+      "obv_trend": "DISTRIBUTION",
+      "macd_hist_4h": -9.146055,
+      "change_24h": -1.7,
+      "vol_24h_m": 1697.4,
+      "supports": [
+        4672.33
+      ],
+      "resistances": [
+        4832.36,
+        4889.97
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 4824.945714,
+      "tp1": 4622.581429,
+      "tp2": 4541.635714,
+      "sl_pct": 1.7,
+      "tp1_pct": 2.6,
+      "tp2_pct": 4.3,
+      "atr_4h": 40.472857,
+      "reasons": [
+        "4h EMA9<21",
+        "4h 가격<EMA50",
+        "4h MACD-",
+        "4h OBV 분산",
+        "1h EMA하락",
+        "일봉 EMA20 아래"
+      ]
+    },
+    {
+      "symbol": "CLUSDT",
+      "price": 89.81,
+      "side": "LONG",
+      "score": 8,
+      "long_score": 8,
+      "short_score": 2,
+      "rsi_4h": 59.6,
+      "rsi_1h": 62.2,
+      "rsi_1d": 42.2,
+      "ema9_4h": 88.972058984276,
+      "ema21_4h": 87.90163119974102,
+      "bb_width_4h": 9.55,
+      "obv_trend": "ACCUMULATION",
+      "macd_hist_4h": 0.600461,
+      "change_24h": 4.0,
+      "vol_24h_m": 1286.0,
+      "supports": [
+        83.71,
+        79.11
+      ],
+      "resistances": [
+        92.31,
+        93.86
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 85.34,
+      "tp1": 96.515,
+      "tp2": 100.985,
+      "sl_pct": 5.0,
+      "tp1_pct": 7.5,
+      "tp2_pct": 12.4,
+      "atr_4h": 2.235,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 매집",
+        "1h EMA상승"
+      ]
+    },
+    {
+      "symbol": "BZUSDT",
+      "price": 93.28,
+      "side": "LONG",
+      "score": 8,
+      "long_score": 8,
+      "short_score": 3,
+      "rsi_4h": 59.4,
+      "rsi_1h": 65.5,
+      "rsi_1d": 46.3,
+      "ema9_4h": 92.30606924650768,
+      "ema21_4h": 91.15269292998919,
+      "bb_width_4h": 8.8,
+      "obv_trend": "ACCUMULATION",
+      "macd_hist_4h": 0.56465,
+      "change_24h": 4.1,
+      "vol_24h_m": 368.0,
+      "supports": [
+        87.6,
+        83.46
+      ],
+      "resistances": [
+        95.57
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 89.157143,
+      "tp1": 99.464286,
+      "tp2": 103.587143,
+      "sl_pct": 4.4,
+      "tp1_pct": 6.6,
+      "tp2_pct": 11.0,
+      "atr_4h": 2.061429,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 매집",
+        "1h EMA상승"
+      ]
+    },
+    {
+      "symbol": "BASEDUSDT",
+      "price": 0.13089,
+      "side": "LONG",
+      "score": 8,
+      "long_score": 8,
+      "short_score": 4,
+      "rsi_4h": 75.6,
+      "rsi_1h": 53.0,
+      "rsi_1d": 64.2,
+      "ema9_4h": 0.12241448620419523,
+      "ema21_4h": 0.11529411564432121,
+      "bb_width_4h": 63.47,
+      "obv_trend": "ACCUMULATION",
+      "macd_hist_4h": 0.002834,
+      "change_24h": 7.4,
+      "vol_24h_m": 294.8,
+      "supports": [
+        0.08055,
+        0.0615
+      ],
+      "resistances": [
+        0.16008,
+        0.32731
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 0.098656,
+      "tp1": 0.179241,
+      "tp2": 0.211476,
+      "sl_pct": 24.6,
+      "tp1_pct": 36.9,
+      "tp2_pct": 61.6,
+      "atr_4h": 0.016117,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 매집",
+        "1h EMA상승",
+        "일봉 EMA20 위"
+      ]
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "price": 0.0038161,
+      "side": "LONG",
+      "score": 8,
+      "long_score": 8,
+      "short_score": 3,
+      "rsi_4h": 57.1,
+      "rsi_1h": 47.6,
+      "rsi_1d": 58.0,
+      "ema9_4h": 0.003781191359373755,
+      "ema21_4h": 0.0037805732238316895,
+      "bb_width_4h": 4.33,
+      "obv_trend": "NET_BUY",
+      "macd_hist_4h": 4e-06,
+      "change_24h": 1.6,
+      "vol_24h_m": 237.2,
+      "supports": [
+        0.003616,
+        0.003524
+      ],
+      "resistances": [
+        0.003845,
+        0.00412
+      ],
+      "entry_quality": "GOOD",
+      "sl": 0.003648,
+      "tp1": 0.004068,
+      "tp2": 0.004237,
+      "sl_pct": 4.4,
+      "tp1_pct": 6.6,
+      "tp2_pct": 11.0,
+      "atr_4h": 8.4e-05,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 순매수",
+        "1h EMA상승",
+        "일봉 EMA20 위"
+      ]
+    },
+    {
+      "symbol": "UAIUSDT",
+      "price": 0.3742,
+      "side": "LONG",
+      "score": 8,
+      "long_score": 8,
+      "short_score": 5,
+      "rsi_4h": 83.9,
+      "rsi_1h": 41.2,
+      "rsi_1d": 74.0,
+      "ema9_4h": 0.3343145961926717,
+      "ema21_4h": 0.29202727185654626,
+      "bb_width_4h": 97.72,
+      "obv_trend": "ACCUMULATION",
+      "macd_hist_4h": 0.013578,
+      "change_24h": 22.8,
+      "vol_24h_m": 193.6,
+      "supports": [
+        0.2012
+      ],
+      "resistances": [
+        0.4078
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 0.2961,
+      "tp1": 0.49135,
+      "tp2": 0.56945,
+      "sl_pct": 20.9,
+      "tp1_pct": 31.3,
+      "tp2_pct": 52.2,
+      "atr_4h": 0.03905,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 매집",
+        "1h EMA상승",
+        "일봉 EMA20 위"
+      ]
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "price": 4.732,
+      "side": "SHORT",
+      "score": 8,
+      "long_score": 2,
+      "short_score": 8,
+      "rsi_4h": 58.0,
+      "rsi_1h": 55.2,
+      "rsi_1d": 59.8,
+      "ema9_4h": 4.705330671084956,
+      "ema21_4h": 4.795018307806397,
+      "bb_width_4h": 21.05,
+      "obv_trend": "DISTRIBUTION",
+      "macd_hist_4h": -0.008289,
+      "change_24h": -8.0,
+      "vol_24h_m": 141.8,
+      "supports": [
+        3.841,
+        2.387
+      ],
+      "resistances": [
+        5.423,
+        10.76
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 5.585,
+      "tp1": 3.4525,
+      "tp2": 2.5995,
+      "sl_pct": 18.0,
+      "tp1_pct": 27.0,
+      "tp2_pct": 45.1,
+      "atr_4h": 0.4265,
+      "reasons": [
+        "4h EMA9<21",
+        "4h MACD-",
+        "4h RSI 58",
+        "4h OBV 분산",
+        "1h EMA하락"
+      ]
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "price": 0.007765,
+      "side": "LONG",
+      "score": 8,
+      "long_score": 8,
+      "short_score": 3,
+      "rsi_4h": 67.5,
+      "rsi_1h": 47.1,
+      "rsi_1d": 63.2,
+      "ema9_4h": 0.007618054888573483,
+      "ema21_4h": 0.0075067106012683465,
+      "bb_width_4h": 13.37,
+      "obv_trend": "ACCUMULATION",
+      "macd_hist_4h": 3.5e-05,
+      "change_24h": 2.8,
+      "vol_24h_m": 71.4,
+      "supports": [
+        0.006905,
+        0.006703
+      ],
+      "resistances": [
+        0.007924,
+        0.008132
+      ],
+      "entry_quality": "AVERAGE",
+      "sl": 0.007273,
+      "tp1": 0.008503,
+      "tp2": 0.008995,
+      "sl_pct": 6.3,
+      "tp1_pct": 9.5,
+      "tp2_pct": 15.8,
+      "atr_4h": 0.000246,
+      "reasons": [
+        "4h EMA9>21",
+        "4h 가격>EMA50",
+        "4h MACD+",
+        "4h OBV 매집",
+        "1h EMA상승",
+        "일봉 EMA20 위"
+      ]
+    },
+    {
+      "symbol": "DOTUSDT",
+      "price": 1.275,
+      "side": "SHORT",
+      "score": 8,
+      "long_score": 3,
+      "short_score": 8,
+      "rsi_4h": 52.3,
+      "rsi_1h": 40.0,
+      "rsi_1d": 50.8,
+      "ema9_4h": 1.2737150436125013,
+      "ema21_4h": 1.2735058543774862,
+      "bb_width_4h": 3.37,
+      "obv_trend": "DISTRIBUTION",
+      "macd_hist_4h": -0.000482,
+      "change_24h": -0.5,
+      "vol_24h_m": 64.6,
+      "supports": [
+        1.233,
+        1.139
+      ],
+      "resistances": [
+        1.294,
+        1.355
+      ],
+      "entry_quality": "GOOD",
+      "sl": 1.318143,
+      "tp1": 1.210286,
+      "tp2": 1.167143,
+      "sl_pct": 3.4,
+      "tp1_pct": 5.1,
+      "tp2_pct": 8.5,
+      "atr_4h": 0.021571,
+      "reasons": [
+        "4h MACD-",
+        "4h OBV 분산",
+        "1h EMA하락",
+        "일봉 EMA20 아래",
+        "저항선근접(1.5%)"
+      ]
+    }
+  ]
+}

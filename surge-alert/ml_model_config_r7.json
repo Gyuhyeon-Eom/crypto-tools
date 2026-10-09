@@ -1,0 +1,47 @@
+{
+  "model_name": "R7_Final_Ensemble",
+  "round": 7,
+  "version": "final",
+  "method": "ensemble_5seed+lgbm_s1+lr_s2+purgedcv+walkforward+cross_sectional",
+  "n_features": 115,
+  "n_ensemble_seeds": 5,
+  "ensemble_min_votes": 4,
+  "s1_threshold": 0.3,
+  "s2_threshold": 0.6499999999999999,
+  "holdout": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pr_auc": 0.12446057428650134,
+    "precision_at_10": 0.1,
+    "precision_at_20": 0.05,
+    "precision_at_50": 0.1,
+    "lift_top10pct": 2.137651643907871,
+    "predictions": 1,
+    "hits": 0,
+    "surges": 604,
+    "pnl_total_return": -0.008,
+    "pnl_sharpe": 0.0,
+    "pnl_max_drawdown": 0.0,
+    "pnl_profit_factor": 0.0,
+    "pnl_win_rate": 0.0,
+    "pnl_max_consecutive_losses": 1,
+    "pnl_n_trades": 1
+  },
+  "walk_forward": {
+    "precision": 0.02857142857142857,
+    "recall": 0.0005055611729019212,
+    "f1": 0.0009935419771485345,
+    "pr_auc": 0.1012581862770367,
+    "n_windows": 6
+  },
+  "leak_verification": {
+    "look_ahead": "PASS - only uses data up to idx",
+    "survivorship": "WARNING - 135 coins, only Bybit-listed survivors. Delisted coins missing (potential upward bias).",
+    "cv_leak": "PASS - -0.7pp drop (TS=10.8%, PK=11.5%)"
+  },
+  "trained_at": "2026-04-30T20:45:06.649972",
+  "filter": "no_recent_surge_30d",
+  "min_vol": 1000000,
+  "max_vol": 10000000
+}

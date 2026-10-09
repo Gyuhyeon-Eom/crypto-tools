@@ -1,0 +1,175 @@
+{
+  "version": "v4",
+  "balance": 6676.348326811307,
+  "initial_balance": 5755,
+  "positions": [],
+  "closed_trades": [
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "entry_price": 8.601,
+      "exit_price": 8.882,
+      "pnl_pct": 3.27,
+      "net_pnl": 270.99,
+      "close_reason": "TAKE_PROFIT",
+      "duration_min": 147.8,
+      "close_time": "2026-04-06T09:02:36.418794+09:00",
+      "reasons_entry": [
+        "MTF 상승 (1h:BULL/15m:BULL/5m:BEAR)",
+        "하단꼬리 5회 (매수세)",
+        "BB 스퀴즈 (0.8%)",
+        "RSI 37 과매도",
+        "BB 하단",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 3.27,
+      "accum_score": 5
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry_price": 2058.55,
+      "exit_price": 2121.08,
+      "pnl_pct": 3.04,
+      "net_pnl": 360.29,
+      "close_reason": "TAKE_PROFIT",
+      "duration_min": 147.8,
+      "close_time": "2026-04-06T09:02:36.419878+09:00",
+      "reasons_entry": [
+        "MTF 상승 (1h:BULL/15m:BULL/5m:BEAR)",
+        "하단꼬리 4회 (매수세)",
+        "BB 스퀴즈 (0.7%)",
+        "RSI 38 과매도",
+        "BB 하단",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 3.04,
+      "accum_score": 5
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry_price": 67446.0,
+      "exit_price": 68829.1,
+      "pnl_pct": 2.05,
+      "net_pnl": 345.42,
+      "close_reason": "TRAILING (peak 2.9%)",
+      "duration_min": 220.5,
+      "close_time": "2026-04-06T10:15:16.499761+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 순매수",
+        "하단꼬리 3회 (매수세)",
+        "EMA9>21",
+        "BB 하단",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 2.88,
+      "accum_score": 6
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry_price": 2119.28,
+      "exit_price": 2148.7,
+      "pnl_pct": 1.39,
+      "net_pnl": 186.31,
+      "close_reason": "TRAILING (peak 2.2%)",
+      "duration_min": 665.8,
+      "close_time": "2026-04-06T20:08:41.804836+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 0.6% vs 2.2%, 볼륨 2.1x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "거래량 3.3x",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 2.24,
+      "accum_score": 8
+    },
+    {
+      "symbol": "APTUSDT",
+      "side": "LONG",
+      "entry_price": 0.8542,
+      "exit_price": 0.8717,
+      "pnl_pct": 2.05,
+      "net_pnl": 194.37,
+      "close_reason": "TRAILING (peak 2.9%)",
+      "duration_min": 750.6,
+      "close_time": "2026-04-06T21:33:30.020470+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 1.1% vs 1.7%, 볼륨 2.3x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "거래량 3.4x",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 2.92,
+      "accum_score": 8
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry_price": 2148.32,
+      "exit_price": 2139.2,
+      "pnl_pct": -0.42,
+      "net_pnl": -62.43,
+      "close_reason": "MANUAL_STOP",
+      "duration_min": 66.4,
+      "close_time": "2026-04-06T22:40:07.534710+09:00",
+      "reasons_entry": [
+        "MTF 상승 (1h:BULL/15m:BULL/5m:BEAR)",
+        "OBV 순매수",
+        "하단꼬리 5회 (매수세)",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.2,
+      "accum_score": 6
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "entry_price": 0.0981,
+      "exit_price": 0.0972,
+      "pnl_pct": -0.92,
+      "net_pnl": -133.72,
+      "close_reason": "MANUAL_STOP",
+      "duration_min": 151.2,
+      "close_time": "2026-04-06T22:40:07.603737+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 0.5% vs 1.8%, 볼륨 1.4x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0.82,
+      "accum_score": 8
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "LONG",
+      "entry_price": 9.47,
+      "exit_price": 9.337,
+      "pnl_pct": -1.4,
+      "net_pnl": -189.2,
+      "close_reason": "MANUAL_STOP",
+      "duration_min": 744.6,
+      "close_time": "2026-04-06T22:40:07.680331+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 2.5% vs 3.8%, 볼륨 2.2x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 1.73,
+      "accum_score": 6
+    }
+  ],
+  "total_fees": 101.38251903090898,
+  "scan_count": 320,
+  "start_time": "2026-04-06T06:34:28.331280+09:00"
+}

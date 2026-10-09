@@ -1,0 +1,75 @@
+{
+  "scan_time": "2026-10-09T16:26:25.682666+09:00",
+  "alerts_sent": 3,
+  "total_qualified": 3,
+  "alerts": [
+    {
+      "symbol": "LABUSDT",
+      "price": 0.0519,
+      "score": 12,
+      "signals": [
+        "4h볼륨급증(2.4x)",
+        "OBV다이버전스(가격-4.8%/OBV상승)",
+        "하락후안정(-40%)",
+        "강한매수방어(5/7일)",
+        "1h OBV계단식매집"
+      ],
+      "change_24h": 2.8,
+      "vol_24h_m": 4.9,
+      "oi_m": 3.9,
+      "funding_rate": 0.005,
+      "rsi_1d": 29.8,
+      "rsi_4h": 56.7,
+      "bb_width_1d": 27.34,
+      "bb_width_4h": 7.64,
+      "vol_ratio_1d": 1.5,
+      "drawdown_30d": -39.9,
+      "vol_oi_ratio": 1.25
+    },
+    {
+      "symbol": "CVCUSDT",
+      "price": 0.02476,
+      "score": 12,
+      "signals": [
+        "4h볼륨폭발(4.6x)",
+        "숏스퀴즈세팅(펀딩-0.331%+RSI12)",
+        "펀딩연속마이너스(8/8)",
+        "EMA수렴(0.34%)"
+      ],
+      "change_24h": -10.6,
+      "vol_24h_m": 2.6,
+      "oi_m": 1.6,
+      "funding_rate": -0.331,
+      "rsi_1d": 25.4,
+      "rsi_4h": 11.7,
+      "bb_width_1d": 26.01,
+      "bb_width_4h": 28.71,
+      "vol_ratio_1d": 3.8,
+      "drawdown_30d": -44.9,
+      "vol_oi_ratio": 1.61
+    },
+    {
+      "symbol": "B3USDT",
+      "price": 0.0007042,
+      "score": 12,
+      "signals": [
+        "OBV다이버전스(가격-12.2%/OBV상승)",
+        "강한숏과열(펀딩-0.042%)",
+        "펀딩연속마이너스(8/8)",
+        "하단꼬리(2/7일)",
+        "1h OBV계단식매집"
+      ],
+      "change_24h": -2.4,
+      "vol_24h_m": 1.2,
+      "oi_m": 1.1,
+      "funding_rate": -0.0423,
+      "rsi_1d": 32.4,
+      "rsi_4h": 31.4,
+      "bb_width_1d": 40.46,
+      "bb_width_4h": 20.57,
+      "vol_ratio_1d": 0.1,
+      "drawdown_30d": -27.7,
+      "vol_oi_ratio": 1.17
+    }
+  ]
+}

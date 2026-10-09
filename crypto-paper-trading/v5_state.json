@@ -1,0 +1,935 @@
+{
+  "version": "v5",
+  "balance": 1013.7169547541029,
+  "initial_balance": 1800,
+  "positions": [],
+  "closed_trades": [
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "entry_price": 82.23,
+      "exit_price": 80.95,
+      "pnl_pct": -1.56,
+      "net_pnl": -69.17,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 534.2,
+      "close_time": "2026-04-07T07:35:03.917523+09:00",
+      "reasons_entry": [
+        "MTF 상승 (1h:BULL/15m:BULL/5m:BEAR)",
+        "거래량 증가 1.6x",
+        "OBV 상승추세 (매집)",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.44,
+      "accum_score": 6
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "entry_price": 0.0948,
+      "exit_price": 0.0933,
+      "pnl_pct": -1.58,
+      "net_pnl": -48.73,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 33.2,
+      "close_time": "2026-04-07T08:08:31.640045+09:00",
+      "reasons_entry": [
+        "횡보+거래량증가 (범위 0.5% vs 0.8%, 볼륨 1.6x)",
+        "BB 스퀴즈 (1.2%)",
+        "RSI 21 극과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.11,
+      "accum_score": 5
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry_price": 69252.4,
+      "exit_price": 68194.0,
+      "pnl_pct": -1.53,
+      "net_pnl": -113.64,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 1277.2,
+      "close_time": "2026-04-07T19:58:04.108056+09:00",
+      "reasons_entry": [
+        "횡보+거래량증가 (범위 0.3% vs 0.4%, 볼륨 1.3x)",
+        "하단꼬리 4회 (매수세)",
+        "RSI 37 과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 1.36,
+      "accum_score": 7
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "entry_price": 605.67,
+      "exit_price": 594.86,
+      "pnl_pct": -1.78,
+      "net_pnl": -47.24,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 1346.9,
+      "close_time": "2026-04-07T21:07:47.650260+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "거래량 증가 1.6x",
+        "OBV 순매수",
+        "EMA9>21",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.54,
+      "accum_score": 5
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "entry_price": 1.3156,
+      "exit_price": 1.2958,
+      "pnl_pct": -1.51,
+      "net_pnl": -43.3,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 951.3,
+      "close_time": "2026-04-08T00:00:07.003526+09:00",
+      "reasons_entry": [
+        "거래량 증가 4.6x",
+        "RSI 4 극과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.65,
+      "accum_score": 4
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SHORT",
+      "entry_price": 78.52,
+      "exit_price": 79.73,
+      "pnl_pct": -1.54,
+      "net_pnl": -46.24,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 150.9,
+      "close_time": "2026-04-08T02:31:17.712082+09:00",
+      "reasons_entry": [
+        "MTF 강한 하락 (1h:BEAR/15m:BEAR/5m:BEAR)",
+        "EMA9<21",
+        "BTC 약세"
+      ],
+      "max_pnl_pct": 0.17,
+      "accum_score": 0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "entry_price": 2076.62,
+      "exit_price": 2108.61,
+      "pnl_pct": -1.54,
+      "net_pnl": -52.28,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 462.4,
+      "close_time": "2026-04-08T04:50:29.238000+09:00",
+      "reasons_entry": [
+        "MTF 강한 하락 (1h:BEAR/15m:BEAR/5m:BEAR)",
+        "EMA9<21",
+        "거래량 3.1x",
+        "BTC 약세"
+      ],
+      "max_pnl_pct": 0.75,
+      "accum_score": 0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "entry_price": 68222.6,
+      "exit_price": 69287.6,
+      "pnl_pct": -1.56,
+      "net_pnl": -65.9,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 544.5,
+      "close_time": "2026-04-08T05:02:49.588045+09:00",
+      "reasons_entry": [
+        "MTF 강한 하락 (1h:BEAR/15m:BEAR/5m:BEAR)",
+        "EMA9<21",
+        "BTC 약세"
+      ],
+      "max_pnl_pct": 0.7,
+      "accum_score": 0
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "entry_price": 1.3042,
+      "exit_price": 1.3255,
+      "pnl_pct": -1.63,
+      "net_pnl": -45.71,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 214.8,
+      "close_time": "2026-04-08T06:06:27.704718+09:00",
+      "reasons_entry": [
+        "MTF 하락 (1h:BEAR/15m:BEAR/5m:BULL)",
+        "RSI 71 극과매수",
+        "BB 상단"
+      ],
+      "max_pnl_pct": 0.35,
+      "accum_score": 0
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "entry_price": 0.2476,
+      "exit_price": 0.2578,
+      "pnl_pct": 4.12,
+      "net_pnl": 122.28,
+      "close_reason": "TRAILING (peak 5.0%)",
+      "duration_min": 160.2,
+      "close_time": "2026-04-08T07:43:19.105366+09:00",
+      "reasons_entry": [
+        "거래량 증가 3.0x",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "거래량 3.3x",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 5.05,
+      "accum_score": 7
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "entry_price": 82.2,
+      "exit_price": 85.84,
+      "pnl_pct": 4.43,
+      "net_pnl": 118.22,
+      "close_reason": "TRAILING (peak 5.4%)",
+      "duration_min": 154.3,
+      "close_time": "2026-04-08T08:41:01.390928+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 상승추세 (매집)",
+        "하단꼬리 4회 (매수세)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 5.44,
+      "accum_score": 6
+    },
+    {
+      "symbol": "APTUSDT",
+      "side": "LONG",
+      "entry_price": 0.8581,
+      "exit_price": 0.8717,
+      "pnl_pct": 1.58,
+      "net_pnl": 50.74,
+      "close_reason": "TRAILING (peak 2.4%)",
+      "duration_min": 75.7,
+      "close_time": "2026-04-08T08:59:25.722069+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 1.5% vs 2.4%, 볼륨 1.9x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 2.42,
+      "accum_score": 8
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "entry_price": 607.83,
+      "exit_price": 618.7,
+      "pnl_pct": 1.79,
+      "net_pnl": 47.45,
+      "close_reason": "TRAILING (peak 2.7%)",
+      "duration_min": 273.1,
+      "close_time": "2026-04-08T09:23:50.699901+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 순매수",
+        "하단꼬리 2회",
+        "EMA9>21"
+      ],
+      "max_pnl_pct": 2.71,
+      "accum_score": 5
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "entry_price": 1.3851,
+      "exit_price": 1.364,
+      "pnl_pct": -1.52,
+      "net_pnl": -55.54,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 63.9,
+      "close_time": "2026-04-08T09:45:14.778851+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 1.8% vs 2.8%, 볼륨 1.4x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0.06,
+      "accum_score": 8
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "entry_price": 618.78,
+      "exit_price": 609.49,
+      "pnl_pct": -1.5,
+      "net_pnl": -53.61,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 797.0,
+      "close_time": "2026-04-08T22:41:09.533879+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 순매수",
+        "하단꼬리 3회 (매수세)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0.11,
+      "accum_score": 6
+    },
+    {
+      "symbol": "SUIUSDT",
+      "side": "LONG",
+      "entry_price": 0.945,
+      "exit_price": 0.9262,
+      "pnl_pct": -1.99,
+      "net_pnl": -63.54,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 51.3,
+      "close_time": "2026-04-08T23:32:49.819629+09:00",
+      "reasons_entry": [
+        "MTF 상승 (1h:BULL/15m:BEAR/5m:BULL)",
+        "OBV 상승추세 (매집)",
+        "하단꼬리 5회 (매수세)",
+        "EMA9>21",
+        "BB 하단",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0.35,
+      "accum_score": 6
+    },
+    {
+      "symbol": "OPUSDT",
+      "side": "LONG",
+      "entry_price": 0.1186,
+      "exit_price": 0.1161,
+      "pnl_pct": -2.11,
+      "net_pnl": -70.27,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 827.3,
+      "close_time": "2026-04-08T23:32:49.825107+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "하단꼬리 5회 (매수세)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 1.94,
+      "accum_score": 4
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry_price": 71965.0,
+      "exit_price": 70870.3,
+      "pnl_pct": -1.52,
+      "net_pnl": -57.13,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 894.8,
+      "close_time": "2026-04-08T23:54:30.249228+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 1.8% vs 2.6%, 볼륨 1.5x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0.88,
+      "accum_score": 8
+    },
+    {
+      "symbol": "DOTUSDT",
+      "side": "LONG",
+      "entry_price": 1.285,
+      "exit_price": 1.264,
+      "pnl_pct": -1.63,
+      "net_pnl": -44.0,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 531.2,
+      "close_time": "2026-04-09T08:45:56.783815+09:00",
+      "reasons_entry": [
+        "거래량 증가 1.8x",
+        "RSI 29 극과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 1.25,
+      "accum_score": 3
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "entry_price": 1.356,
+      "exit_price": 1.3354,
+      "pnl_pct": -1.52,
+      "net_pnl": -60.83,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 601.4,
+      "close_time": "2026-04-09T09:34:31.703534+09:00",
+      "reasons_entry": [
+        "거래량 증가 1.6x",
+        "RSI 16 극과매도",
+        "거래량 3.0x",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.4,
+      "accum_score": 3
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry_price": 2205.07,
+      "exit_price": 2169.26,
+      "pnl_pct": -1.62,
+      "net_pnl": -38.81,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 634.6,
+      "close_time": "2026-04-09T10:11:01.194758+09:00",
+      "reasons_entry": [
+        "거래량 증가 1.5x",
+        "RSI 21 극과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 1.28,
+      "accum_score": 3
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "entry_price": 8.849,
+      "exit_price": 8.716,
+      "pnl_pct": -1.5,
+      "net_pnl": -37.75,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 94.1,
+      "close_time": "2026-04-09T10:20:20.032208+09:00",
+      "reasons_entry": [
+        "횡보+거래량증가 (범위 0.7% vs 1.1%, 볼륨 2.6x)",
+        "하단꼬리 3회 (매수세)",
+        "RSI 23 극과매도"
+      ],
+      "max_pnl_pct": 0.11,
+      "accum_score": 6
+    },
+    {
+      "symbol": "DOTUSDT",
+      "side": "LONG",
+      "entry_price": 1.258,
+      "exit_price": 1.236,
+      "pnl_pct": -1.75,
+      "net_pnl": -49.67,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 706.8,
+      "close_time": "2026-04-09T21:21:34.494579+09:00",
+      "reasons_entry": [
+        "횡보+거래량증가 (범위 0.8% vs 1.2%, 볼륨 1.4x)",
+        "하단꼬리 2회",
+        "RSI 18 극과매도",
+        "거래량 3.2x",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.32,
+      "accum_score": 5
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SHORT",
+      "entry_price": 2168.93,
+      "exit_price": 2215.25,
+      "pnl_pct": -2.14,
+      "net_pnl": -49.62,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 854.4,
+      "close_time": "2026-04-10T00:35:00.544272+09:00",
+      "reasons_entry": [
+        "MTF 강한 하락 (1h:BEAR/15m:BEAR/5m:BEAR)",
+        "EMA9<21",
+        "BTC 약세"
+      ],
+      "max_pnl_pct": 0.52,
+      "accum_score": 0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "entry_price": 70599.0,
+      "exit_price": 72112.7,
+      "pnl_pct": -2.14,
+      "net_pnl": -53.17,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 863.7,
+      "close_time": "2026-04-10T00:35:00.546221+09:00",
+      "reasons_entry": [
+        "MTF 강한 하락 (1h:BEAR/15m:BEAR/5m:BEAR)",
+        "EMA9<21",
+        "BTC 약세"
+      ],
+      "max_pnl_pct": 0.14,
+      "accum_score": 0
+    },
+    {
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "entry_price": 1.385,
+      "exit_price": 1.36,
+      "pnl_pct": -1.81,
+      "net_pnl": -31.28,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 57.3,
+      "close_time": "2026-04-10T01:32:39.108873+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "거래량 증가 2.0x",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0.22,
+      "accum_score": 6
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "entry_price": 1.3264,
+      "exit_price": 1.3465,
+      "pnl_pct": 1.52,
+      "net_pnl": 33.17,
+      "close_reason": "TRAILING (peak 2.4%)",
+      "duration_min": 257.1,
+      "close_time": "2026-04-10T01:38:56.716656+09:00",
+      "reasons_entry": [
+        "횡보+거래량증가 (범위 0.3% vs 0.7%, 볼륨 1.4x)",
+        "하단꼬리 3회 (매수세)",
+        "RSI 30 과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 2.36,
+      "accum_score": 7
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "entry_price": 83.2,
+      "exit_price": 84.72,
+      "pnl_pct": 1.83,
+      "net_pnl": 50.11,
+      "close_reason": "TRAILING (peak 2.6%)",
+      "duration_min": 420.0,
+      "close_time": "2026-04-10T07:35:17.382192+09:00",
+      "reasons_entry": [
+        "거래량 증가 1.6x",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 2.64,
+      "accum_score": 7
+    },
+    {
+      "symbol": "APTUSDT",
+      "side": "LONG",
+      "entry_price": 0.8475,
+      "exit_price": 0.8593,
+      "pnl_pct": 1.39,
+      "net_pnl": 20.91,
+      "close_reason": "TRAILING (peak 2.3%)",
+      "duration_min": 377.7,
+      "close_time": "2026-04-10T07:50:39.114421+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 0.8% vs 2.8%, 볼륨 1.3x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 2.31,
+      "accum_score": 8
+    },
+    {
+      "symbol": "ADAUSDT",
+      "side": "LONG",
+      "entry_price": 0.2573,
+      "exit_price": 0.2534,
+      "pnl_pct": -1.52,
+      "net_pnl": -34.53,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 90.6,
+      "close_time": "2026-04-10T09:21:28.573306+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "거래량 증가 2.0x",
+        "OBV 상승추세 (매집)",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0,
+      "accum_score": 8
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "entry_price": 0.1074,
+      "exit_price": 0.1095,
+      "pnl_pct": 1.96,
+      "net_pnl": 39.3,
+      "close_reason": "TRAILING (peak 2.8%)",
+      "duration_min": 54.3,
+      "close_time": "2026-04-10T10:16:04.697785+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "하단꼬리 5회 (매수세)",
+        "EMA9>21",
+        "RSI 39 과매도"
+      ],
+      "max_pnl_pct": 2.79,
+      "accum_score": 4
+    },
+    {
+      "symbol": "NEARUSDT",
+      "side": "LONG",
+      "entry_price": 1.375,
+      "exit_price": 1.354,
+      "pnl_pct": -1.53,
+      "net_pnl": -34.95,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 108.6,
+      "close_time": "2026-04-10T12:04:58.316963+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21"
+      ],
+      "max_pnl_pct": 0,
+      "accum_score": 4
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "entry_price": 608.3,
+      "exit_price": 598.54,
+      "pnl_pct": -1.6,
+      "net_pnl": -41.46,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 565.4,
+      "close_time": "2026-04-10T17:00:59.716972+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "거래량 증가 2.0x",
+        "OBV 순매수",
+        "EMA9>21",
+        "BB 하단",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0,
+      "accum_score": 7
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry_price": 2177.82,
+      "exit_price": 2232.41,
+      "pnl_pct": 2.51,
+      "net_pnl": 50.99,
+      "close_reason": "TRAILING (peak 3.5%)",
+      "duration_min": 455.7,
+      "close_time": "2026-04-11T00:36:56.590653+09:00",
+      "reasons_entry": [
+        "횡보+거래량증가 (범위 0.5% vs 0.7%, 볼륨 1.4x)",
+        "하단꼬리 2회",
+        "RSI 35 과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 3.51,
+      "accum_score": 6
+    },
+    {
+      "symbol": "SUIUSDT",
+      "side": "LONG",
+      "entry_price": 0.9329,
+      "exit_price": 0.9439,
+      "pnl_pct": 1.18,
+      "net_pnl": 23.39,
+      "close_reason": "TRAILING (peak 2.0%)",
+      "duration_min": 773.0,
+      "close_time": "2026-04-11T00:58:16.275475+09:00",
+      "reasons_entry": [
+        "MTF 상승 (1h:BULL/15m:BEAR/5m:BULL)",
+        "OBV 상승추세 (매집)",
+        "하단꼬리 4회 (매수세)",
+        "EMA9>21"
+      ],
+      "max_pnl_pct": 2.0,
+      "accum_score": 6
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "entry_price": 0.1102,
+      "exit_price": 0.1138,
+      "pnl_pct": 3.27,
+      "net_pnl": 73.19,
+      "close_reason": "TRAILING (peak 4.3%)",
+      "duration_min": 407.7,
+      "close_time": "2026-04-11T07:24:54.971925+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 0.5% vs 0.9%, 볼륨 3.8x)",
+        "하단꼬리 2회",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 4.26,
+      "accum_score": 7
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry_price": 71816.5,
+      "exit_price": 72766.6,
+      "pnl_pct": 1.32,
+      "net_pnl": 25.07,
+      "close_reason": "TRAILING (peak 2.1%)",
+      "duration_min": 1822.2,
+      "close_time": "2026-04-11T08:01:25.742623+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 순매수",
+        "EMA9>21",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 2.14,
+      "accum_score": 3
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "entry_price": 0.1148,
+      "exit_price": 0.1204,
+      "pnl_pct": 4.88,
+      "net_pnl": 117.02,
+      "close_reason": "TRAILING (peak 6.4%)",
+      "duration_min": 313.8,
+      "close_time": "2026-04-11T13:15:30.327670+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 1.3% vs 2.8%, 볼륨 2.5x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21"
+      ],
+      "max_pnl_pct": 6.36,
+      "accum_score": 6
+    },
+    {
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "entry_price": 0.1202,
+      "exit_price": 0.1183,
+      "pnl_pct": -1.58,
+      "net_pnl": -47.08,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 18.1,
+      "close_time": "2026-04-11T13:33:54.263540+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "횡보+거래량증가 (범위 1.8% vs 4.5%, 볼륨 2.0x)",
+        "OBV 상승추세 (매집)",
+        "EMA9>21"
+      ],
+      "max_pnl_pct": 0,
+      "accum_score": 7
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry_price": 2247.0,
+      "exit_price": 2302.77,
+      "pnl_pct": 2.48,
+      "net_pnl": 62.45,
+      "close_reason": "TRAILING (peak 3.4%)",
+      "duration_min": 1316.7,
+      "close_time": "2026-04-12T05:21:56.457673+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 상승추세 (매집)",
+        "하단꼬리 3회 (매수세)",
+        "EMA9>21",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 3.37,
+      "accum_score": 7
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "entry_price": 9.056,
+      "exit_price": 9.172,
+      "pnl_pct": 1.28,
+      "net_pnl": 33.15,
+      "close_reason": "TRAILING (peak 2.3%)",
+      "duration_min": 960.1,
+      "close_time": "2026-04-12T05:34:17.730955+09:00",
+      "reasons_entry": [
+        "거래량 증가 2.7x",
+        "OBV 상승추세 (매집)",
+        "RSI 31 과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 2.26,
+      "accum_score": 7
+    },
+    {
+      "symbol": "LINKUSDT",
+      "side": "LONG",
+      "entry_price": 9.165,
+      "exit_price": 9.018,
+      "pnl_pct": -1.6,
+      "net_pnl": -48.57,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 298.8,
+      "close_time": "2026-04-12T10:33:21.239868+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 순매수",
+        "하단꼬리 4회 (매수세)",
+        "EMA9>21",
+        "RSI 35 과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.46,
+      "accum_score": 6
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "entry_price": 85.44,
+      "exit_price": 83.44,
+      "pnl_pct": -2.34,
+      "net_pnl": -69.03,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 314.4,
+      "close_time": "2026-04-12T10:36:39.289013+09:00",
+      "reasons_entry": [
+        "MTF 강한 상승 (1h:BULL/15m:BULL/5m:BULL)",
+        "OBV 순매수",
+        "하단꼬리 4회 (매수세)",
+        "EMA9>21",
+        "BB 하단",
+        "BTC 강세"
+      ],
+      "max_pnl_pct": 0.6,
+      "accum_score": 6
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "LONG",
+      "entry_price": 72893.1,
+      "exit_price": 71590.2,
+      "pnl_pct": -1.79,
+      "net_pnl": -50.28,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 12.4,
+      "close_time": "2026-04-12T10:45:59.758458+09:00",
+      "reasons_entry": [
+        "하단꼬리 4회 (매수세)",
+        "RSI 29 극과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0,
+      "accum_score": 4
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "LONG",
+      "entry_price": 603.67,
+      "exit_price": 591.68,
+      "pnl_pct": -1.99,
+      "net_pnl": -46.48,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 2030.7,
+      "close_time": "2026-04-12T10:49:17.732916+09:00",
+      "reasons_entry": [
+        "MTF 상승 (1h:BULL/15m:BULL/5m:BEAR)",
+        "횡보+거래량증가 (범위 0.8% vs 1.2%, 볼륨 1.5x)",
+        "하단꼬리 4회 (매수세)",
+        "RSI 37 과매도",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 1.77,
+      "accum_score": 8
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SHORT",
+      "entry_price": 71360.2,
+      "exit_price": 71520.0,
+      "pnl_pct": -0.22,
+      "net_pnl": -5.92,
+      "close_reason": "MANUAL_STOP",
+      "duration_min": 433.6,
+      "close_time": "2026-04-12T18:03:10.105740+09:00",
+      "reasons_entry": [
+        "MTF 강한 하락 (1h:BEAR/15m:BEAR/5m:BEAR)",
+        "EMA9<21",
+        "거래량 4.3x",
+        "BTC 약세"
+      ],
+      "max_pnl_pct": 0,
+      "accum_score": 0
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "side": "SHORT",
+      "entry_price": 9.111,
+      "exit_price": 9.028,
+      "pnl_pct": 0.91,
+      "net_pnl": 20.64,
+      "close_reason": "MANUAL_STOP",
+      "duration_min": 436.9,
+      "close_time": "2026-04-12T18:03:10.161187+09:00",
+      "reasons_entry": [
+        "MTF 강한 하락 (1h:BEAR/15m:BEAR/5m:BEAR)",
+        "EMA9<21",
+        "거래량 2.8x",
+        "BTC 약세"
+      ],
+      "max_pnl_pct": 1.19,
+      "accum_score": 0
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "LONG",
+      "entry_price": 1.3424,
+      "exit_price": 1.3263,
+      "pnl_pct": -1.2,
+      "net_pnl": -31.42,
+      "close_reason": "MANUAL_STOP",
+      "duration_min": 446.2,
+      "close_time": "2026-04-12T18:03:10.215917+09:00",
+      "reasons_entry": [
+        "거래량 증가 1.7x",
+        "하단꼬리 3회 (매수세)",
+        "RSI 25 극과매도",
+        "거래량 6.5x",
+        "BB 하단"
+      ],
+      "max_pnl_pct": 0.07,
+      "accum_score": 5
+    }
+  ],
+  "total_fees": 134.4744673609456,
+  "scan_count": 2767,
+  "start_time": "2026-04-06T22:40:00+09:00"
+}

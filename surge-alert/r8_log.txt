@@ -1,0 +1,92 @@
+============================================================
+  R8: R7_full + vol transform + soft voting
+============================================================
+
+  135 coins loaded
+
+[1] Building dataset (vol transformed + XS)...
+  Train: 27143 (2961+)  Test: 6786 (604+)
+  Features: 108
+
+[2] PSI check (post vol transform)...
+  심각 (>0.25): 0개
+  경미 (0.1~0.25): 7개
+  안정 (<0.1): 101개
+  vol_zscore_7d_30d: PSI=0.006 OK
+  vol_zscore_1d_30d: PSI=0.003 OK
+  vol_log_detrend_7d: PSI=0.012 OK
+  vol_log_detrend_1d: PSI=0.005 OK
+
+[3] Training soft-vote ensemble (5 seeds)...
+    Seed 42: P=18.7% (126/673) t=0.27
+    Seed 123: P=18.8% (55/292) t=0.39
+    Seed 456: P=19.6% (90/460) t=0.33
+    Seed 789: P=19.1% (97/507) t=0.31
+    Seed 1000: P=19.9% (89/448) t=0.33
+
+[4] Optimizing soft-vote threshold...
+
+  Best: t=0.12 P=15.3% R=40.1% (242/1580)
+  PR-AUC: 0.1395
+
+[5] Walk-Forward Backtest (6 windows, soft voting)...
+    Window 1: P=42.1% R=1.7% (8/19) t=0.45
+    Window 2: P=5.7% R=0.8% (4/70) t=0.49
+    Window 3: P=1.7% R=0.5% (1/60) t=0.49
+    Window 4: P=0.0% R=0.0% (0/6) t=0.47
+    Window 5: P=18.9% R=6.0% (17/90) t=0.43
+    Window 6: P=13.5% R=7.2% (23/171) t=0.41
+
+  WF Aggregate: P=12.7% R=2.7% (53/416) PR-AUC=0.117
+
+[6] Live Scan...
+
+[Scan] Fetching tickers...
+  Scanning 60 coins...
+
+[7] Saving...
+
+:chart_with_upwards_trend: *R8 완료* (4분)
+R7_full + vol_usd 변환 + soft voting
+```
+=== Holdout ===
+  Precision: 15.3%
+  Recall:    40.1%
+  Preds:     1580 (242 hits)
+  PR-AUC:    0.1395
+  Threshold: 0.12
+
+=== Walk-Forward ===
+  Precision: 12.7%
+  Recall:    2.7%
+  PR-AUC:    0.117
+
+=== Comparison ===
+Model                  Prec  Recall  Preds  Hits
+R5 baseline           15.1%    3.0%    119    18
+v2                    13.2%   53.6%   2459   324
+R7 (failed)            0.0%    0.0%      1     0
+R8 (this)             15.3%   40.1%   1580   242
+```
+
+*전조 후보 (19개):*
+```
+ # 코인           확률    S1 가격              7d     14d  RSI         FR  VolZ
+ 1 POL      55.0% 90.9% $0.0952      +1.0%   +5.0%   58   +0.0043% -0.7
+ 2 FIL      54.4% 90.7% $0.9249      -0.6%   -7.4%   52   +0.0100% -0.6
+ 3 ONDO     41.4% 87.3% $0.2638      +0.5%   -2.2%   52   +0.0050% -0.2
+ 4 ARB      40.7% 87.1% $0.1272      -1.0%   -1.4%   61   -0.0012% -0.2
+ 5 VIRTUAL  40.5% 87.1% $0.6962      -0.8%   -5.5%   51   +0.0050% -0.2
+ 6 CRV      39.7% 86.9% $0.2380      +7.2%   +2.0%   58   +0.0100% -0.3
+ 7 RENDER   36.6% 86.0% $1.6880      -6.5%  -10.1%   39   -0.0039% -0.5
+ 8 BONK     35.5% 85.7% $0.0000      -1.7%   -4.1%   53        n/a -0.6
+ 9 TA       33.8% 85.2% $0.0512      +7.3%  +20.8%   60   +0.0088% -0.1
+10 SPX      29.7% 84.0% $0.3652      -7.8%   +2.3%   55   +0.0018% +0.1
+11 SHIB     28.8% 83.8% $0.0000      +1.7%   -0.1%   57        n/a +0.2
+12 CC       28.5% 83.2% $0.1501      -0.1%   +1.2%   51   +0.0050% -0.4
+13 APT      26.8% 83.0% $1.0025      +5.3%   +0.1%   60   +0.0066% +0.7
+14 SUI      25.6% 82.7% $0.9069      -4.1%   -9.4%   44   +0.0100% -0.4
+15 S        22.4% 81.6% $0.0433      -1.5%   -6.4%   48   -0.0091% +0.8
+```
+
+Done. 3.8 minutes.

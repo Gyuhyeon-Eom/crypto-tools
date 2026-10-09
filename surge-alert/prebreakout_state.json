@@ -1,0 +1,1742 @@
+{
+  "XCN": {
+    "count": 51,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.7276
+  },
+  "BICO": {
+    "count": 44,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.7122
+  },
+  "ANTHROPIC": {
+    "count": 9,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.7046
+  },
+  "GLM": {
+    "count": 5,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.698
+  },
+  "ATOM": {
+    "count": 90,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6965
+  },
+  "LPT": {
+    "count": 64,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6795
+  },
+  "KAVA": {
+    "count": 9,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6667
+  },
+  "SAMSUNG": {
+    "count": 74,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6661
+  },
+  "AAPL": {
+    "count": 94,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6656
+  },
+  "DELL": {
+    "count": 92,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6629
+  },
+  "UAI": {
+    "count": 12,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6563
+  },
+  "TIA": {
+    "count": 8,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6429
+  },
+  "STABLE": {
+    "count": 15,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6421
+  },
+  "BE": {
+    "count": 58,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6383
+  },
+  "SNDK": {
+    "count": 842,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6383
+  },
+  "ALLO": {
+    "count": 46,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6354
+  },
+  "GRVT": {
+    "count": 231,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6254
+  },
+  "OPG": {
+    "count": 74,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.623
+  },
+  "METIS": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6208
+  },
+  "CYBER": {
+    "count": 43,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6145
+  },
+  "GMESTOCK": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6043
+  },
+  "SIGN": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6016
+  },
+  "SOXS": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.6006
+  },
+  "LSK": {
+    "count": 251,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5965
+  },
+  "GAS": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5956
+  },
+  "CC": {
+    "count": 72,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5947
+  },
+  "META": {
+    "count": 97,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.592
+  },
+  "XMR": {
+    "count": 256,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5864
+  },
+  "TAO": {
+    "count": 68,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5849
+  },
+  "DGAI": {
+    "count": 16,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5801
+  },
+  "MSTR": {
+    "count": 213,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5791
+  },
+  "HYPER": {
+    "count": 34,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5789
+  },
+  "AMDSTOCK": {
+    "count": 72,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5759
+  },
+  "ONT": {
+    "count": 15,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5701
+  },
+  "NOW": {
+    "count": 8,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5679
+  },
+  "MSTU": {
+    "count": 41,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5615
+  },
+  "LITE": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5588
+  },
+  "TSEM": {
+    "count": 94,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5572
+  },
+  "EDEN": {
+    "count": 64,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5562
+  },
+  "1000BTT": {
+    "count": 49,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5545
+  },
+  "BABY": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5503
+  },
+  "PLTR": {
+    "count": 84,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5501
+  },
+  "AXTI": {
+    "count": 14,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5487
+  },
+  "CHIP": {
+    "count": 294,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.546
+  },
+  "TAIKO": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5427
+  },
+  "CRCL": {
+    "count": 403,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5426
+  },
+  "NEAR": {
+    "count": 64,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5419
+  },
+  "ENA": {
+    "count": 42,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5404
+  },
+  "MERL": {
+    "count": 10,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.539
+  },
+  "OPENAI": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.538
+  },
+  "HNT": {
+    "count": 88,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5374
+  },
+  "ETHFI": {
+    "count": 149,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5367
+  },
+  "ACE": {
+    "count": 22,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5348
+  },
+  "AKE": {
+    "count": 182,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.534
+  },
+  "HOOD": {
+    "count": 97,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5331
+  },
+  "BOME": {
+    "count": 721,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5327
+  },
+  "SOSO": {
+    "count": 18,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.528
+  },
+  "ZKC": {
+    "count": 79,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5235
+  },
+  "ORCL": {
+    "count": 86,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5207
+  },
+  "SUSHI": {
+    "count": 537,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5204
+  },
+  "PENGU": {
+    "count": 70,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5171
+  },
+  "ZIL": {
+    "count": 88,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5169
+  },
+  "FIL": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5165
+  },
+  "IBM": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.515
+  },
+  "RVN": {
+    "count": 79,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5146
+  },
+  "TRIA": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5137
+  },
+  "CFG": {
+    "count": 12,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5132
+  },
+  "0G": {
+    "count": 70,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5112
+  },
+  "AVAX": {
+    "count": 69,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5103
+  },
+  "COTI": {
+    "count": 48,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5101
+  },
+  "1000000MOG": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.51
+  },
+  "MRVL": {
+    "count": 92,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5087
+  },
+  "FARTCOIN": {
+    "count": 141,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5065
+  },
+  "STX": {
+    "count": 94,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5065
+  },
+  "ASTER": {
+    "count": 320,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.505
+  },
+  "AR": {
+    "count": 90,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5024
+  },
+  "MOODENG": {
+    "count": 153,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5024
+  },
+  "1000BONK": {
+    "count": 70,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.501
+  },
+  "COMP": {
+    "count": 49,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.501
+  },
+  "KAS": {
+    "count": 119,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5007
+  },
+  "BEAT": {
+    "count": 567,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5005
+  },
+  "UB": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5004
+  },
+  "SOMI": {
+    "count": 49,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.5
+  },
+  "LINEA": {
+    "count": 14,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4991
+  },
+  "SOXL": {
+    "count": 80,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4988
+  },
+  "CVX": {
+    "count": 65,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4982
+  },
+  "FORM": {
+    "count": 14,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4974
+  },
+  "APEX": {
+    "count": 41,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4969
+  },
+  "MOVE": {
+    "count": 10,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4953
+  },
+  "JTO": {
+    "count": 22,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4944
+  },
+  "SOPH": {
+    "count": 12,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4937
+  },
+  "DEXE": {
+    "count": 17,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4936
+  },
+  "MUBARAK": {
+    "count": 81,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4936
+  },
+  "FF": {
+    "count": 398,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4933
+  },
+  "DRIFT": {
+    "count": 41,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4927
+  },
+  "T": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4914
+  },
+  "AXL": {
+    "count": 31,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.489
+  },
+  "CORE": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4868
+  },
+  "F": {
+    "count": 12,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4856
+  },
+  "DOT": {
+    "count": 148,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4851
+  },
+  "SAHARA": {
+    "count": 47,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4843
+  },
+  "ONG": {
+    "count": 15,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4838
+  },
+  "ESPORTS": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4831
+  },
+  "ZEN": {
+    "count": 529,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4815
+  },
+  "CRV": {
+    "count": 205,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4799
+  },
+  "ZEC": {
+    "count": 387,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4798
+  },
+  "UNI": {
+    "count": 204,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4794
+  },
+  "AEVO": {
+    "count": 17,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4792
+  },
+  "AIOZ": {
+    "count": 41,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4784
+  },
+  "COHR": {
+    "count": 6,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4783
+  },
+  "KITE": {
+    "count": 48,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4777
+  },
+  "XTZ": {
+    "count": 91,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4775
+  },
+  "SNXX": {
+    "count": 89,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4774
+  },
+  "CLO": {
+    "count": 141,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4766
+  },
+  "CFX": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4756
+  },
+  "EVAA": {
+    "count": 10,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4746
+  },
+  "H": {
+    "count": 165,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4741
+  },
+  "EGLD": {
+    "count": 470,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4681
+  },
+  "CL": {
+    "count": 448,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4674
+  },
+  "BLESS": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4673
+  },
+  "VET": {
+    "count": 205,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4671
+  },
+  "HYPE": {
+    "count": 119,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4651
+  },
+  "VELODROME": {
+    "count": 4,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4644
+  },
+  "BZ": {
+    "count": 453,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4641
+  },
+  "SQQQ": {
+    "count": 16,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.462
+  },
+  "NBIS": {
+    "count": 92,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4619
+  },
+  "NEO": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4614
+  },
+  "MAGMA": {
+    "count": 55,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4609
+  },
+  "1000PEPE": {
+    "count": 200,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.46
+  },
+  "ID": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.46
+  },
+  "MRNA": {
+    "count": 6,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4589
+  },
+  "BANK": {
+    "count": 250,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4575
+  },
+  "TWT": {
+    "count": 75,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4571
+  },
+  "ZEREBRO": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4569
+  },
+  "TRUMP": {
+    "count": 597,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.455
+  },
+  "SAFE": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4545
+  },
+  "ARB": {
+    "count": 199,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4543
+  },
+  "MU": {
+    "count": 89,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.454
+  },
+  "MUU": {
+    "count": 82,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.454
+  },
+  "DASH": {
+    "count": 461,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4524
+  },
+  "OP": {
+    "count": 85,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4524
+  },
+  "ETC": {
+    "count": 139,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4519
+  },
+  "BERA": {
+    "count": 68,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4502
+  },
+  "CVC": {
+    "count": 42,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4495
+  },
+  "SYRUP": {
+    "count": 9,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4493
+  },
+  "VVV": {
+    "count": 143,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4485
+  },
+  "ARKM": {
+    "count": 62,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4471
+  },
+  "HOLO": {
+    "count": 12,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4464
+  },
+  "RIVER": {
+    "count": 454,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4447
+  },
+  "NVDA": {
+    "count": 119,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4445
+  },
+  "ENS": {
+    "count": 92,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4437
+  },
+  "B2": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4436
+  },
+  "CHILLGUY": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4425
+  },
+  "RAVE": {
+    "count": 76,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4424
+  },
+  "GOOGL": {
+    "count": 29,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4418
+  },
+  "CRWV": {
+    "count": 55,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4414
+  },
+  "KAIA": {
+    "count": 9,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4402
+  },
+  "BRETT": {
+    "count": 76,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4395
+  },
+  "MYX": {
+    "count": 94,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4383
+  },
+  "SOLAYER": {
+    "count": 9,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4382
+  },
+  "DRAM": {
+    "count": 119,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4375
+  },
+  "KAITO": {
+    "count": 126,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4361
+  },
+  "IMX": {
+    "count": 6,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4356
+  },
+  "HMSTR": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4311
+  },
+  "PIPPIN": {
+    "count": 47,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4311
+  },
+  "LA": {
+    "count": 102,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4302
+  },
+  "AERO": {
+    "count": 29,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4291
+  },
+  "USELESS": {
+    "count": 204,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4291
+  },
+  "ME": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4289
+  },
+  "MORPHO": {
+    "count": 92,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4279
+  },
+  "PEAQ": {
+    "count": 10,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4275
+  },
+  "XLM": {
+    "count": 95,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.421
+  },
+  "NFLX": {
+    "count": 10,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4205
+  },
+  "CELO": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4203
+  },
+  "AZTEC": {
+    "count": 31,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4198
+  },
+  "PEOPLE": {
+    "count": 213,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4196
+  },
+  "ARM": {
+    "count": 74,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4188
+  },
+  "ZAMA": {
+    "count": 51,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.417
+  },
+  "MCD": {
+    "count": 25,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4165
+  },
+  "1000NEIROCTO": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4149
+  },
+  "POWER": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4149
+  },
+  "ZETA": {
+    "count": 53,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4145
+  },
+  "ICP": {
+    "count": 24,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.414
+  },
+  "RED": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4123
+  },
+  "LUNA2": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4113
+  },
+  "ZK": {
+    "count": 64,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4107
+  },
+  "PENDLE": {
+    "count": 442,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4104
+  },
+  "BCH": {
+    "count": 95,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4097
+  },
+  "BASED": {
+    "count": 53,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4084
+  },
+  "BMNR": {
+    "count": 97,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4071
+  },
+  "TNSR": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4065
+  },
+  "SPK": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4063
+  },
+  "BLEND": {
+    "count": 19,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4057
+  },
+  "BSB": {
+    "count": 41,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4057
+  },
+  "COAI": {
+    "count": 41,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4057
+  },
+  "TREE": {
+    "count": 32,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4057
+  },
+  "COIN": {
+    "count": 88,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4053
+  },
+  "4": {
+    "count": 8,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4041
+  },
+  "XPIN": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4025
+  },
+  "EIGEN": {
+    "count": 87,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4018
+  },
+  "UMA": {
+    "count": 49,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.4002
+  },
+  "CASHCAT": {
+    "count": 252,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3986
+  },
+  "LINK": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3986
+  },
+  "MELANIA": {
+    "count": 10,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3964
+  },
+  "OPN": {
+    "count": 9,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3961
+  },
+  "MARSCOIN": {
+    "count": 121,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3954
+  },
+  "GIGGLE": {
+    "count": 46,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.394
+  },
+  "MIRA": {
+    "count": 49,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.394
+  },
+  "MMT": {
+    "count": 71,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.394
+  },
+  "LTC": {
+    "count": 27,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3939
+  },
+  "GPS": {
+    "count": 10,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3936
+  },
+  "VIRTUAL": {
+    "count": 24,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3916
+  },
+  "ALAB": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3908
+  },
+  "SHIB1000": {
+    "count": 176,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.388
+  },
+  "BTR": {
+    "count": 76,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3868
+  },
+  "ARX": {
+    "count": 90,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3862
+  },
+  "TMX": {
+    "count": 1,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3859
+  },
+  "1000LUNC": {
+    "count": 14,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3851
+  },
+  "WIF": {
+    "count": 88,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3845
+  },
+  "CKB": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3844
+  },
+  "ADA": {
+    "count": 87,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3831
+  },
+  "RARE": {
+    "count": 20,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.383
+  },
+  "RKLB": {
+    "count": 82,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3829
+  },
+  "LAB": {
+    "count": 365,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3825
+  },
+  "POPCAT": {
+    "count": 89,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3824
+  },
+  "BIO": {
+    "count": 45,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3804
+  },
+  "INJ": {
+    "count": 89,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3795
+  },
+  "THETA": {
+    "count": 87,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3795
+  },
+  "TSLA": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3778
+  },
+  "DOGE": {
+    "count": 159,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3777
+  },
+  "1000FLOKI": {
+    "count": 89,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3762
+  },
+  "SKL": {
+    "count": 8,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.376
+  },
+  "CAKE": {
+    "count": 209,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3753
+  },
+  "QQQ": {
+    "count": 9,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3749
+  },
+  "1INCH": {
+    "count": 72,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3739
+  },
+  "KORU": {
+    "count": 395,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3737
+  },
+  "WLFI": {
+    "count": 8,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3734
+  },
+  "FLOCK": {
+    "count": 221,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3729
+  },
+  "XAU": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3709
+  },
+  "ONDO": {
+    "count": 44,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3708
+  },
+  "SKR": {
+    "count": 50,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3708
+  },
+  "INIT": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3682
+  },
+  "HOME": {
+    "count": 58,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3674
+  },
+  "TRX": {
+    "count": 409,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3673
+  },
+  "UNITREE": {
+    "count": 25,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3673
+  },
+  "YGG": {
+    "count": 10,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3671
+  },
+  "HEMI": {
+    "count": 25,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.367
+  },
+  "AAVE": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.365
+  },
+  "WAVES": {
+    "count": 367,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3641
+  },
+  "BNB": {
+    "count": 211,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3609
+  },
+  "PIEVERSE": {
+    "count": 141,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3601
+  },
+  "AIXBT": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3598
+  },
+  "C98": {
+    "count": 43,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3595
+  },
+  "MASK": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3578
+  },
+  "BLUR": {
+    "count": 44,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3562
+  },
+  "FLOW": {
+    "count": 53,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3562
+  },
+  "MINA": {
+    "count": 14,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3562
+  },
+  "APR": {
+    "count": 16,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3556
+  },
+  "TQQQ": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3523
+  },
+  "VELVET": {
+    "count": 107,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3518
+  },
+  "WENSTOCK": {
+    "count": 17,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.35
+  },
+  "GRT": {
+    "count": 25,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3493
+  },
+  "AVNT": {
+    "count": 26,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.349
+  },
+  "XPL": {
+    "count": 96,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3485
+  },
+  "ALT": {
+    "count": 42,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3475
+  },
+  "BIGTIME": {
+    "count": 9,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3475
+  },
+  "NOT": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3475
+  },
+  "BSV": {
+    "count": 8,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.347
+  },
+  "SIREN": {
+    "count": 14,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.344
+  },
+  "XDC": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3431
+  },
+  "HBAR": {
+    "count": 25,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3419
+  },
+  "KSM": {
+    "count": 13,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3408
+  },
+  "ARK": {
+    "count": 5,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3405
+  },
+  "SKHYNIX": {
+    "count": 798,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3394
+  },
+  "TA": {
+    "count": 26,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3393
+  },
+  "PHA": {
+    "count": 29,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.339
+  },
+  "CRO": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3383
+  },
+  "ACU": {
+    "count": 4,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3362
+  },
+  "ORDI": {
+    "count": 148,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3362
+  },
+  "ZHIPU": {
+    "count": 88,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3352
+  },
+  "B3": {
+    "count": 93,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3293
+  },
+  "BROCCOLI": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3293
+  },
+  "SENT": {
+    "count": 65,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3273
+  },
+  "NIL": {
+    "count": 24,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3255
+  },
+  "ZORA": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3255
+  },
+  "INTC": {
+    "count": 96,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3239
+  },
+  "ARPA": {
+    "count": 11,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3213
+  },
+  "DYDX": {
+    "count": 45,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3213
+  },
+  "SAGA": {
+    "count": 107,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3204
+  },
+  "JASMY": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3192
+  },
+  "FLUID": {
+    "count": 55,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3126
+  },
+  "APE": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3117
+  },
+  "BEAM": {
+    "count": 5,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3095
+  },
+  "XAUT": {
+    "count": 6,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.3045
+  },
+  "GMT": {
+    "count": 5,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.2978
+  },
+  "SUI": {
+    "count": 22,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.2926
+  },
+  "EDU": {
+    "count": 44,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.2853
+  },
+  "IOTA": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.2849
+  },
+  "GRIFFAIN": {
+    "count": 1,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.2783
+  },
+  "FLY": {
+    "count": 7,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.2753
+  },
+  "ZBCN": {
+    "count": 1,
+    "last_seen": "2026-10-09T15:57:52",
+    "last_score": 0.2552
+  },
+  "DOS": {
+    "count": 38,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.5738
+  },
+  "CYS": {
+    "count": 81,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.5313
+  },
+  "ROSE": {
+    "count": 9,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.4808
+  },
+  "POL": {
+    "count": 161,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.4773
+  },
+  "PNUT": {
+    "count": 42,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.435
+  },
+  "SNX": {
+    "count": 10,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.4094
+  },
+  "EWY": {
+    "count": 88,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3838
+  },
+  "PTB": {
+    "count": 10,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3766
+  },
+  "PROVE": {
+    "count": 14,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3668
+  },
+  "EUL": {
+    "count": 110,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3578
+  },
+  "A": {
+    "count": 92,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3496
+  },
+  "KERNEL": {
+    "count": 10,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3425
+  },
+  "AKT": {
+    "count": 6,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3168
+  },
+  "LDO": {
+    "count": 57,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3135
+  },
+  "ERA": {
+    "count": 3,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3104
+  },
+  "SEI": {
+    "count": 6,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.3049
+  },
+  "RUNE": {
+    "count": 5,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.2922
+  },
+  "MNT": {
+    "count": 132,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.2849
+  },
+  "POET": {
+    "count": 246,
+    "last_seen": "2026-10-09T14:53:00",
+    "last_score": 0.2662
+  },
+  "WAL": {
+    "count": 53,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.6545
+  },
+  "REZ": {
+    "count": 30,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.5978
+  },
+  "JUP": {
+    "count": 12,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.5339
+  },
+  "GENIUS": {
+    "count": 49,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.4915
+  },
+  "BARD": {
+    "count": 10,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.43
+  },
+  "PURR": {
+    "count": 89,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.4048
+  },
+  "BTW": {
+    "count": 4,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.3765
+  },
+  "CHZ": {
+    "count": 73,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.3315
+  },
+  "PARTI": {
+    "count": 16,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.3054
+  },
+  "BAT": {
+    "count": 4,
+    "last_seen": "2026-10-09T13:48:07",
+    "last_score": 0.2997
+  },
+  "APT": {
+    "count": 66,
+    "last_seen": "2026-10-09T12:43:07",
+    "last_score": 0.5244
+  },
+  "PYTH": {
+    "count": 4,
+    "last_seen": "2026-10-09T12:43:07",
+    "last_score": 0.4626
+  },
+  "TRUST": {
+    "count": 8,
+    "last_seen": "2026-10-09T12:43:07",
+    "last_score": 0.4578
+  },
+  "GMX": {
+    "count": 93,
+    "last_seen": "2026-10-09T12:43:07",
+    "last_score": 0.4248
+  },
+  "SPX": {
+    "count": 323,
+    "last_seen": "2026-10-09T12:43:07",
+    "last_score": 0.4076
+  },
+  "MEW": {
+    "count": 4,
+    "last_seen": "2026-10-09T12:43:07",
+    "last_score": 0.4013
+  },
+  "4STOCK": {
+    "count": 4,
+    "last_seen": "2026-10-09T12:43:07",
+    "last_score": 0.3911
+  },
+  "BOT": {
+    "count": 2,
+    "last_seen": "2026-10-09T12:43:07",
+    "last_score": 0.2714
+  },
+  "FLR": {
+    "count": 5,
+    "last_seen": "2026-10-09T11:38:05",
+    "last_score": 0.4968
+  },
+  "S": {
+    "count": 41,
+    "last_seen": "2026-10-09T11:38:05",
+    "last_score": 0.4123
+  },
+  "MEGA": {
+    "count": 5,
+    "last_seen": "2026-10-09T11:38:05",
+    "last_score": 0.3528
+  },
+  "RAYDIUM": {
+    "count": 314,
+    "last_seen": "2026-10-09T10:33:05",
+    "last_score": 0.6101
+  },
+  "SPY": {
+    "count": 2,
+    "last_seen": "2026-10-09T10:33:05",
+    "last_score": 0.528
+  },
+  "LIGHT": {
+    "count": 6,
+    "last_seen": "2026-10-09T10:33:05",
+    "last_score": 0.479
+  },
+  "Q": {
+    "count": 1,
+    "last_seen": "2026-10-09T10:33:05",
+    "last_score": 0.4503
+  },
+  "KMNO": {
+    "count": 65,
+    "last_seen": "2026-10-09T10:33:05",
+    "last_score": 0.4188
+  },
+  "EDGE": {
+    "count": 1,
+    "last_seen": "2026-10-09T10:33:05",
+    "last_score": 0.2998
+  },
+  "MAGIC": {
+    "count": 1,
+    "last_seen": "2026-10-09T10:33:05",
+    "last_score": 0.2761
+  }
+}

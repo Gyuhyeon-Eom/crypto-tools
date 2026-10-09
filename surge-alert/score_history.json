@@ -1,0 +1,320 @@
+{
+  "XLM": {
+    "ema_score": 0.2617,
+    "ema_short": 0.1587,
+    "appear_count": 664,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "FLR": {
+    "ema_score": 0.2905,
+    "ema_short": 0.2147,
+    "appear_count": 547,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "A": {
+    "ema_score": 0.296,
+    "ema_short": 0.3563,
+    "appear_count": 433,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "OPN": {
+    "ema_score": 0.2997,
+    "ema_short": 0.326,
+    "appear_count": 426,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "CC": {
+    "ema_score": 0.2097,
+    "ema_short": 0.2291,
+    "appear_count": 426,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "CRV": {
+    "ema_score": 0.2094,
+    "ema_short": 0.1685,
+    "appear_count": 426,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "PARTI": {
+    "ema_score": 0.2034,
+    "ema_short": 0.4729,
+    "appear_count": 426,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "CTC": {
+    "ema_score": 0.1996,
+    "ema_short": 0.2001,
+    "appear_count": 314,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "BASED": {
+    "ema_score": 0.23,
+    "ema_short": 0.2131,
+    "appear_count": 314,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "XDC": {
+    "ema_score": 0.3734,
+    "ema_short": 0.259,
+    "appear_count": 310,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "HYPE": {
+    "ema_score": 0.2392,
+    "ema_short": 0.2046,
+    "appear_count": 310,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "OPG": {
+    "ema_score": 0.3186,
+    "ema_short": 0.3139,
+    "appear_count": 310,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "SOSO": {
+    "ema_score": 0.3312,
+    "ema_short": 0.4757,
+    "appear_count": 200,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "COMP": {
+    "ema_score": 0.2911,
+    "ema_short": 0.2509,
+    "appear_count": 197,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "PIEVERSE": {
+    "ema_score": 0.2342,
+    "ema_short": 0.1616,
+    "appear_count": 196,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "BOME": {
+    "ema_score": 0.2814,
+    "ema_short": 0.247,
+    "appear_count": 105,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ERA": {
+    "ema_score": 0.278,
+    "ema_short": 0.1691,
+    "appear_count": 90,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "CYBER": {
+    "ema_score": 0.2975,
+    "ema_short": 0.2884,
+    "appear_count": 83,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "JUP": {
+    "ema_score": 0.2216,
+    "ema_short": 0.4181,
+    "appear_count": 82,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "AVNT": {
+    "ema_score": 0.204,
+    "ema_short": 0.3487,
+    "appear_count": 83,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "AEVO": {
+    "ema_score": 0.2827,
+    "ema_short": 0.2286,
+    "appear_count": 88,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "EIGEN": {
+    "ema_score": 0.1555,
+    "ema_short": 0.1994,
+    "appear_count": 79,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ETC": {
+    "ema_score": 0.2205,
+    "ema_short": 0.1646,
+    "appear_count": 79,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ETHFI": {
+    "ema_score": 0.185,
+    "ema_short": 0.2507,
+    "appear_count": 83,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "TIA": {
+    "ema_score": 0.2754,
+    "ema_short": 0.4239,
+    "appear_count": 79,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ME": {
+    "ema_score": 0.2099,
+    "ema_short": 0.1895,
+    "appear_count": 79,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ALT": {
+    "ema_score": 0.2425,
+    "ema_short": 0.2458,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ORDI": {
+    "ema_score": 0.2442,
+    "ema_short": 0.152,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "APE": {
+    "ema_score": 0.2913,
+    "ema_short": 0.1568,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "YFI": {
+    "ema_score": 0.2921,
+    "ema_short": 0.2032,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ZORA": {
+    "ema_score": 0.2115,
+    "ema_short": 0.1496,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "GMX": {
+    "ema_score": 0.4146,
+    "ema_short": 0.2934,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "POL": {
+    "ema_score": 0.2128,
+    "ema_short": 0.17,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "SAFE": {
+    "ema_score": 0.2681,
+    "ema_short": 0.2349,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "PLUME": {
+    "ema_score": 0.1945,
+    "ema_short": 0.2737,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "CAKE": {
+    "ema_score": 0.2085,
+    "ema_short": 0.1331,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "LDO": {
+    "ema_score": 0.1992,
+    "ema_short": 0.2324,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ENS": {
+    "ema_score": 0.2069,
+    "ema_short": 0.2049,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "FF": {
+    "ema_score": 0.326,
+    "ema_short": 0.1422,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "PENDLE": {
+    "ema_score": 0.1841,
+    "ema_short": 0.1357,
+    "appear_count": 78,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "STRK": {
+    "ema_score": 0.3151,
+    "ema_short": 0.5251,
+    "appear_count": 8,
+    "last_seen": "2026-10-09T15:47:26"
+  },
+  "XAUT": {
+    "ema_score": 0.3273,
+    "ema_short": 0.1755,
+    "appear_count": 3,
+    "last_seen": "2026-10-09T15:09:29"
+  },
+  "KMNO": {
+    "ema_score": 0.2323,
+    "ema_short": 0.182,
+    "appear_count": 5,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "ENSO": {
+    "ema_score": 0.3867,
+    "ema_short": 0.1258,
+    "appear_count": 8,
+    "last_seen": "2026-10-09T14:56:50"
+  },
+  "WAL": {
+    "ema_score": 0.3055,
+    "ema_short": 0.2747,
+    "appear_count": 2,
+    "last_seen": "2026-10-09T13:53:29"
+  },
+  "FLUID": {
+    "ema_score": 0.2606,
+    "ema_short": 0.4856,
+    "appear_count": 1,
+    "last_seen": "2026-10-09T14:06:10"
+  },
+  "WLFI": {
+    "ema_score": 0.3351,
+    "ema_short": 0.2177,
+    "appear_count": 1,
+    "last_seen": "2026-10-09T14:56:50"
+  },
+  "APT": {
+    "ema_score": 0.2401,
+    "ema_short": 0.3472,
+    "appear_count": 2,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "BAT": {
+    "ema_score": 0.3452,
+    "ema_short": 0.4522,
+    "appear_count": 1,
+    "last_seen": "2026-10-09T16:12:43"
+  },
+  "STX": {
+    "ema_score": 0.2797,
+    "ema_short": 0.363,
+    "appear_count": 1,
+    "last_seen": "2026-10-09T16:12:43"
+  },
+  "BICO": {
+    "ema_score": 0.306,
+    "ema_short": 0.1523,
+    "appear_count": 3,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "MAGIC": {
+    "ema_score": 0.3414,
+    "ema_short": 0.49,
+    "appear_count": 1,
+    "last_seen": "2026-10-09T16:38:01"
+  },
+  "MNT": {
+    "ema_score": 0.3366,
+    "ema_short": 0.1398,
+    "appear_count": 1,
+    "last_seen": "2026-10-09T16:38:01"
+  }
+}

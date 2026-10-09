@@ -1,0 +1,146 @@
+{
+  "balance": 347.04983392603935,
+  "initial_balance": 2158.27,
+  "positions": [
+    {
+      "symbol": "SEIUSDT",
+      "side": "LONG",
+      "entry_price": 0.05195,
+      "size_usdt": 494.6563811554548,
+      "position_value": 9893.127623109096,
+      "leverage": 20,
+      "entry_time": "2026-04-05T23:05:48.380631+09:00",
+      "sl": 0.051430500000000004,
+      "tp": 0.052989,
+      "entry_fee": 4.946563811554548,
+      "reasons": [
+        "1m EMA5>13",
+        "BB하단 반등"
+      ],
+      "score": 6,
+      "rsi": 58.06451612903255
+    },
+    {
+      "symbol": "RUNEUSDT",
+      "side": "LONG",
+      "entry_price": 0.3786,
+      "size_usdt": 232.91935162821434,
+      "position_value": 4658.3870325642865,
+      "leverage": 20,
+      "entry_time": "2026-04-06T01:08:46.891086+09:00",
+      "sl": 0.374814,
+      "tp": 0.386172,
+      "entry_fee": 2.3291935162821433,
+      "reasons": [
+        "1m EMA5>13",
+        "BB하단 반등"
+      ],
+      "score": 6,
+      "rsi": 52.17391304347806
+    }
+  ],
+  "closed_trades": [
+    {
+      "symbol": "SOLUSDT",
+      "side": "LONG",
+      "entry_price": 79.85,
+      "exit_price": 79.04,
+      "pnl_pct": -1.01,
+      "net_pnl": -109.53,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 39.2,
+      "close_time": "2026-04-05T21:39:54.239343+09:00",
+      "reasons": [
+        "1m EMA5>13",
+        "거래량 5.3x",
+        "BB하단 반등",
+        "VWAP 위"
+      ]
+    },
+    {
+      "symbol": "FETUSDT",
+      "side": "SHORT",
+      "entry_price": 0.2248,
+      "exit_price": 0.2272,
+      "pnl_pct": -1.07,
+      "net_pnl": -104.76,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 77.3,
+      "close_time": "2026-04-05T22:58:29.531884+09:00",
+      "reasons": [
+        "1m EMA5<13",
+        "VWAP 아래"
+      ]
+    },
+    {
+      "symbol": "DRIFTUSDT",
+      "side": "SHORT",
+      "entry_price": 0.04413,
+      "exit_price": 0.04318,
+      "pnl_pct": 2.15,
+      "net_pnl": 178.68,
+      "close_reason": "TAKE_PROFIT",
+      "duration_min": 7.0,
+      "close_time": "2026-04-05T23:05:39.757419+09:00",
+      "reasons": [
+        "1m EMA5<13",
+        "연속하락",
+        "VWAP 아래"
+      ]
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "side": "SHORT",
+      "entry_price": 0.0033246,
+      "exit_price": 0.0033581,
+      "pnl_pct": -1.01,
+      "net_pnl": -182.61,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 211.7,
+      "close_time": "2026-04-06T00:31:13.837720+09:00",
+      "reasons": [
+        "1m EMA5<13",
+        "연속하락",
+        "BB상단 저항",
+        "VWAP 아래"
+      ]
+    },
+    {
+      "symbol": "STOUSDT",
+      "side": "SHORT",
+      "entry_price": 0.18114,
+      "exit_price": 0.19337,
+      "pnl_pct": -6.75,
+      "net_pnl": -771.44,
+      "close_reason": "LIQUIDATION",
+      "duration_min": 6.0,
+      "close_time": "2026-04-06T00:37:23.281493+09:00",
+      "reasons": [
+        "1m EMA5<13",
+        "VWAP 아래"
+      ]
+    },
+    {
+      "symbol": "FETUSDT",
+      "side": "LONG",
+      "entry_price": 0.2312,
+      "exit_price": 0.2288,
+      "pnl_pct": -1.04,
+      "net_pnl": -55.76,
+      "close_reason": "STOP_LOSS",
+      "duration_min": 31.1,
+      "close_time": "2026-04-06T01:08:38.702101+09:00",
+      "reasons": [
+        "1m EMA5>13",
+        "연속상승",
+        "VWAP 위"
+      ]
+    }
+  ],
+  "total_fees": 69.17025317652879,
+  "scan_count": 421,
+  "start_time": "2026-04-05T20:58:15.611807+09:00",
+  "daily_start_balance": 2095.0023890770826,
+  "daily_pnl": -1009.8142041772528,
+  "today": "2026-04-06"
+}

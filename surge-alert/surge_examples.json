@@ -1,0 +1,290 @@
+[
+  {
+    "symbol": "BRUSDT",
+    "return": 1.0565315707079495,
+    "start_price": 0.05749,
+    "peak_price": 0.11823
+  },
+  {
+    "symbol": "BRUSDT",
+    "return": 1.0198348514514346,
+    "start_price": 0.11747,
+    "peak_price": 0.23727
+  },
+  {
+    "symbol": "RATSUSDT",
+    "return": 1.22592873388931,
+    "start_price": 1.319e-05,
+    "peak_price": 2.936e-05
+  },
+  {
+    "symbol": "ZEREBROUSDT",
+    "return": 1.2732815964523279,
+    "start_price": 0.01804,
+    "peak_price": 0.04101
+  },
+  {
+    "symbol": "ORDIUSDT",
+    "return": 2.5253817581510525,
+    "start_price": 2.423,
+    "peak_price": 8.542
+  },
+  {
+    "symbol": "ZKUSDT",
+    "return": 1.0210057288351373,
+    "start_price": 0.03142,
+    "peak_price": 0.0635
+  },
+  {
+    "symbol": "LUNAUSDT",
+    "return": 1.202188859267574,
+    "start_price": 0.07127,
+    "peak_price": 0.15695
+  },
+  {
+    "symbol": "HYPERUSDT",
+    "return": 4.2418903045089,
+    "start_price": 0.11067,
+    "peak_price": 0.58012
+  },
+  {
+    "symbol": "FLOCKUSDT",
+    "return": 1.5191754814212093,
+    "start_price": 0.18435,
+    "peak_price": 0.46441
+  },
+  {
+    "symbol": "ICPUSDT",
+    "return": 1.3207742827514695,
+    "start_price": 2.893,
+    "peak_price": 6.714
+  },
+  {
+    "symbol": "MOVRUSDT",
+    "return": 1.425249169435216,
+    "start_price": 1.204,
+    "peak_price": 2.92
+  },
+  {
+    "symbol": "VIRTUALUSDT",
+    "return": 1.0586956521739133,
+    "start_price": 0.736,
+    "peak_price": 1.5152
+  },
+  {
+    "symbol": "AXSUSDT",
+    "return": 1.0616509926854758,
+    "start_price": 0.957,
+    "peak_price": 1.973
+  },
+  {
+    "symbol": "NOMUSDT",
+    "return": 1.2129420617005269,
+    "start_price": 0.006645,
+    "peak_price": 0.014705
+  },
+  {
+    "symbol": "NOMUSDT",
+    "return": 1.5484293193717273,
+    "start_price": 0.002292,
+    "peak_price": 0.005841
+  },
+  {
+    "symbol": "TNSRUSDT",
+    "return": 4.520305676855895,
+    "start_price": 0.0458,
+    "peak_price": 0.25283
+  },
+  {
+    "symbol": "LAVAUSDT",
+    "return": 2.234234234234234,
+    "start_price": 0.0444,
+    "peak_price": 0.1436
+  },
+  {
+    "symbol": "SIGNUSDT",
+    "return": 1.1258741258741258,
+    "start_price": 0.02574,
+    "peak_price": 0.05472
+  },
+  {
+    "symbol": "BERAUSDT",
+    "return": 1.1381609195402298,
+    "start_price": 0.435,
+    "peak_price": 0.9301
+  },
+  {
+    "symbol": "ENJUSDT",
+    "return": 1.2526690391459074,
+    "start_price": 0.01967,
+    "peak_price": 0.04431
+  },
+  {
+    "symbol": "COREUSDT",
+    "return": 1.0763052208835338,
+    "start_price": 0.02739,
+    "peak_price": 0.05687
+  },
+  {
+    "symbol": "APEXUSDT",
+    "return": 1.084560370214556,
+    "start_price": 0.2377,
+    "peak_price": 0.4955
+  },
+  {
+    "symbol": "RESOLVUSDT",
+    "return": 1.1102362204724412,
+    "start_price": 0.0508,
+    "peak_price": 0.1072
+  },
+  {
+    "symbol": "RESOLVUSDT",
+    "return": 1.0760020822488285,
+    "start_price": 0.05763,
+    "peak_price": 0.11964
+  },
+  {
+    "symbol": "WLDUSDT",
+    "return": 1.1700810445745158,
+    "start_price": 0.8884,
+    "peak_price": 1.9279
+  },
+  {
+    "symbol": "TAUSDT",
+    "return": 1.3906738697753767,
+    "start_price": 0.03517,
+    "peak_price": 0.08408
+  },
+  {
+    "symbol": "SAHARAUSDT",
+    "return": 1.0444596443228455,
+    "start_price": 0.01462,
+    "peak_price": 0.02989
+  },
+  {
+    "symbol": "PUMPBTCUSDT",
+    "return": 1.6117285410262476,
+    "start_price": 0.04229,
+    "peak_price": 0.11045
+  },
+  {
+    "symbol": "PUMPBTCUSDT",
+    "return": 1.296396201985326,
+    "start_price": 0.09268,
+    "peak_price": 0.21283
+  },
+  {
+    "symbol": "XIONUSDT",
+    "return": 1.0304409672830728,
+    "start_price": 0.3515,
+    "peak_price": 0.7137
+  },
+  {
+    "symbol": "LUNCUSDT",
+    "return": 1.011798355380765,
+    "start_price": 2.797e-05,
+    "peak_price": 5.627e-05
+  },
+  {
+    "symbol": "PIEVERSEUSDT",
+    "return": 1.8396249098340949,
+    "start_price": 0.4159,
+    "peak_price": 1.181
+  },
+  {
+    "symbol": "PYTHUSDT",
+    "return": 1.104787714543812,
+    "start_price": 0.1107,
+    "peak_price": 0.233
+  },
+  {
+    "symbol": "HAEDALUSDT",
+    "return": 1.0987567987567988,
+    "start_price": 0.1287,
+    "peak_price": 0.27011
+  },
+  {
+    "symbol": "CORNUSDT",
+    "return": 1.2913011695906431,
+    "start_price": 0.02736,
+    "peak_price": 0.06269
+  },
+  {
+    "symbol": "CORNUSDT",
+    "return": 1.0788308237378215,
+    "start_price": 0.02258,
+    "peak_price": 0.04694
+  },
+  {
+    "symbol": "ZORAUSDT",
+    "return": 1.0618451836028888,
+    "start_price": 0.009831,
+    "peak_price": 0.02027
+  },
+  {
+    "symbol": "ZORAUSDT",
+    "return": 1.0293552448479226,
+    "start_price": 0.060364,
+    "peak_price": 0.1225
+  },
+  {
+    "symbol": "SPKUSDT",
+    "return": 1.257602085143354,
+    "start_price": 0.02302,
+    "peak_price": 0.05197
+  },
+  {
+    "symbol": "TACUSDT",
+    "return": 1.2538434661076168,
+    "start_price": 0.005724,
+    "peak_price": 0.012901
+  },
+  {
+    "symbol": "MAVIAUSDT",
+    "return": 1.2471681303296425,
+    "start_price": 0.07857,
+    "peak_price": 0.17656
+  },
+  {
+    "symbol": "FILUSDT",
+    "return": 1.2183377308707124,
+    "start_price": 1.516,
+    "peak_price": 3.363
+  },
+  {
+    "symbol": "VVVUSDT",
+    "return": 1.4909390444810544,
+    "start_price": 1.821,
+    "peak_price": 4.536
+  },
+  {
+    "symbol": "L3USDT",
+    "return": 1.0333333333333332,
+    "start_price": 0.0123,
+    "peak_price": 0.02501
+  },
+  {
+    "symbol": "L3USDT",
+    "return": 1.004270622611823,
+    "start_price": 0.008898,
+    "peak_price": 0.017834
+  },
+  {
+    "symbol": "ENSOUSDT",
+    "return": 1.690939243178049,
+    "start_price": 0.6633,
+    "peak_price": 1.7849
+  },
+  {
+    "symbol": "ENSOUSDT",
+    "return": 1.3158897937965692,
+    "start_price": 1.1542,
+    "peak_price": 2.673
+  },
+  {
+    "symbol": "MERLUSDT",
+    "return": 1.2508086821996156,
+    "start_price": 0.21331,
+    "peak_price": 0.48012
+  }
+]

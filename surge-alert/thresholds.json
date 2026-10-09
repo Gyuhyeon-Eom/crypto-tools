@@ -1,0 +1,170 @@
+{
+  "price_vs_ma7": {
+    "weight": 0.8155476510817642,
+    "direction": "lower",
+    "surge_mean": -0.0589671021095568,
+    "surge_std": 0.12569720264310755,
+    "normal_mean": 0.013642421456313716,
+    "normal_std": 0.07319096132232075
+  },
+  "ret_3d": {
+    "weight": 0.7580919667853085,
+    "direction": "lower",
+    "surge_mean": -0.05426042253690267,
+    "surge_std": 0.14833431407782846,
+    "normal_mean": 0.030766671113555494,
+    "normal_std": 0.09748866617680232
+  },
+  "price_vs_60d_high": {
+    "weight": 0.7300078263184936,
+    "direction": "lower",
+    "surge_mean": 0.5260390097954636,
+    "surge_std": 0.17581321125281832,
+    "normal_mean": 0.7041459917885897,
+    "normal_std": 0.26242309324677005
+  },
+  "green_ratio_3d": {
+    "weight": 0.6490208774307367,
+    "direction": "lower",
+    "surge_mean": 0.3888888888888888,
+    "surge_std": 0.2510811923849032,
+    "normal_mean": 0.5655172413793106,
+    "normal_std": 0.2786767063887745
+  },
+  "rsi_trend_7d": {
+    "weight": 0.5686418225665133,
+    "direction": "lower",
+    "surge_mean": -2.3483244770714697,
+    "surge_std": 11.637136436268314,
+    "normal_mean": 3.2700960396177314,
+    "normal_std": 9.234995480454236
+  },
+  "green_ratio_7d": {
+    "weight": 0.5309575947728987,
+    "direction": "lower",
+    "surge_mean": 0.4107142857142856,
+    "surge_std": 0.16308201826336055,
+    "normal_mean": 0.5014778325123154,
+    "normal_std": 0.17343178243159724
+  },
+  "ret_7d": {
+    "weight": 0.5123324957891193,
+    "direction": "lower",
+    "surge_mean": -0.08479307246208988,
+    "surge_std": 0.1596352409269765,
+    "normal_mean": 0.012225572863539851,
+    "normal_std": 0.1981070437471196
+  },
+  "rsi_oversold_days": {
+    "weight": 0.4776880337133445,
+    "direction": "higher",
+    "surge_mean": 2.4166666666666665,
+    "surge_std": 4.145406754845726,
+    "normal_mean": 0.9517241379310345,
+    "normal_std": 2.6202497614274334
+  },
+  "rsi_14": {
+    "weight": 0.45740930602359636,
+    "direction": "lower",
+    "surge_mean": 40.765100874900625,
+    "surge_std": 12.654122850056813,
+    "normal_mean": 45.3841563327928,
+    "normal_std": 9.110198394312622
+  },
+  "consec_red": {
+    "weight": 0.4378772181160842,
+    "direction": "higher",
+    "surge_mean": 1.5208333333333333,
+    "surge_std": 1.5572696145761877,
+    "normal_mean": 0.9517241379310345,
+    "normal_std": 1.2037616647799791
+  },
+  "rsi_consol_days": {
+    "weight": 0.4192662169660907,
+    "direction": "lower",
+    "surge_mean": 5.645833333333333,
+    "surge_std": 4.940021463185924,
+    "normal_mean": 7.551724137931035,
+    "normal_std": 4.409476906622634
+  },
+  "volatility_ratio": {
+    "weight": 0.4105240879987056,
+    "direction": "higher",
+    "surge_mean": 0.9913337862408498,
+    "surge_std": 0.3313012763230677,
+    "normal_mean": 0.8954721585185861,
+    "normal_std": 0.19104843600047297
+  },
+  "consec_green": {
+    "weight": 0.40684972085963217,
+    "direction": "lower",
+    "surge_mean": 0.4166666666666667,
+    "surge_std": 0.6789645850863049,
+    "normal_mean": 0.8827586206896552,
+    "normal_std": 1.261081151432406
+  },
+  "ret_1d": {
+    "weight": 0.4021819534516752,
+    "direction": "lower",
+    "surge_mean": -0.040340894766974056,
+    "surge_std": 0.1238229352551281,
+    "normal_mean": -0.006583410754249802,
+    "normal_std": 0.0658822985399208
+  },
+  "price_vs_ma20": {
+    "weight": 0.3462837883341315,
+    "direction": "lower",
+    "surge_mean": -0.08453536067243134,
+    "surge_std": 0.179146123313314,
+    "normal_mean": -0.03285693367453386,
+    "normal_std": 0.13808000608645274
+  },
+  "atr_14d_ratio": {
+    "weight": 0.31676350728508457,
+    "direction": "higher",
+    "surge_mean": 0.13370038595419345,
+    "surge_std": 0.08268796069194358,
+    "normal_mean": 0.11430500473818608,
+    "normal_std": 0.052355883490738366
+  },
+  "rsi_min_14d": {
+    "weight": 0.27762026086198877,
+    "direction": "lower",
+    "surge_mean": 33.305279259870865,
+    "surge_std": 11.274838080618272,
+    "normal_mean": 35.60681020940119,
+    "normal_std": 7.047577992102979
+  },
+  "vol_ratio_7d_30d": {
+    "weight": 0.27380256615073423,
+    "direction": "higher",
+    "surge_mean": 0.9737654845346623,
+    "surge_std": 0.6024684191431104,
+    "normal_mean": 0.844324652103854,
+    "normal_std": 0.4218676699696609
+  },
+  "bb_position": {
+    "weight": 0.2690208270581662,
+    "direction": "lower",
+    "surge_mean": 0.17585271537723332,
+    "surge_std": 0.7752162475459766,
+    "normal_mean": 0.32361847215726475,
+    "normal_std": 0.45169152648666516
+  },
+  "avg_body_ratio_7d": {
+    "weight": 0.23281129841661868,
+    "direction": "lower",
+    "surge_mean": 0.42978969833604275,
+    "surge_std": 0.1169533730543529,
+    "normal_mean": 0.45572287340481393,
+    "normal_std": 0.10951489778021611
+  },
+  "avg_upper_wick_7d": {
+    "weight": 0.22783428586108212,
+    "direction": "higher",
+    "surge_mean": 0.2990279163780387,
+    "surge_std": 0.10397776964177664,
+    "normal_mean": 0.27764630951606983,
+    "normal_std": 0.09029498558519598
+  }
+}
