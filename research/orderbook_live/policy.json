@@ -1,0 +1,26 @@
+{
+  "version": "orderbook-observation-v1",
+  "meaning": "Experimental live microstructure observations, NOT predictions from the prospective model. Thresholds below are engineering defaults, not backtested or calibrated. No accuracy or lead-time claim. Does not replace or change orderbook_eval surge labels or evaluation candidate policy.",
+  "hold_ms": 10000,
+  "max_sample_gap_ms": 2500,
+  "symbol_cooldown_ms": 3600000,
+  "max_spread_bps": 25,
+  "min_trade_count": 10,
+  "min_side_quote": 1000,
+  "ask_depletion": {
+    "min_net_buy_fraction": 0.2,
+    "max_depth_change": -0.3,
+    "max_last10s_ratio": 0.7,
+    "max_cost_change": -0.2,
+    "min_mid_return": 0,
+    "max_mid_return": 0.0025
+  },
+  "bid_recovery": {
+    "max_net_buy_fraction": -0.2,
+    "min_recovery": 0.3,
+    "min_mid_return": -0.001,
+    "max_mid_return": 0.0025
+  },
+  "excluded_symbols": ["BTCUSDT"],
+  "operations": "One live process per checkout; persist per-symbol signal cooldown across restart, no automatic retry of ambiguous network failures. Signals require --signals; delivery requires --slack. Default mode only journals previews locally. Webhook lookup: explicit ORDERBOOK_SLACK_WEBHOOK_URL, else SLACK_WEBHOOK_URL*, else ~/.openclaw/.env.slack-surge. No daemon installed by running this program."
+}
