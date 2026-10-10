@@ -1,0 +1,6 @@
+{
+  "status":"Supplementary retrospective trajectory analysis; designed after initial-trigger comparison, not independent validation or alert precision",
+  "sampling":"Keep exact original matched sets and controls. For each case, measure again15min and5min before its known future onset, only if initial volume trigger occurred at least that many minutes before onset. Control measurement advances by same elapsed duration after its own initial trigger. No rematching or threshold tuning. These onset-aligned times are hindsight sampling, not an executable oracle.",
+  "features":"Same tape_detail v2 raw60min features and quality rules, no changes. Complete4-row set per stage; per-feature missingness removes whole set.",
+  "statistics":"Use original discovery directions, no refitting at later checkpoints. Both periods and both checkpoints reported, plus original trigger. Later intervals use Bonferroni0.05/18 for6features times3checkpoints,7day blocks. Only exploratory under repeated reuse of the same events. Same event seen3 times is not3 independent events."
+}

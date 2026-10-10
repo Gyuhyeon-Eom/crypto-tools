@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "study": "Exploratory matched case-control study of Bybit spot trade flow",
+  "seed": 20261009,
+  "outcome": "Existing causal hourly label: first 24h high < +10%, first +30% high touch during hours 25..168",
+  "sampling": "Per event choose positive observation closest to 48h before first +30% touch; deterministic random maximum 80 events each train/test; all validation events. This is retrospective event anchoring, not a tradable signal or precision estimate.",
+  "controls": "Three same-time same-split symbols with no +30% touch in 168h; nearest Euclidean distance in log liquidity, log weekly volatility, past24h return standardized using all training eligible rows; exclude same symbol. No flow-based matching. No future information enters features.",
+  "features": "Past24h only, 5min bars. Baseline t-24..-6h, absorption t-6..-2h, reversal t-2..0h. Archive side treated as taker side under Bybit API convention; archive-specific semantics unconfirmed. Include all RPI trades.",
+  "primary_scores": {
+    "buy_shift": "Net buy fraction last2h minus preceding4h; higher expected before surge",
+    "sell_resilience": "1 - (downside return per net-sell fraction in absorption4h)/(same baseline18h), only sell-heavy bars with net flow <= -0.20; min3 recent/min8 baseline bars; higher expected",
+    "compression": "-log(mean normalized high-low baseline18h / prior7day hourly mean high-low /12); higher means tighter range. Cross-frequency reference is approximate and fixed.",
+    "quiet_activity": "log(notional per hour in absorption4h / baseline18h) - abs(absorption4h return)/0.01; higher expected",
+    "sequence": "Boolean: absorption4h net flow<=-0.10, sellnotional/hour ratio>=1.25, price return>=-0.005; then last2h net flow>=0.10, flow shift>=0.15 and price return>0"
+  },
+  "quality": "Drop entire matched set if any daily archive missing, <80% active 5min bars per window, last trade >5min before anchor, or archive hourly turnover differs >1% from existing Bybit candles. Individual scores with insufficient sell bars exclude entire set for that score.",
+  "analysis": "Matched concordance: proportion of three controls below case, ties half; chance 0.5. 7day calendar-block bootstrap 10000 draws gives95% and99% intervals;99% intervals Bonferroni guardrail for5 scores. Report train/validation/test, rule case/control prevalence and block count. No threshold search, model selection or causal/precision claim.",
+  "limitations": "Previously inspected dates reused, current common exchange listing survivor bias inherited, no full order-book data, overlapping events/controls and serial dependence, only9 test calendar blocks, chosen 48h horizon may miss minute-scale effects. No production integration."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "Exploratory causal historical replay; both historical periods have been examined in earlier studies. Freeze these rules before this replay, no threshold search or claim of fresh confirmation.",
+  "universe_and_labels": "Inherit minute_onset panel, 36 spot coins, all prior quality/eligibility definitions, objective 5min close+2% and60min high+8% onset, quiet prehistory and24h event de-duplication. Discovery Apr2-Jun30 with2h purge; temporal replication Aug1-Sep30.",
+  "episode": "At any eligible and quality-valid closed5min observation with quote_accel>=0.8338692277262161 start an episode. Expire after60min. Reset on a missing5min observation or quality failure. After an episode, re-arm only following30min of consecutive quality-valid observations below the volume cutoff. One alert per policy per episode; no UTC daily cap and no calendar24h cooldown. All state transitions use past/current observations only. Each period starts with a fresh unarmed state requiring30min reset before first start.",
+  "policies": {
+    "entry": "Alert at episode start.",
+    "delay15": "Alert exactly15min after start if current quality and price eligibility pass, regardless of price holding or flow.",
+    "hold15": "At exactly15min, same gate as delay15 plus all lows since entry >=99% entry close, and current close between100% and102% entry close (upper exclusive).",
+    "hold_rebuy": "First eligible observation15..60min after start satisfying the same price-holding gate, previous10min net buy quote fraction<=0 and most recent5min net buy quote fraction>=0.20. Previous10min excludes the current5min. A zero-turnover flow window is unavailable. These fixed round thresholds are illustrative hypotheses, not learned or optimized."
+  },
+  "evaluation": "Generate alerts without labels, then join outcomes. Primary strict onsets5..60min ahead; lead0 is reported separately and excluded from primary. Report alerts, unscorable alerts, strict hits, event recall, lead, forward60min downside and return. These are not execution PnL. All policies reported in both periods. All same-coin same-day quality and price-eligible closed5min observations form count-matched random baseline,200 draws, without replacement within a policy's day/coin. Baseline is a hindsight evaluation reference, not executable policy.",
+  "limitations": "Small number of independent events, reused evaluation period, current-universe survivorship, archive gaps, full candle-close timing and no latency simulation, event definition narrower than generic surge. No deployment, notification, trading, scheduling or change to previous frozen forward study."
+}

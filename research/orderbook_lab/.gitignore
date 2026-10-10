@@ -1,0 +1,3 @@
+__pycache__/
+output/run_*/raw_*.jsonl.gz
+output/run_*/features.jsonl.gz

@@ -1,0 +1,20 @@
+{
+  "status": "Event-first descriptive exploration; not a fitted predictive model or untouched holdout. Both periods have been inspected in earlier studies. Freeze definitions before this census.",
+  "universe": "All115 existing Bybit spot hourly series in microstructure/output/bybit.parquet. BTC is used as market reference;114 other coins are potential events. This remains an availability/current-listing sample, not the whole historical market.",
+  "event": "Anchor t is immediately before an hour closing>=5% above close(t), and next24h high reaches>=15% above close(t). Require720 consecutive observed hourly closes before/at t and complete next24h OHLC. No volume trigger, quiet-period, liquidity band, raw-trade availability or existing model gate. Earliest qualifying anchor, then24h refractory per coin. This reuses prior hourly price thresholds but deliberately removes quiet/liquidity filters, and is a different target from the5min study. Do not compare precision across targets.",
+  "periods": "Discovery Apr2-Jun29 23:00 UTC, replication Aug1-Sep30 23:00 UTC. July omitted. Labels fully mature within discovery cutoffJul1. Period reuse means temporal descriptive comparison only.",
+  "pre_features_at_t": {
+    "volume_build": "Mean turnover last6 closed hours /mean preceding168 closed hours, threshold>=2",
+    "compression": "Mean high-low/previous_close last6 hours /mean preceding168 hours, threshold<=0.7",
+    "near_high": "close(t)/max high in previous168 hours excluding current hour, threshold>=0.98; includes already-broken-high observations",
+    "prior_runup": "close(t)/close(t-24h)-1, threshold>=0.05",
+    "relative_strength": "24h coin return minus24h BTC return, threshold>=0.05",
+    "recent_spike": "At least one closed hour return>=3% among last72 hours",
+    "market_up": "Median6h return of all observed non-BTC coins, threshold>=1%",
+    "market_breadth": "Fraction observed non-BTC coins with6h return>0, threshold>=60%"
+  },
+  "event_types": "Pre-event24h return<-5%: rebound context; >=5%: continuation context; otherwise flat context. These are price-context labels, not causal mechanisms. Report all events and matched subset, continuous quantiles, at-event turnover ratio, and future24h giveback without calling event-concurrent observations precursors.",
+  "controls": "3 same-coin observations in same split, sameUTC hour, within28days and>=48h from case; complete past/future, no raw qualifying surge anchor within+/-24h, next24h peak<15%. Match log trailing7d volatility and log trailing14d daily turnover, both lagged24h, using discovery-eligible global SD and maxEuclidean distance3. Distinct dates, no feature-based rematching. Controls may be reused across cases; report reuse. Matching excludes some events; report attrition/types separately.",
+  "statistics": "For8 predetermined pre-features, report event/control prevalence, paired risk difference, continuous medians and7day-block bootstrap99.375% intervals (nominal8-comparison adjustment). Repeated controls and small blocks limit intervals. No claims of causal effect, alert precision or profit. Report all features; retrospective trajectories -24..+24h and context types are descriptive, not independent tests. No threshold search or automatic model selection.",
+  "quality_and_limits": "Hourly clock aligned to candle END. Raw data timestamps/OHLC and uniqueness checked. All pre-features use data<=t; labels/during/future metrics are separate. Hourly resolution cannot locate minute-level onset. Price-defined selection mechanically favors large contemporaneous price moves. Previous frozen experiments and production scanner remain unchanged."
+}

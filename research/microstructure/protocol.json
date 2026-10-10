@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-10-09",
+  "purpose": "Retrospective tests of flow, derivatives, absorption sequence and cross-venue precursor hypotheses. Conditions fixed before examining the new feature/outcome relationships.",
+  "data_start": "2026-03-01T00:00:00Z",
+  "data_end_exclusive": "2026-10-09T00:00:00Z",
+  "universe": "Archived Bybit spot symbols with >=90 observations by 2026-03-31 and trailing 30-day USD volume proxy $200K-$20M, excluding stable/major assets; intersect currently queryable Binance spot and Bybit linear symbols. Retain only periods with historical observations. Current availability creates survivorship bias.",
+  "sampling": "One observation each 4 hours at closed-bar boundaries. Bybit spot hourly prices and Binance spot hourly taker quote volume. OI sampled 4-hourly and made available with one-hour lag; settled funding also lagged one hour. No forward-fill across OI age >8h or funding age >12h.",
+  "eligible": "At observation: past 24h return <5%, past 168h return <10%, trailing 30-day Bybit spot turnover $200K-$20M; no future criteria used in eligibility.",
+  "primary_target": "Within next 168h Bybit high reaches +30%, while all highs in first 24h remain below +10%. Exact high-touch hour; hourly ordering inside same bar unknown.",
+  "secondary_target": "Within next 24h Bybit high reaches +15%, while all highs in first 3h remain below +3%. Descriptive sensitivity only, not used to rescue primary failure.",
+  "train": "2026-04-01 through rows whose primary label ends before 2026-07-01",
+  "validation": "2026-07-01 through rows whose primary label ends before 2026-08-01",
+  "test": "2026-08-01 onward with full 168h outcomes available",
+  "holdout_caveat": "The same Aug-Oct dates were inspected in the previous daily-price study. This is additional retrospective evidence, not a pristine never-seen holdout or prospective confirmation.",
+  "hypotheses": {
+    "H1_buying_flat": "abs(Bybit ret6h)<=2%; Binance taker buy share6h>=55%; increase versus previous18h>=5 percentage points; Binance quote volume6h / preceding168h hourly mean>=1.25.",
+    "H2_oi_funding": "abs(Bybit ret6h)<=2%; Bybit OI growth24h>=5%; settled funding sum24h<=0 and lower than preceding24h sum.",
+    "H3_absorption": "Binance normalized range averaged over t-24h..t-6h <=0.75 times preceding168h average; recent6h taker buy share<=45% (net aggressive selling), Binance ret6h>=-0.5%, and quote volume6h ratio>=1.25.",
+    "H4_venue_lead": "Binance/Bybit log-price basis above its causal prior168h median by >=0.2%; Binance ret1h greater than Bybit ret1h; Binance taker buy share1h>=55%.",
+    "H3b_absorption_breakout": "Secondary sequence variant: H3 and Binance current close above the max high of prior24h ending 6h ago. Report rarity; never relax after seeing results."
+  },
+  "evaluation": "Report eligible row hit rate, date+4h matched controls, date+4h and liquidity/volatility tercile controls where >=3 controls, uncertainty via 7-day calendar block bootstrap. Also replay each fixed rule with per-symbol 7-day cooldown, max3 alerts/day; no arbitrary forced alerts. Score candidates by the corresponding continuous hypothesized signal. Report non-overlapping target-episode recall, clean hits before -10% adverse touch, and -20% downside incidence.",
+  "multiple_testing": "Four primary families, with Bonferroni-adjusted one-sided 98.75% bootstrap lower bound as an exploratory guardrail; H3b and secondary target are descriptive. Require >=30 test alerts, primary matched lift >1, lower bound >1, validation direction consistent, and superiority to same-budget simple baseline before calling a hypothesis supported.",
+  "ablations": "A fixed logistic baseline with price/volume/market features versus same model plus flow/OI/funding/basis features. Fixed C=0.1, no class weighting. Same complete-case eligible rows. Selection/threshold tuning on July only; final comparison cannot alter hypotheses.",
+  "not_covered": "Same-theme lead signals, historical order book depth, latent insider behavior and causation are not established by these data. Binance buy/sell flow is explicitly Binance flow, not reconstructed Bybit spot flow."
+}

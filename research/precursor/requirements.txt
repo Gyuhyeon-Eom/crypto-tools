@@ -1,0 +1,9 @@
+certifi
+numpy
+pandas
+pyarrow
+scikit-learn
+scipy
+matplotlib
+joblib
+threadpoolctl

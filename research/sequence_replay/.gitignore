@@ -1,0 +1,3 @@
+__pycache__/
+output/*.parquet
+output/capture_*/messages.jsonl.gz

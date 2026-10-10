@@ -1,0 +1,4 @@
+# Generated market data, reports, model artifacts and machine-specific run logs.
+*/output/
+__pycache__/
+*.pyc

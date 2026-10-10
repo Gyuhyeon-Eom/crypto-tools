@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "purpose": "Incremental information in microstructure after a volume trigger; match hard negatives on same coin, not quiet ordinary observations",
+  "upstream": "Frozen minute_onset volume cutoff exp(0.8338692277262161), unchanged event5min+2% and60min+8%, same36coins and quality gates. No new retrospective pump definition.",
+  "sampling": "Use all upstream eligible volume-trigger timestamps. Case=earliest trigger5..60min before each objective onset, one per event. Retrospective case anchoring, NOT prospective precision. Controls same coin/same split, no onset in0..60min and next60min peak<8%, at least24h from case, within14calendar days, circular time-of-day within4h. Match volume logratio,log7dayvolatility,logliquidity,log1p(candidate burst age), with discovery-only SD, maxdistance3;3 controls on distinctUTC days. A burst continues if successive volume-trigger timestamps are <=10min apart. No fine-feature based matching or replacement after raw quality check.",
+  "raw_windows": "Read original public spot trades in [anchor-60min,anchor). No trade at/after anchor. Stable timestamp order; all RPI included. Required daily files exist and quote total matches cached5min sum within1%; baseline45min>=20 prints and recent15min>=10 prints, lasttrade<=300sec. Zero-trade minutes are observed inactivity, not missing files; forward-fill prices only after a known past print. First observed minute return uses that minute first print as starting price if no earlier price in window. Feature-specific sample minima remain. Drop whole4-row set on any shared quality failure.",
+  "features": {
+    "buy_persistence": "Fraction active1min bins netbuy>0 in last15min minus baseline45min fraction",
+    "buy_acceleration": "Net buy notional fraction last5min minus previous10min",
+    "sell_resilience": "Baseline45min downside return per sell imbalance minus recent15min same value; only1min netbuy<=-0.20; >=6 baseline and>=3 recent sell-heavy minutes; unavailable otherwise",
+    "price_efficiency": "Last15min compounded return / sum(abs one-minute returns), higher=more orderly upward path",
+    "arrival_acceleration": "log(median positive unique-timestamp gap baseline45min / last5min), min10 gaps each; ignores simultaneous timestamp batching",
+    "large_buy_change": "Buy quote notional from individual prints above baseline45min95th-percentile quote / total quote; recent15min minus baseline45min"
+  },
+  "discovery": "Apr2..Jun30 with120min label purge beforeJul1. Direction inferred only here. At most2 candidate features with >=10 complete matched sets, oriented concordance>=0.60 and95%7day-block lower>0.50. No forced selection. Source and directions frozen before later fine-feature comparisons.",
+  "replication": "Aug1..Sep30. Same inferred directions and definitions;99.1667%7day-block bootstrap intervals for6 features,10000 draws. Missing feature excludes whole set for that feature. Period already inspected on other features; exploratory temporal replication, not fresh confirmation.",
+  "scope": "Matched microstructure analysis estimates conditional differences, not signal precision, ROC on the full universe, or causal order-book absorption. No claims about whales, passive orders, or profit. Preserve earlier frozen forward experiment.",
+  "amendment": "Before inspecting replication microstructure comparisons, v1 minute-activity80%/first-minute/60sec filters retained only3 discovery sets. Removed that conflation of true inactivity with missing archives; adopted complete-file/notional reconciliation and raw-print minima. Preserved v1 source,protocol,features,and frozen discovery. Matching,feature formulas,selection criteria,split and event labels unchanged. This design revision was informed by discovery attrition, not an untouched preregistration."
+}
