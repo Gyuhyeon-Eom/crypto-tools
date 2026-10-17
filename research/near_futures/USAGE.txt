@@ -1,0 +1,41 @@
+NEAR 선물 탐색 수집 (Bybit USDT 무기한)
+
+목표: NEAR 가격 +5%, +10% 상승을 별도로 연구한다. 레버리지 ROI가 아니다.
+NEARUSDT는 분석/관찰 알림 대상, BTCUSDT와 ETHUSDT는 시장 비교 자료다.
+실행 전 API에서 세 계약의 LinearPerpetual/Trading/USDT 상태를 확인한다.
+기존 현물 수집 및 114종목 급등 연구와 저장 폴더, 상태 파일을 분리한다.
+
+레포 최상위에서 (Node22 이상):
+  node research/near_futures/capture.mjs 180 --dry-run
+  node research/near_futures/capture.mjs 86400 --slack
+
+--slack은 기존 orderbook_live와 같은 웹훅 설정으로 수집 상태를 보낸다.
+--signals를 추가하면 NEAR만 기존 실험용 호가 관찰 알림을 보낸다.
+기본값은 관찰 알림 꺼짐. 이 조건은 NEAR 선물에서 검증한 매수 신호가 아니다.
+--slack 없는 실행은 외부 메시지를 보내지 않는다.
+BTC/ETH는 --signals를 지정해도 관찰 알림 대상에서 제외된다.
+
+저장 위치는 터미널 작업 폴더가 아닌 이 스크립트 옆 output/run_*/ 이다.
+summary.json, features.jsonl.gz, raw_*.jsonl.gz, notifications.jsonl를 보관한다.
+각 지표/원시 기록과 요약에 거래소, linear 시장, 계약 종류, 연구 버전을 남긴다.
+일회 실행 최대24시간 또는 비압축 원시 기록1GiB 초과 시 종료한다.
+자동 재실행/맥미니 서비스는 설치하지 않는다. 이 명령만으로 무기한 수집되지 않는다.
+
+완료된 실행 재생 검사:
+  node research/near_futures/audit.mjs research/near_futures/output/run_<실제 실행 폴더>
+기존 orderbook_lab/audit.mjs 대신 전용 검사를 쓴다. 시장 식별자가 다르면 거부한다.
+
+검증:
+  node --test research/near_futures/*.test.mjs research/orderbook_live/*.test.mjs research/orderbook_lab/*.test.mjs
+
+분석 설정: profile.json
+6/12/24/48/72시간은 탐색용 비교 구간으로 제안한 값이며 사용자 보유 시간이나
+확정된 평가 기한이 아니다. 모든 구간의 목표 도달 시간과 도달 전 최대 하락 폭을
+비교한 뒤, 별도 미래 평가 이전에 신호/기한/실패 조건을 고정해야 한다.
+현재는 수집기와 분석 설정만 구현했다. 목표 라벨 계산, 모델 학습, 성능 검증은
+아직 구현/실행하지 않았다. 기존 현물 데이터를 선물 정답으로 대체하지 않는다.
+손절/청산 규칙 없이 목표 가격 접촉 비율을 매매 승률로 표시하지 않는다.
+
+공식 연결 규격:
+https://bybit-exchange.github.io/docs/v5/ws/connect
+https://bybit-exchange.github.io/docs/v5/market/instrument

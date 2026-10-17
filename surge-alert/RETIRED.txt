@@ -1,0 +1,4 @@
+사용자 요청으로 알림 서비스 폐지. 후속 실행 경로는 momentum-alert/USAGE.txt 참고.
+과거 연구 코드와 데이터는 보존한다. send_slack은 전송하지 않고 기존 상시 스캐너는
+명령행 진입 시 종료한다. 이미 실행 중인 프로세스/외부 스케줄은 실행 머신에서
+python3 momentum-alert/service.py 로 확인한 뒤 전환한다.

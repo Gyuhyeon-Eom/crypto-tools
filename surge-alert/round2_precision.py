@@ -38,6 +38,7 @@ if os.path.exists(_env):
             if line.startswith("SLACK_WEBHOOK_URL="): WEBHOOK_URL=line.strip().split("=",1)[1]
 
 def send_slack(msg):
+    return  # Retired: replaced by momentum-alert; historical analysis remains available.
     if not WEBHOOK_URL: print(f"[SLACK] {msg}"); return
     payload=json.dumps({"text":msg})
     req=urllib.request.Request(WEBHOOK_URL,data=payload.encode(),

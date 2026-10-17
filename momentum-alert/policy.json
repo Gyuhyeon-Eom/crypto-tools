@@ -1,0 +1,12 @@
+{
+  "version": "near-momentum-observation-v1",
+  "meaning": "Unvalidated observation rules, not a trained +5%/+10% predictor or a buy recommendation.",
+  "category": "linear",
+  "primary": "NEARUSDT",
+  "references": ["BTCUSDT", "ETHUSDT"],
+  "candidates": ["SUIUSDT", "APTUSDT", "AVAXUSDT", "INJUSDT", "SEIUSDT", "ATOMUSDT", "SOLUSDT", "ADAUSDT", "DOTUSDT", "ARUSDT", "RENDERUSDT"],
+  "selection": {"hours": 720, "additional_symbols": 3, "min_daily_turnover": 10000000, "min_correlation": 0.45, "min_residual_correlation": 0.2, "min_vol_ratio": 0.5, "max_vol_ratio": 2.0},
+  "signal": {"turnover_ratio": 1.8, "max_distance_below_high": 0.01, "max_above_high": 0.01, "max_hour_return": 0.03, "min_btc_excess_hour_return": 0.003, "max_spread_bps": 15, "cooldown_hours": 6},
+  "price_targets": [0.05, 0.10],
+  "operations": "Scan every5min using closed15min/hour candles; log all candidates. Watchlist selection is discovery, not validation. No historical win-rate claim."
+}

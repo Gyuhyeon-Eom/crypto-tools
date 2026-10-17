@@ -720,6 +720,7 @@ def check_alerts(results, prev_prices):
 # ============================================================
 
 def send_slack(msg):
+    return  # Retired: replaced by momentum-alert; historical analysis remains available.
     if not SLACK_WEBHOOK_URLS:
         print(f"[NO SLACK]\n{msg}\n")
         return
@@ -825,6 +826,7 @@ def main():
     print("[EXIT]")
 
 if __name__ == "__main__":
+    raise SystemExit("Legacy notifier retired. Use node momentum-alert/scan.mjs; see momentum-alert/USAGE.txt")
     if "--once" in sys.argv:
         results = get_tickers()
         if results:

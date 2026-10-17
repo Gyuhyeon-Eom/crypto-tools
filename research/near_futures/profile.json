@@ -1,0 +1,26 @@
+{
+  "version": "near-futures-discovery-v1",
+  "exchange": "bybit",
+  "category": "linear",
+  "contract_type": "LinearPerpetual",
+  "settle_coin": "USDT",
+  "websocket": "wss://stream.bybit.com/v5/public/linear",
+  "target_symbol": "NEARUSDT",
+  "reference_symbols": ["BTCUSDT", "ETHUSDT"],
+  "direction": "long",
+  "price_return_targets": [0.05, 0.10],
+  "exploratory_horizons_hours": [6, 12, 24, 48, 72],
+  "evaluation_status": "discovery_only_not_registered",
+  "label_requirements": [
+    "Separate +5% and +10% underlying-price returns; never leveraged ROI.",
+    "Entry must be observable after a signal; no hindsight entry at a local low.",
+    "Report first target-touch time and maximum adverse excursion before touch or horizon.",
+    "Missing or immature outcomes are unknown; never negatives or unlimited eventual wins.",
+    "Show every exploratory horizon; do not report the best horizon as held-out performance.",
+    "Freeze signal, horizon and failure rules before a separate chronological evaluation.",
+    "No stop or liquidation rule registered; price-touch rates are not strategy win rates.",
+    "Fees, funding and execution costs are required before claiming net strategy returns."
+  ],
+  "legacy_comparison": "Separate study; not an improvement claim over the original 114-symbol +15% surge target.",
+  "operations": "Public orderbook/trade collection only; existing observation thresholds are unvalidated for NEAR futures. No prediction model, orders or daemon."
+}

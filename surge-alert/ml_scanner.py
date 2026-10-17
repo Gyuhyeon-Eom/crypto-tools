@@ -25,6 +25,7 @@ if os.path.exists(_env):
             if line.startswith("SLACK_WEBHOOK_URL="): WEBHOOK_URL=line.strip().split("=",1)[1]
 
 def send_slack(msg):
+    return  # Retired: replaced by momentum-alert; historical analysis remains available.
     if not WEBHOOK_URL: print(msg); return
     for chunk in [msg[i:i+3500] for i in range(0,len(msg),3500)]:
         payload=json.dumps({"text":chunk})
@@ -140,4 +141,5 @@ def main():
     state["last_scan"]=now.isoformat()
     save_state(state)
 
-if __name__=="__main__": main()
+if __name__=="__main__":
+    raise SystemExit("Legacy notifier retired. Use node momentum-alert/scan.mjs; see momentum-alert/USAGE.txt")

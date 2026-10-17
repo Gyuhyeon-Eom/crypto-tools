@@ -500,6 +500,7 @@ def compute_combined_score(daily_score, realtime_result):
 # ============================================================
 
 def send_slack(msg):
+    return  # Retired: replaced by momentum-alert; historical analysis remains available.
     if not SLACK_WEBHOOK_URL:
         print(f"[NO SLACK]\n{msg}\n")
         return
@@ -780,4 +781,5 @@ def main():
             time.sleep(60)
 
 if __name__ == "__main__":
+    raise SystemExit("Legacy notifier retired. Use node momentum-alert/scan.mjs; see momentum-alert/USAGE.txt")
     main()

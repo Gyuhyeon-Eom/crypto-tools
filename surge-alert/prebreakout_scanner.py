@@ -69,6 +69,7 @@ def bybit_get(ep, params=None, retries=3):
 
 
 def send_slack(msg):
+    return  # Retired: replaced by momentum-alert; historical analysis remains available.
     if not WEBHOOK_URL:
         print(msg)
         return
@@ -633,4 +634,5 @@ def run_scan():
 
 
 if __name__ == "__main__":
+    raise SystemExit("Legacy notifier retired. Use node momentum-alert/scan.mjs; see momentum-alert/USAGE.txt")
     run_scan()

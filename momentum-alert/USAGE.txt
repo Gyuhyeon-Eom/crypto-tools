@@ -1,0 +1,75 @@
+NEAR Momentum — Bybit USDT 무기한 선물 관찰 알리미
+
+기존 surge-alert / crypto-monitor 알림을 폐지하고 이 실행 경로로 통합한다.
+기존 분석 코드/수집 기록은 보존한다. 이전 실행 파일은 재실행 시 종료하며
+기존 send_slack 함수도 전송하지 않는다. 이미 실행 중인 프로세스는 별도 중지가 필요하다.
+
+초기 대상은 watchlist.json에 고정한다. NEAR는 사용자가 지정한 주 대상이다.
+최근30일의 확정1시간봉 수익률 상관, BTC 영향 제거 후 상관, 변동성 비율,
+24시간 거래대금으로 사전에 정한 후보11종목 중 최대3개를 고른다.
+조건 충족 종목이 없으면 NEAR만 유지한다. 유사성은 상승 예측이 아니다.
+BTC/ETH는 시장 비교용이다. select.mjs를 재실행해야 감시 종목이 바뀐다.
+성과 평가는 종목 선정 이후 자료만 사용하며 이전 수익률을 적중률로 표시하지 않는다.
+
+실행 (레포 최상위, Node22+):
+  node momentum-alert/scan.mjs
+  node momentum-alert/scan.mjs --slack --check
+  node momentum-alert/scan.mjs --slack
+
+첫 명령은 1회 수집/미리보기이며 Slack에 보내지 않는다.
+--check는 계약/설정 확인만 하고 메시지는 보내지 않는다.
+--slack은 조건에 맞는 실험 관찰만 기존 surge 웹훅으로 보낸다.
+웹훅: MOMENTUM_SLACK_WEBHOOK_URL, 기존 ORDERBOOK_SLACK_WEBHOOK_URL,
+SLACK_WEBHOOK_URL* 환경변수, ~/.openclaw/.env.slack-surge 순서.
+위에 없으면 ~/.openclaw/.env.slack-crypto 사용. 키는 Git에 넣지 않는다.
+
+알림 조건은 policy.json에 있는 미검증 운영용 가설이다:
+- 확정15분봉 종가가 시간봉 EMA20 위, EMA20이 EMA50 위
+- 직전20개15분봉 거래대금 중앙값의1.8배 이상
+- 직전5시간 고점의 -1%~+1% 범위
+- 확정1시간 수익률 0~3%, BTC 대비 +0.3%p 이상
+- 거래대금/스프레드 조건, 종목별6시간 알림 간격 및 같은 봉 중복 차단
+미완성 봉, 누락/오래된 봉, 잘못된 시장, 잘못된 상태 파일은 알림에 쓰지 않는다.
+현재 버전은 가격/거래대금 관찰이다. 호가 전조 가설이나 +5/+10% 목표 도달 예측은
+검증되지 않았고 주문 실행, 손절, 수익률80% 모델은 없다.
+메시지의 +5/+10% 가격은 알림 시점 참고 가격 기준이다. 실제 체결/순수익 보장이 아니다.
+
+맥미니 전환 (반드시 그 머신에서 실행):
+  python3 momentum-alert/service.py
+  python3 momentum-alert/service.py --install
+
+첫 명령은 기존 LaunchAgent/프로세스/cron 매칭 결과만 확인한다.
+--install은 저장된 기존 웹훅과 공개 선물 API를 검사한 뒤 새 LaunchAgent를
+5분 주기로 등록하고, surge-alert/crypto-monitor 경로로 확인된 기존 작업을 중지한다.
+다른 프로그램의 작업은 건드리지 않는다. 사용자 LaunchAgent이므로 로그인 세션이 필요하다.
+외부 OpenClaw 등의 스케줄과 다른 머신은 직접 수정하지 않는다. 기존 스크립트의
+폐지 처리는 이 체크아웃에만 적용되므로 별도 복사본은 그쪽에도 업데이트해야 한다.
+--retire-only는 새 서비스 없이 확인된 기존 작업만 중지한다.
+비밀 값이 담길 수 있는 기존 cron 백업은 output/ 아래 권한600으로 보관한다.
+
+선택 근거 다시 계산 (먼저 보고서만):
+  node momentum-alert/select.mjs
+고정 목록을 바꾸려면:
+  node momentum-alert/select.mjs --write-watchlist
+추후 검증 중에는 목록/조건을 결과에 맞춰 바꾸지 않는다.
+
+기록: momentum-alert/output/
+- scan_*.json.gz: 원본 캔들/티커, 조건/목록/소스 해시, 통과/탈락 이유
+- *_candidates.jsonl: 미알림 구간 포함 모든 관찰
+- *_notifications.jsonl: 실제 전달/실패/미리보기 상태
+- live_state.json / preview_state.json: 모드별 지속 중복 방지
+전송 전 상태를 저장한다. 전송 실패/불확실 시 중복 방지를 위해 같은 신호를
+자동 재전송하지 않으며 전달 실패가 적중/성공으로 기록되지 않는다.
+로그는 자동 삭제하지 않는다. 서비스 로그/관찰 저장소 용량을 주기적으로 점검한다.
+연속 API 실패는 service-error.log 및 launchd 종료 코드로 확인한다.
+
+테스트:
+  node --test momentum-alert/*.test.mjs research/near_futures/*.test.mjs research/orderbook_live/*.test.mjs research/orderbook_lab/*.test.mjs
+  python3 -m unittest discover -s momentum-alert -p 'test_*.py'
+
+기존 연구용 NEAR 호가 수집기는 research/near_futures/USAGE.txt 참고.
+이 알리미의 서비스 등록이 별도의 호가 수집기를 실행하지는 않는다.
+
+공식 규격:
+https://bybit-exchange.github.io/docs/v5/market/kline
+https://bybit-exchange.github.io/docs/v5/market/tickers
