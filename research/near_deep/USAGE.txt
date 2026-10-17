@@ -1,0 +1,64 @@
+NEAR deep evidence study — historical research, no production model promotion
+
+Scope
+  Bybit linear NEARUSDT, underlying price5%/10%, long/short separately.
+  Frozen730-day data ending2026-10-17UTC; every symbol70,080 closed15min candles.
+  Read RESULTS.txt first. Local output/report.html contains the complete report.
+  Earlier research/near_precursor is retained unchanged as the first failed-support study.
+
+Reproduce using the frozen local output/data.json.gz and manifest.json
+  python3 -m pip install -r research/near_deep/requirements.txt
+  python3 -m unittest discover -s research/near_deep -p 'test_*.py' -v
+  OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 python3 research/near_deep/evaluate.py
+  python3 research/near_deep/antecedents.py
+  OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 python3 research/near_deep/robustness.py
+  python3 research/near_deep/null_audit.py
+  node research/near_deep/current_rules.mjs
+  python3 research/near_deep/current_metrics.py
+  python3 research/near_deep/report.py
+
+Acquisition
+  node research/near_deep/fetch.mjs
+  This refuses to overwrite an existing snapshot. On a future day it fetches a NEW
+  trailing730-day sample, not the frozen2026-10-17 snapshot. Git excludes market data,
+  model files and rendered reports. Exact reproduction on another machine requires
+  transferring the frozen output/data.json.gz and manifest.json with matching hashes.
+  The raw archive contains public API responses only, no account credentials.
+
+Files
+  protocol.json: original design frozen before deep data retrieval/model evaluation.
+  stop_protocol.json: user stop clarification recorded before model results.
+  data.py: causal features, hindsight labels, target-touch/path outcomes and splits.
+  evaluate.py: four fixed model variants, three walk-forward folds, two baselines.
+  stops.py:4/12/24h high/low plus causally confirmed15min pivots; pessimistic ties/gaps.
+  antecedents.py: exploratory matched comparisons,96 hypotheses, week blocks and Holm.
+  robustness.py: all structural stops, candidate coverage, postselected peer transfer.
+  null_audit.py:1999 attempts for EVERY model, corrected comparison family, no refitting.
+  current_rules.mjs: actual production core, explicitly approximate historical tickers.
+  output/locks/: model+threshold serialized BEFORE corresponding test predictions.
+  output/scores/: every eligible test candidate, not only the successful alerts.
+  output/*json: all metrics, source/data hashes, version manifest and limitations.
+
+Interpretation
+  Target touch, pre-onset precision and target-before-stop are different quantities.
+  Pre-onset label:15..60min before retrospective zigzag extremum, confirmation<=72h.
+  The quiet-entry filter loses many events; this does NOT prove no precursor exists.
+  24/72h are evaluation windows. Return calculations assume closing at horizon on
+  timeout; this does not reproduce the user's actual discretionary holding period.
+  Costs10/20bp and entry next-open are assumptions, not executed fills. Funding uses
+  fixed entry-notional approximation and exit-bar settlement attribution. Actual
+  funding order within a bar may differ in either direction. No leverage/liquidation.
+  Per-alert returns can overlap; these are NOT capital/portfolio returns.
+  Structural stops use trade price, not mark-price-triggered exchange execution.
+  Stop variants are sensitivities, not the user's exact discretionary chart choices.
+  Weekly CIs are individual, not adjusted for selecting a best trading combination.
+  Random timing uses greedy same-week budgets, not a uniform/causal randomization test.
+  Peer selection used recent history: its transfer results are NOT unbiased validation.
+  Historical OI publication timestamp+15min is a lag assumption, not captured latency.
+  Study does not include historical NEAR orderbook, taker side or liquidation flow.
+
+Operations
+  No Slack send, order, launchd install, remote Mac mini access or automatic promotion.
+  Production momentum-alert remains explicitly unvalidated trend observation.
+  Its actual symbol is now first in the message and per-symbol/direction rejection
+  reasons appear in last_*_scan.json. Mac mini must receive code to use these changes.

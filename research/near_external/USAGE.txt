@@ -1,0 +1,71 @@
+NEAR 외부 지표 검증
+===================
+
+목적
+Bybit NEARUSDT 선물에서 가격 5%/10% 목표를 구조적 손절보다 먼저
+달성하는지 검증한다. 롱/숏을 따로 학습하며, 외부 지표의 추가 효과를
+같은 후보·같은 모델 설정의 기존 가격/OI/펀딩 모델과 비교한다.
+Slack 알림이나 주문을 보내는 실행 파일은 없다.
+
+실행 위치와 의존성
+레포 루트에서 실행한다. Python 의존성은 research/near_deep/requirements.txt,
+실제 실행 버전은 output/study_v1/artifact_manifest.json에 기록돼 있다.
+Node.js는 내장 fetch를 지원하는 버전이 필요하다.
+
+연구 범위
+- protocol.json: 자료 수집·결과 분석 전에 고정한 설계.
+- acquisition_amendment.json: FET Bybit 계약 종료로 AI 3종목의 출처를
+  Binance 현물로 통일한 변경. 모델 학습 전에 기록했다.
+- 기존 연구에서 이미 본 2024-10-17~2026-10-17 UTC의 730일을 사용한다.
+  시간순 분리는 했지만 독립적인 미래 검증으로 해석하지 않는다.
+- 기본 손절은 직전 4시간 저점/고점이다. 12시간/24시간/확인된 스윙은
+  동일 알림의 민감도 분석이며, 사용자의 모든 재량적 전저점/전고점과
+  같다는 뜻은 아니다. 24/72시간은 평가 창이며 실제 보유기한이 아니다.
+
+최초 수집 및 분석 순서
+1. research/near_deep/output/data.json.gz가 있어야 한다.
+   protocol.json의 SHA256과 정확히 일치하는 스냅샷만 허용한다.
+2. node research/near_external/probe.mjs
+   공개 API 응답과 수신 시각을 날짜별 폴더에 보존한다.
+3. node research/near_external/fetch.mjs
+   체인 자료는 probe가 만든 output/latest.json의 스냅샷에서 복사한다.
+   원자료가 완성돼 manifest.json이 있으면 덮어쓰지 않고 중단한다.
+4. python3 research/near_external/train.py
+   원자료 해시 검증 → 지표 생성 → 학습/임계값 저장 → 뒤 기간 평가.
+   results.json이 있으면 결과를 덮어쓰지 않고 중단한다.
+5. python3 research/near_external/diagnostics.py
+6. python3 research/near_external/precision_audit.py
+   적중률 보조 검정은 모델 결과 확인 후 추가한 탐색이다. 재학습하지 않는다.
+7. python3 research/near_external/report.py
+
+이미 완료된 연구를 열 때
+output/study_v1/report.html을 열면 된다. 그림이 포함된 독립 HTML이다.
+보고서만 다시 만들려면 위 7번을 실행한다. 표/그림 변경으로 모델을
+재학습하지 않는다. 현재 스냅샷을 보존하고, 새 실험은 별도 버전으로 만든다.
+
+검증
+python3 -m unittest discover -s research/near_external -p 'test_*.py' -v
+
+산출물
+- manifest.json: 원자료·설계·변경 기록 해시 및 수신 시각.
+- features.parquet / daily.parquet / quality.json: 지표와 자료 품질.
+- models/: 384개 모델과 각각의 평가 전 고정 기록.
+- scores/: 모든 공통 평가 후보의 확률과 정답.
+- alerts/: 고정한 임계값으로 선택한 알림별 결과.
+- outcomes/: 목표/방향/평가 창별 네 가지 손절 결과.
+- results.json: 모든 조합·구간·손절·BTC 국면 결과.
+- diagnostics.json: 같은 주 무작위 대조, 기준선과의 차이, 선행/동행 상관.
+- precision_audit.json: 사후 보조 검정 112개 전체.
+- report.html / 두 PNG / artifact_manifest.json: 보고서와 파일 검증 정보.
+
+원자료·모델·생성 보고서는 research/.gitignore로 Git에서 제외된다.
+다른 머신에서 같은 결과를 확인하려면 near_deep의 원자료 스냅샷과
+near_external/output/study_v1 폴더를 별도로 옮겨야 한다. 재수집한
+역사 자료는 수정될 수 있어 같은 날짜여도 동일 스냅샷을 보장하지 않는다.
+
+해석
+체결 매수 우위는 새 돈의 순유입이 아니다. TVL 변화는 가격 효과를 포함한다.
+계좌 비율은 보유 금액 비율이 아니다. 현재 고정한 섹터 구성, 일별 자료의
+공개 시각·수정 이력, 한 현물 거래소 사용의 한계를 보고서에 명시했다.
+적중률은 손절 전 목표 도달 비율이며, 전조 시작점 포착률과 구분한다.
+건별 비용 후 평균은 중복 포지션을 포함한 가정이며 계좌 수익률이 아니다.

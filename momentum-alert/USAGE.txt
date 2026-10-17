@@ -45,6 +45,13 @@ SLACK_WEBHOOK_URL* 환경변수, ~/.openclaw/.env.slack-surge 순서.
 검증되지 않았고 주문 실행, 손절, 수익률80% 모델은 없다.
 메시지 제목에 LONG/롱 또는 SHORT/숏을 표시한다. 롱 +5/+10%, 숏 -5/-10% 가격은
 알림 시점 참고 가격 기준이다. 실제 체결/순수익 보장이 아니다.
+제목 맨 앞은 NEARUSDT/SUIUSDT/APTUSDT/SEIUSDT 등 실제 감지 종목이다.
+Slack 앱 자체 표시명은 웹훅이 속한 Slack 앱 설정이며 메시지 제목과 다르다.
+last_*_scan.json의 diagnostics에서 종목/방향별 미알림 조건과 중복 제한을 확인한다.
+이 알림은 현재 추세 관찰이다. 전조 가설은 research/near_precursor,
+구조적 손절은 research/near_deep, 외부 지표는 research/near_external에서
+별도로 검증한다. 결과 요약은 각 연구의 RESULTS.txt를 참고한다.
+연구 코드를 반영해도 학습 모델이 운영 알림에 자동 적용되지는 않는다.
 
 맥미니 전환 (반드시 그 머신에서 실행):
   python3 momentum-alert/service.py

@@ -72,6 +72,9 @@ for(const row of rows)if(row.notify)notifier.send('momentum_observation',formatS
 const flushed=await notifier.flush(45000);notifier.close();
 const result={asof:new Date(asof).toISOString(),mode,watchlist:watchlist.symbols,scanned:rows.length,
   scanned_symbols:new Set(rows.map(r=>r.symbol)).size,directions:policy.directions,
+  diagnostics:rows.map(r=>({symbol:r.symbol,direction:r.direction,eligible:r.eligible,notify:r.notify,
+    blocked_by:Object.entries(r.checks).filter(([,passed])=>!passed).map(([key])=>key),
+    cooldown_or_repeat:r.eligible&&!r.notify})),
   observations:rows.filter(r=>r.notify).map(({symbol,direction})=>({symbol,direction})),errors,notifications:notifier.stats,flushed};
 fs.writeFileSync(path.join(output,'last_'+mode+'_scan.json'),JSON.stringify(result,null,2));
 console.log(JSON.stringify(result,null,2));

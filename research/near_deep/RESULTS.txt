@@ -1,0 +1,116 @@
+NEAR futures deep evidence results —2026-10-17
+
+Conclusion: no80% precursor model established. Existing alerts remain unvalidated trend observations.
+730 closed UTC days2024-10-17..2026-10-17; NEAR/BTC/ETH/SUI/APT/SEI each70,08015min candles; NEAR OI70,080, funding2,190, mark70,080.
+Three90day chronological evaluations with360day training,90day calibration,73h purges/72h embargo. Fixed price/price+derivatives x logistic/boosting. No test-based model/threshold refit.
+24h/72h and5%/10% are separate. User stops approximated by prior4/12/24h extrema and confirmed15min pivot. Timeouts close at evaluation horizon in hypothetical return calculations.
+
+All fixed model aggregates (not selected winners):
+long_5_24_touch
+  price_logistic: alerts=225, hits=76, precision=33.7778%, weekly95=[0.24527934806548712, 0.4299076707752043], pre-onset recall=2.9126%
+  price_boosting: alerts=192, hits=65, precision=33.8542%, weekly95=[0.227771164021164, 0.44954306237109737], pre-onset recall=5.8252%
+  derivatives_logistic: alerts=175, hits=65, precision=37.1429%, weekly95=[0.27373277467411544, 0.4744556476555734], pre-onset recall=1.9417%
+  derivatives_boosting: alerts=167, hits=68, precision=40.7186%, weekly95=[0.2787878787878788, 0.5283067748558021], pre-onset recall=4.8544%
+  scheduled: alerts=834, hits=248, precision=29.7362%, weekly95=[0.22625701779707447, 0.3751537515375154], pre-onset recall=17.4757%
+  momentum: alerts=276, hits=77, precision=27.8986%, weekly95=[0.19494018896474485, 0.3643768702693188], pre-onset recall=1.9417%
+long_5_72_touch
+  price_logistic: alerts=220, hits=114, precision=51.8182%, weekly95=[0.3738738738738739, 0.6636722488038279], pre-onset recall=3.8835%
+  price_boosting: alerts=224, hits=120, precision=53.5714%, weekly95=[0.398265392015392, 0.6684892369499716], pre-onset recall=5.8252%
+  derivatives_logistic: alerts=180, hits=91, precision=50.5556%, weekly95=[0.36396625405246097, 0.6736870250492542], pre-onset recall=2.9126%
+  derivatives_boosting: alerts=137, hits=70, precision=51.0949%, weekly95=[0.3709455168910338, 0.6859755659360404], pre-onset recall=1.9417%
+  scheduled: alerts=834, hits=436, precision=52.2782%, weekly95=[0.4137887550550072, 0.6299634637662807], pre-onset recall=17.4757%
+  momentum: alerts=276, hits=140, precision=50.7246%, weekly95=[0.3726232714150784, 0.6337646883831624], pre-onset recall=1.9417%
+long_5_72_onset
+  price_logistic: alerts=65, hits=2, precision=3.0769%, weekly95=[0.0, 0.07547884505431678], pre-onset recall=1.9417%
+  price_boosting: alerts=90, hits=2, precision=2.2222%, weekly95=[0.0, 0.05748797113071377], pre-onset recall=1.9417%
+  derivatives_logistic: alerts=65, hits=2, precision=3.0769%, weekly95=[0.0, 0.0784313725490196], pre-onset recall=1.9417%
+  derivatives_boosting: alerts=154, hits=5, precision=3.2468%, weekly95=[0.0058823529411764705, 0.06976744186046512], pre-onset recall=4.8544%
+  scheduled: alerts=834, hits=18, precision=2.1583%, weekly95=[0.012895284860431979, 0.0316538066646162], pre-onset recall=17.4757%
+  momentum: alerts=204, hits=1, precision=0.4902%, weekly95=[0.0, 0.01744186046511628], pre-onset recall=0.9709%
+long_10_24_touch
+  price_logistic: alerts=120, hits=22, precision=18.3333%, weekly95=[0.09574468085106383, 0.2903225806451613], pre-onset recall=0.0000%
+  price_boosting: alerts=219, hits=32, precision=14.6119%, weekly95=[0.05824960487694739, 0.23932506887052346], pre-onset recall=0.0000%
+  derivatives_logistic: alerts=138, hits=21, precision=15.2174%, weekly95=[0.05404885654885656, 0.2832394026974952], pre-onset recall=0.0000%
+  derivatives_boosting: alerts=119, hits=17, precision=14.2857%, weekly95=[0.03508771929824561, 0.26450446547587325], pre-onset recall=0.0000%
+  scheduled: alerts=834, hits=85, precision=10.1918%, weekly95=[0.05628539174578244, 0.15365953181077657], pre-onset recall=12.0000%
+  momentum: alerts=204, hits=27, precision=13.2353%, weekly95=[0.0783390102183931, 0.1934042526918898], pre-onset recall=0.0000%
+long_10_72_touch
+  price_logistic: alerts=158, hits=55, precision=34.8101%, weekly95=[0.2039442256118002, 0.511119592875318], pre-onset recall=0.0000%
+  price_boosting: alerts=181, hits=63, precision=34.8066%, weekly95=[0.19997512437810946, 0.5149792439660557], pre-onset recall=8.0000%
+  derivatives_logistic: alerts=128, hits=48, precision=37.5000%, weekly95=[0.21263580538497873, 0.562962962962963], pre-onset recall=0.0000%
+  derivatives_boosting: alerts=130, hits=45, precision=34.6154%, weekly95=[0.20261036930109466, 0.5225363825363826], pre-onset recall=4.0000%
+  scheduled: alerts=834, hits=240, precision=28.7770%, weekly95=[0.1968897270497921, 0.3858957879448076], pre-onset recall=12.0000%
+  momentum: alerts=276, hits=79, precision=28.6232%, weekly95=[0.18118335415160083, 0.4016402016599218], pre-onset recall=0.0000%
+long_10_72_onset
+  NOT FIT: insufficient reachable training/calibration events in every fold.
+short_5_24_touch
+  price_logistic: alerts=89, hits=28, precision=31.4607%, weekly95=[0.1882169117647059, 0.44], pre-onset recall=0.0000%
+  price_boosting: alerts=89, hits=33, precision=37.0787%, weekly95=[0.26027118832832163, 0.4851521549213745], pre-onset recall=1.9231%
+  derivatives_logistic: alerts=95, hits=32, precision=33.6842%, weekly95=[0.21428571428571427, 0.46342017738359204], pre-onset recall=0.0000%
+  derivatives_boosting: alerts=161, hits=46, precision=28.5714%, weekly95=[0.2019109712230216, 0.3798517611859105], pre-onset recall=0.9615%
+  scheduled: alerts=834, hits=173, precision=20.7434%, weekly95=[0.1541908469548957, 0.2635938926339442], pre-onset recall=3.8462%
+  momentum: alerts=282, hits=63, precision=22.3404%, weekly95=[0.15475883652430045, 0.2950849918335249], pre-onset recall=0.0000%
+short_5_72_touch
+  price_logistic: alerts=178, hits=100, precision=56.1798%, weekly95=[0.43010613404646497, 0.6844937731041165], pre-onset recall=1.9231%
+  price_boosting: alerts=287, hits=154, precision=53.6585%, weekly95=[0.43059567160473394, 0.6382287440702341], pre-onset recall=2.8846%
+  derivatives_logistic: alerts=189, hits=100, precision=52.9101%, weekly95=[0.399098238133745, 0.6736860768943636], pre-onset recall=0.9615%
+  derivatives_boosting: alerts=132, hits=80, precision=60.6061%, weekly95=[0.4824561403508772, 0.7259306440198161], pre-onset recall=0.9615%
+  scheduled: alerts=834, hits=381, precision=45.6835%, weekly95=[0.37049843500856317, 0.5415200060168472], pre-onset recall=3.8462%
+  momentum: alerts=282, hits=128, precision=45.3901%, weekly95=[0.3546066211495713, 0.5484985620030451], pre-onset recall=0.0000%
+short_5_72_onset
+  price_logistic: alerts=196, hits=6, precision=3.0612%, weekly95=[0.010868096357226792, 0.05263157894736842], pre-onset recall=5.7692%
+  price_boosting: alerts=207, hits=7, precision=3.3816%, weekly95=[0.010526315789473684, 0.0625], pre-onset recall=6.7308%
+  derivatives_logistic: alerts=124, hits=7, precision=5.6452%, weekly95=[0.0234375, 0.09090909090909091], pre-onset recall=6.7308%
+  derivatives_boosting: alerts=215, hits=8, precision=3.7209%, weekly95=[0.015149611694837826, 0.060486925708699915], pre-onset recall=7.6923%
+  scheduled: alerts=834, hits=4, precision=0.4796%, weekly95=[0.0011641443538998836, 0.009604130113583895], pre-onset recall=3.8462%
+  momentum: alerts=374, hits=0, precision=0.0000%, weekly95=[0.0, 0.0], pre-onset recall=0.0000%
+short_10_24_touch
+  price_logistic: alerts=137, hits=4, precision=2.9197%, weekly95=[0.0, 0.06870229007633588], pre-onset recall=0.0000%
+  price_boosting: alerts=236, hits=11, precision=4.6610%, weekly95=[0.013636363636363636, 0.09013457262526503], pre-onset recall=0.0000%
+  derivatives_logistic: alerts=65, hits=7, precision=10.7692%, weekly95=[0.015873015873015872, 0.21876070205479456], pre-onset recall=0.0000%
+  derivatives_boosting: alerts=291, hits=13, precision=4.4674%, weekly95=[0.014084507042253521, 0.0821917808219178], pre-onset recall=0.0000%
+  scheduled: alerts=834, hits=30, precision=3.5971%, weekly95=[0.015151515151515152, 0.059241921064545525], pre-onset recall=0.0000%
+  momentum: alerts=338, hits=17, precision=5.0296%, weekly95=[0.018715952821230446, 0.08454920595773915], pre-onset recall=0.0000%
+short_10_72_touch
+  price_logistic: alerts=230, hits=38, precision=16.5217%, weekly95=[0.08301763203427535, 0.2727272727272727], pre-onset recall=0.0000%
+  price_boosting: alerts=198, hits=33, precision=16.6667%, weekly95=[0.07290998931623932, 0.2756418918918919], pre-onset recall=0.0000%
+  derivatives_logistic: alerts=199, hits=33, precision=16.5829%, weekly95=[0.07777777777777778, 0.2857142857142857], pre-onset recall=0.0000%
+  derivatives_boosting: alerts=326, hits=49, precision=15.0307%, weekly95=[0.07692307692307693, 0.2345767195767196], pre-onset recall=0.0000%
+  scheduled: alerts=834, hits=101, precision=12.1103%, weekly95=[0.06543518363239981, 0.18602449312157884], pre-onset recall=0.0000%
+  momentum: alerts=374, hits=55, precision=14.7059%, weekly95=[0.07290253552971578, 0.23224523704031905], pre-onset recall=0.0000%
+short_10_72_onset
+  NOT FIT: insufficient reachable training/calibration events in every fold.
+
+Target-before-prior4h-stop for5% within72h (same fitted models; user-style stop sensitivity):
+  long_5_72_touch price_logistic: valid=220, target-before-stop=21.8182%, net20bp mean/alert=-0.1834%, mean net weekly95=[-0.6977597997255657, 0.2663065307467285]
+  long_5_72_touch price_boosting: valid=224, target-before-stop=20.0893%, net20bp mean/alert=-0.1950%, mean net weekly95=[-0.651500781740923, 0.24375354594729867]
+  long_5_72_touch derivatives_logistic: valid=180, target-before-stop=25.0000%, net20bp mean/alert=-0.0668%, mean net weekly95=[-0.6540362709062999, 0.6182083156726781]
+  long_5_72_touch derivatives_boosting: valid=137, target-before-stop=16.0584%, net20bp mean/alert=-0.4774%, mean net weekly95=[-1.1367387745561606, 0.1484117293873755]
+  long_5_72_touch scheduled: valid=833, target-before-stop=18.3673%, net20bp mean/alert=-0.2071%, mean net weekly95=[-0.47514488833338764, 0.07555699713741255]
+  long_5_72_touch momentum: valid=276, target-before-stop=25.3623%, net20bp mean/alert=-0.3187%, mean net weekly95=[-0.7734809311817947, 0.16053905517807704]
+  short_5_72_touch price_logistic: valid=178, target-before-stop=23.5955%, net20bp mean/alert=-0.0748%, mean net weekly95=[-0.6117447694973287, 0.49633715467978157]
+  short_5_72_touch price_boosting: valid=287, target-before-stop=18.1185%, net20bp mean/alert=-0.5910%, mean net weekly95=[-0.9639157363540896, -0.17460822029319503]
+  short_5_72_touch derivatives_logistic: valid=189, target-before-stop=20.6349%, net20bp mean/alert=-0.3354%, mean net weekly95=[-0.8090675660367164, 0.23546333824261034]
+  short_5_72_touch derivatives_boosting: valid=132, target-before-stop=19.6970%, net20bp mean/alert=-0.3341%, mean net weekly95=[-0.738391510277849, 0.0772238064900024]
+  short_5_72_touch scheduled: valid=834, target-before-stop=18.8249%, net20bp mean/alert=-0.2387%, mean net weekly95=[-0.5506235516948466, 0.0731638916036679]
+  short_5_72_touch momentum: valid=282, target-before-stop=26.5957%, net20bp mean/alert=-0.3414%, mean net weekly95=[-0.8909751665154628, 0.20206298789672555]
+
+Matched antecedents:24 features x4direction/target hypotheses; Holm significant at.05 =0.
+  long 5%: matched pairs={'discovery': 49, 'replication': 37}
+  short 5%: matched pairs={'discovery': 40, 'replication': 23}
+  long 10%: matched pairs={'discovery': 11, 'replication': 8}
+  short 10%: matched pairs={'discovery': 9, 'replication': 2}
+Exploratory patterns: lower range position/BTC-relative4h return before upward hindsight extrema; higher position before downward extrema. May be mechanically induced by hindsight label; not a proven signal.
+Same-week budget random timing:1999 attempts for all40 model variants; 11 comparisons below.05 after Holm (all short-side). Greedy matching is not uniform or causal randomization. Relative advantage does not establish high precision or profitable stop-adjusted returns.
+5% pre-onset candidate coverage: long37/103, short23/104 events. Quiet gating itself misses most beginnings.
+10% pre-onset support insufficient; no trained10% precursor model. Do not confuse with10% target-touch model.
+Positive individual net-return CIs exist among240stop combinations; no multiple-comparison-adjusted profitability claim or deployment based on those winners.
+Peers were selected after seeing recent data; historical transfer is exploratory, not independent validation.
+Prior attached ZIP lacked NEAR long-term futures flow. This historical study has no NEAR orderbook/taker-side/liquidation features.
+Future validation still required with fixed rules, unmodified5/10% targets, actual structural stops, costs, event recall and prospective records.
+
+Artifacts (generated, ignored by Git): output/report.html; report.json; robustness.json; antecedents.json; null_audit.json; current_rules_metrics.json; artifact_manifest.json; locks/; scores/.
+Data SHA256: c0957f845ac27a7683bf784b2f02f404fdde251fb3dc0be5980d031ce20715b3
+Base protocol SHA256: e09a911a5b3c9e5cdb90bd094f4d4becb3274288dbd958bedd6632e7c54fad1d
+Stop addendum SHA256: 9dae4c879508c3f3fbf050c05bb40b905f0de4e69c9e93205d132a4deab8fb38
+No orders, Slack send, remote service deployment, or model promotion performed.

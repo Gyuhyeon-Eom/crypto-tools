@@ -1,0 +1,14 @@
+{
+  "version": "near-precursor-v1",
+  "scope": "Retrospective NEARUSDT linear-perpetual discovery and chronological holdout. Not a prospective live performance claim.",
+  "symbols": ["NEARUSDT", "BTCUSDT", "ETHUSDT"],
+  "history_days": 183,
+  "split": "After3days feature warmup: first90days training, next30days calibration, last60days holdout. Purge25h labels at each boundary, leave48h embargo at start of calibration and test. Never shuffle or tune on holdout.",
+  "events": "For each direction and price target5%/10%, operational onset at closed15min time t: next1h close moves>=2% in that direction AND next24h high/low reaches target relative to close at t. Chronologically retain first qualifying onset, then refractory24h per direction/target. This is an operational definition, not proof of exact economic start.",
+  "prediction": "At each closed15min decision, predict a retained onset15..60min later. Features through decision only. Exclude already moving candidates with absolute previous1h return>=1%. Labels need25h complete future. Count misses over all retained events, including those without eligible preceding candidates.",
+  "features": "Returns1h/4h/24h, turnover build1h vs previous24h, volatility compression1h vs24h, position within previous24h range, BTC/ETH excess1h return; supplementary OI change1h/4h and last settled funding. OI/funding timestamp+15min availability approximation; no historical orderbook inference.",
+  "models": "Separate long/short and5%/10% L2 logistic C1 with StandardScaler; price-volume model plus supplementary derivatives model on identical complete rows. No feature or hyperparameter search. Threshold calibration95th percentile; chronological6h alert cooldown per direction, evaluation is per-direction and not the joint live cooldown policy.",
+  "support": "Fit only with>=20 distinct train events,>=5 calibration events, both classes in train/cal. Otherwise report insufficient support.",
+  "report": "Training-only case/control comparisons1h before onset, matched by hour-of-day and trailing24h volatility within28days, excluding any onset+-24h. Show heldout alert precision, event recall, lead time, actual5%/10% target touch from decision price, adverse excursion and first-touch time. Never count overlapping candidate rows as independent events.",
+  "deployment": "No automatic promotion. Require separate prospective validation; never replace a missing or failed model with a claimed precursor. Existing momentum notifications remain labelled contemporaneous observations."
+}

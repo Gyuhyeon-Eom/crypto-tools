@@ -69,10 +69,10 @@ export function formatSignal(row){
   if(!['long','short'].includes(row.direction))throw new Error('Invalid signal direction');
   const long=row.direction==='long',sign=long?'+':'-',multiplier=long?1:-1;
   const pct=x=>(x*100).toFixed(2)+'%';
-  return `[NEAR Momentum · ${long?'LONG/롱':'SHORT/숏'} · 실험용 관찰] ${row.symbol} | Bybit USDT 무기한\n`
+  return `[${row.symbol} · ${long?'LONG/롱':'SHORT/숏'} · 추세 관찰] Bybit USDT 무기한\n`
     +`기준 시각 ${new Date(row.observed_at).toISOString()} · 현재 참고 가격 ${row.reference_price}\n`
     +`확정 1시간봉 ${pct(row.hour_return)} / BTC 대비 ${pct(row.hour_return-row.btc_hour_return)}\n`
     +`15분 거래대금 평소 대비 ${row.turnover_ratio.toFixed(2)}배 · 최근 5시간 ${long?'고점':'저점'} 대비 ${pct(long?row.distance_from_high:row.distance_from_low)}\n`
     +`참고 가격 대비 ${sign}5% ${(row.reference_price*(1+multiplier*.05)).toPrecision(6)} / ${sign}10% ${(row.reference_price*(1+multiplier*.10)).toPrecision(6)}\n`
-    +`${long?'상승':'하락'} 조건 관찰 · 목표 도달 확률/적중률 미검증 · 진입 추천 아님`;
+    +`${long?'상승':'하락'} 조건 관찰 · 전조 모델 검증 대기 · 목표 도달 확률/적중률 미검증 · 진입 추천 아님`;
 }

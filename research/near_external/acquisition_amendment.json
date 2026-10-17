@@ -1,0 +1,12 @@
+{
+  "original_protocol_sha256": "bb670a6c77ccf6611c6d0eb582f25f7a27a5b7aba083e1a6cabe55b22f20bdf4",
+  "recorded_at_utc": "2026-10-17T10:02:36.833385+00:00",
+  "stage": "Before any outcome analysis or model fitting",
+  "reason": "Bybit FETUSDT status Closed, deliveryTime1717754400000; kline lists empty for study period. Cached remaining Bybit AI histories retained but not substituted silently.",
+  "change": "Keep fixed AI symbols FETUSDT/RENDERUSDT/TAOUSDT; use Binance spot for ALL AI members. L1 remains Bybit linear. Source-level rather than performance-based amendment.",
+  "sector_sources": {
+    "l1": "bybit_linear",
+    "ai": "binance_spot"
+  },
+  "limits": "Spot AI versus futures L1; historical current-survivor and fixed-basket biases remain."
+}

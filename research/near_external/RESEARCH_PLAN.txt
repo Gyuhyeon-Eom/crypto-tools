@@ -1,0 +1,84 @@
+NEAR 외부 지표 연구 준비 —2026-10-17
+
+이번 작업의 범위
+  공개 API 실제 응답과 스키마 확인, 원응답 보존, 신규 가설 설계.
+  예측 모델 학습·적중률 개선 검증·운영 알림 적용은 이 파일의 결과가 아니다.
+  node research/near_external/probe.mjs
+  시각별 output 폴더에 원응답gzip, 수신시각, 요청 URL, HTTP 상태, SHA256을 보존한다.
+  output/latest.json이 가장 최근 조사 위치를 가리킨다. 실패도 숨기지 않는다.
+
+현재 확인된 접근성
+  DefiLlama Near TVL: HTTP200,1885일 관측치.
+  Near stablecoins: HTTP200,1561일 관측치. 작동 호스트 stablecoins.llama.fi.
+    공식 무료목록에 표시된 api.llama.fi/stablecoincharts/Near는404였다.
+  Near DEX 거래량: HTTP200,1883일 관측치.
+  Binance NEARUSDT 현물:2024-10-17의15분봉96개, 총quote거래량/매수taker quote거래량 포함.
+  Bybit NEARUSDT 계좌 비율:2024-10-17..18의1시간 관측치24개, buyRatio/sellRatio 포함.
+  CoinGecko 현재 NEAR 분류:AI, L1, smart contract, chain abstraction 등.
+  Near bridgevolume: HTTP402. 무료로 확보했다고 주장하지 않으며 우회하지 않는다.
+  Binance/Bybit 표본은 해당 날짜 접근성을 뜻할 뿐2년 전 구간 무결성 확인은 아니다.
+  TVL/DEX/stablecoin은 전체 응답을 받았지만 모든 과거 날짜의 당시 공개본을 가진 것은 아니다.
+
+우선순위1: 현물 수급과 섹터 동반 움직임
+  spot_delta_quote =2*taker_buy_quote-total_quote.
+  spot_imbalance =spot_delta_quote/total_quote (거래량0이면결측).
+  15분/1시간/4시간 수급 합, 누적delta 기울기, 가격과delta의 괴리.
+  현물/선물 상대거래량, 두 시장 가격 괴리도 같은 시각으로 정렬한다.
+  이는 공격적인 매수/매도 체결의 차이지 외부 계좌에서 새로 들어온 현금이 아니다.
+  Binance 현물 수급을 Bybit 선물 목표에 연결하는 교차거래소 가설이다.
+  가능하면 Bybit 현물publicTrade와도 대조하고 단일 거래소 편향을 기록한다.
+
+  NEAR는AI와L1 노출을 별도 비교한다. 한 섹터로 고정하지 않는다.
+  섹터 지수에서NEAR를 제외한다. 구성원·동일가중/시총가중은 결과를 보기 전에고정한다.
+  상승/하락 종목 비율, 중위수 수익률, 거래대금 증가의 확산 정도,
+  과거자료로 추정한BTC beta를 제거한 수익률, NEAR의 섹터 대비 지연/추격 정도.
+  현재CoinGecko분류나최근상승종목을2024년구성원으로 소급하면 편향이 생긴다.
+  당시 구성 이력이 없으면 과거결과는 탐색으로만 표시하고 미래구성 스냅샷을 저장한다.
+
+우선순위2: 느린 체인 자산·활동 흐름
+  USD페그 스테이블코인 잔액의1/7일 변화, DEX거래량의7일/이전28일 비율.
+  TVL은가격과수량 변화가섞인다. 단순TVL증가를순유입으로부르지않는다.
+  토큰별 잔액 변화와 가격을 분해한 순유입이 확보될 때만 flow로 표시한다.
+  stablecoin 공급증가도 민팅·브리지 이동·분류변경일 수 있으며 NEAR매수 확정이 아니다.
+  하루 단위 데이터는 수일 장세필터 후보이고15분 정밀진입 신호로 취급하지않는다.
+  잠정 지연24/48시간을 비교하되 실제 최초공개시각을 대체했다고 주장하지않는다.
+  수정 가능한 과거자료는 당시 공개본이 아니므로 미래 저장분 검증이 최종 기준이다.
+
+우선순위3: 포지션 쏠림과 거래소 온체인 유출입
+  기존 OI와 펀딩은 이미 near_deep에서 사용했다. 신규 외부 지표라고 다시포장하지않는다.
+  Bybit계좌비율은 롱/숏 계좌 수 비율이며 자금·포지션 규모 비율이 아니다.
+  가격/OI/현물delta/펀딩과 함께 crowded-position 가설을 검증한다.
+  거래소 NEAR입금과 스테이블코인입금은 자산별로분리한다.
+  내부지갑이동·담보·수탁·주소라벨 변경을 걸러야 한다. 입금=매도, 출금=매수로 단정하지않는다.
+  NEAR별 실제지원범위·주소라벨·당시공개본·비용은 공급자별추가검증이 필요하다.
+  어떤 유료 서비스도 구매·구독하지 않았다.
+
+검증할 가설 —아직 결과 아님
+  H1: BTC효과를제외한 섹터강세가 확산하고NEAR현물매수우위가 생길때,
+      같은BTC장세/변동성의대조구간보다 롱목표-before-stop 비율이높다.
+  H2: 섹터약세확산+NEAR현물매도우위가 있을때 숏목표-before-stop 비율이높다.
+  H3: 선물가격/OI만증가하고현물수급이따르지않는상승은 손절위험이높다.
+      이때 자동으로숏이성공한다고가정하지않는다.
+  H4: 스테이블코인잔액/체인순유입/사용량의증가가 수일동안H1의성능을개선한다.
+      체인전체활동과NEAR토큰가치포착은다르므로 독립검증한다.
+
+비교 실험
+  기존가격/OI/펀딩 기준선 → +섹터 → +현물수급 → +체인흐름 → 전체.
+  동일한시점·표본·모델복잡도에서 추가 정보만 바꾼다.
+  섹터 지표는 시장BTC/ETH 필터와 별도 비교해 기존 시장추종을새효과로세지않는다.
+  목표는코인가격±5%/±10%유지. 롱/숏별 목표-before-진입전구조적손절을 주정답으로 둔다.
+  4h/12h/24h/확인피벗 손절은모두 공개하고 실적을본뒤좋은손절만선택하지않는다.
+  24/72h는평가창. 실제무기한보유전략과같다고주장하지않는다.
+  부가평가:전조선행시간,사건재현율,비용후성과,알림수,주간신뢰구간,같은시기무작위기준선.
+  과거730일은이미여러실험에서봤다.새실험의후향결과는탐색이며최종독립검증은미래고정기간.
+  daily자료정렬,UTC,공개지연,결측,거래소단위,상장/심볼변경,섹터구성변경을 먼저검증한다.
+  API키·개인계좌·실제주문·Slack메시지 없이 가능한 공개자료부터 시작한다.
+
+자료 정의
+  https://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints
+  https://bybit-exchange.github.io/docs/v5/websocket/public/trade
+  https://bybit-exchange.github.io/docs/v5/market/long-short-ratio
+  https://api-docs.defillama.com/llms-free.txt
+  https://docs.llama.fi/analysts/data-definitions
+  https://www.coingecko.com/en/coins/near
+  https://docs.glassnode.com/basic-api/endpoints/pit

@@ -1,0 +1,22 @@
+{
+  "version": "near-deep-evidence-v1",
+  "status": "Exploratory expansion after near_precursor-v1 had insufficient calibration events. Earlier study remains unchanged. Historical evidence is not prospective validation.",
+  "history_days": 730,
+  "symbols": ["NEARUSDT", "BTCUSDT", "ETHUSDT", "SUIUSDT", "APTUSDT", "SEIUSDT"],
+  "primary": "NEARUSDT",
+  "targets": [0.05, 0.10],
+  "horizons_hours": [24, 72],
+  "directions": ["long", "short"],
+  "sampling": "Hourly decisions using only closed15min bars and derivatives timestamp+15min. Entry proxy next15min open; report explicit execution limitations and10/20bps cost sensitivities, never change underlying5%/10% targets.",
+  "candidate": "Before a large move: absolute trailing1h return<1% and absolute trailing4h return<2%. Report coverage lost to this gate; no threshold tuning.",
+  "splits": "Last270complete days split into3 chronological90day test blocks. Each has immediately previous90day calibration and previous360day training. Purge73h labels at ends of train/cal/test; leave72h embargo at beginnings of calibration/test. No shuffled split or test-based selection.",
+  "labels": "Separate direct first-touch5%/10% within24h/72h from precursor detection. Record time to touch and maximum adverse excursion until touch/horizon; intrabar order ambiguity retained. Report adverse barrier2%/3%/5% sensitivity without interpreting as user's actual stops. Censored outcomes unknown.",
+  "onsets": "Close-only directional-change zigzag5%/10%: alternating confirmed upward/downward legs, retrospectively anchored at previous extremal close. Descriptive onset cases and15..60min pre-onset labels; this hindsight anchor is never an input feature. Report event recall and pre-onset alert precision separately from eventual target-touch rate.",
+  "features": "Past price returns, turnover build/acceleration, realized volatility/range compression, candle wick balance, trend efficiency, BTC/ETH excess returns/market context. Paired additions: NEAR OI1h/4h/24h, last settled funding and lagged mark/trade basis. No buy/sell flow, historical orderbook or liquidation inference from candles.",
+  "models": "StandardScaler+L2 logistic C1; HistGradientBoosting max_iter100,max_leaf_nodes7,learning_rate0.05,l2_regularization1,early_stoppingFalse,random_state17. Compare price-only and price+derivatives on identical complete rows. Feature groups fixed; no model hyperparameter search.",
+  "calibration": "Threshold candidates at calibration score quantiles80/90/95/97.5/99%.6h chronological cooldown per direction. Select maximum exact95% precision lower bound with>=20 calibration alerts; ties prefer more alerts. Precursor models additionally need>=20 reachable train events and>=5 reachable calibration events. Freeze each model/threshold before reading its test results.",
+  "baselines": "Scheduled quiet candidates with6h cooldown; price-momentum score calibrated using identical threshold selection; matched-week random alert timing with same counts and6h spacing. Report unequal alert-budget comparisons explicitly.",
+  "uncertainty": "Exact binomial CI plus7day block bootstrap, per-fold consistency, target/move definition sensitivity, direction-specific metrics and extreme-event dependence. Multiple explored models are not independent confirmations. Any80% claim requires>=100 alerts,>=8weeks,>=10% onset recall and block95% lower bound>=80% in future prospective data.",
+  "transfer": "SUI/APT/SEI were selected after observing recent history. Their historical transfer analysis is exploratory and cannot count as independent unbiased validation.",
+  "deployment": "Do not automatically deploy any backtest winner. Publish failures and support limits. Freeze a future prospective protocol before promotion."
+}

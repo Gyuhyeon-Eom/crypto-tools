@@ -108,5 +108,11 @@ test('qualified momentum observation reaches mocked Slack only once across repea
     if(takeSignal(state,row,row.observed_at,policy))notifier.send('momentum_observation',formatSignal(row));
   }
   await notifier.flush();assert.equal(sent.length,1);assert.equal(notifier.stats.delivered,1);
-  assert.match(sent[0],/NEAR Momentum/);assert.match(sent[0],/적중률 미검증/);notifier.close();
+  assert.match(sent[0],/^\[NEARUSDT · LONG\/롱 · 추세 관찰\]/);assert.match(sent[0],/적중률 미검증/);notifier.close();
+});
+test('each symbol is named first so other coins do not look like NEAR alerts',()=>{
+  const x=fixture();
+  const row={...assess('SUIUSDT',x.hour,x.quarter,x.btcHour,x.ticker,policy),observed_at:1000};
+  const text=formatSignal(row);assert.match(text,/^\[SUIUSDT · LONG\/롱/);assert.doesNotMatch(text,/NEAR Momentum/);
+  assert.match(text,/전조 모델 검증 대기/);
 });

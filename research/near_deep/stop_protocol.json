@@ -1,0 +1,9 @@
+{
+  "reason": "User clarified on 2026-10-17, before deep model evaluation, that stops are previous lows for longs and previous highs for shorts.",
+  "status": "Appendix to the unchanged frozen base protocol. No fitting or threshold selection using stop outcomes.",
+  "policies": ["Prior closed 4h low/high", "Prior closed 12h low/high", "Prior closed 24h low/high", "Most recent 15min pivot with 2 bars each side, only after 2 right bars close; maximum pivot age24h"],
+  "entry": "Next bar open proxy, fixed initial stop, no trailing. Exclude a stop already beyond entry as invalid; report coverage and stop distance.",
+  "order": "First target versus stop within24/72h; simultaneous same15min bar is stop-first and separately counted. Stop gap uses worse of stop and bar open. No assumptions about intrabar trajectory.",
+  "execution": "Trade-price trigger assumed, not mark-price trigger. Funding attributed through exit bar conservatively; exact within-bar funding order unavailable.10/20bps roundtrip costs are sensitivity assumptions, not measured fills. No leverage or margin liquidation model.",
+  "comparison": "Apply identical stop policies to every frozen model and both baselines, keep5/10% targets. Report all results and walk-forward folds, not only the best. Per-alert returns are overlapping hypothetical positions, not portfolio returns."
+}
