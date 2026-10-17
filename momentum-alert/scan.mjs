@@ -13,6 +13,7 @@ const flags=new Set(process.argv.slice(2));
 if([...flags].some(x=>!['--slack','--check'].includes(x)))throw new Error('Usage: node momentum-alert/scan.mjs [--slack] [--check]');
 const enabled=flags.has('--slack'),check=flags.has('--check');
 const policy=JSON.parse(fs.readFileSync(path.join(base,'policy.json')));
+if(JSON.stringify(policy.directions)!==JSON.stringify(['long','short']))throw new Error('Expected LONG/SHORT policy');
 const watchlist=JSON.parse(fs.readFileSync(path.join(base,'watchlist.json')));
 if(watchlist.category!=='linear'||!Array.isArray(watchlist.symbols)||watchlist.symbols.length>4
   ||!watchlist.symbols.includes('NEARUSDT')||new Set(watchlist.symbols).size!==watchlist.symbols.length
@@ -35,10 +36,11 @@ catch(e){
 process.on('exit',()=>{try{if(fs.readFileSync(lock,'utf8')===String(process.pid))fs.unlinkSync(lock);}catch{}});
 const asof=await clock(),universe=[...new Set([...watchlist.symbols,...policy.references])];
 const instruments=[];for(const symbol of universe)instruments.push(await instrument(symbol));
-if(check){console.log(JSON.stringify({checked:true,category:'linear',symbols:watchlist.symbols,references:policy.references,slack_configured:enabled&&urls.length>0},null,2));process.exit(0);}
+if(check){console.log(JSON.stringify({checked:true,category:'linear',directions:policy.directions,symbols:watchlist.symbols,references:policy.references,slack_configured:enabled&&urls.length>0},null,2));process.exit(0);}
 const stateFile=path.join(output,mode+'_state.json');
 const state=fs.existsSync(stateFile)?JSON.parse(fs.readFileSync(stateFile)):{};
-if(!state||Array.isArray(state)||typeof state!=='object'||Object.values(state).some(v=>!v||!Number.isFinite(v.candle_time)||!Number.isFinite(v.notified_at)))throw new Error('Invalid cooldown state');
+if(!state||Array.isArray(state)||typeof state!=='object'||Object.values(state).some(v=>!v||!Number.isFinite(v.candle_time)||!Number.isFinite(v.notified_at)
+  ||(v.direction!==undefined&&!['long','short'].includes(v.direction))))throw new Error('Invalid cooldown state');
 const hourly={},quarters={},errors=[];
 for(const symbol of universe){
   try{hourly[symbol]=await candles(symbol,60,200,asof);if(watchlist.symbols.includes(symbol))quarters[symbol]=await candles(symbol,15,96,asof);}
@@ -54,9 +56,11 @@ for(const symbol of watchlist.symbols){
   if(!hourly[symbol]||!quarters[symbol])continue;
   const ticker=tickerData.result.list.find(x=>x.symbol===symbol);
   if(!ticker){errors.push({symbol,error:'Ticker missing'});continue;}
-  const row={...assess(symbol,hourly[symbol],quarters[symbol],hourly.BTCUSDT,ticker,policy),observed_at:observedAt,
-    category:'linear',rule_version:policy.version,eth_hour_return:hourly.ETHUSDT.at(-1).close/hourly.ETHUSDT.at(-2).close-1};
-  row.notify=takeSignal(state,row,observedAt,policy);rows.push(row);
+  for(const direction of policy.directions){
+    const row={...assess(symbol,hourly[symbol],quarters[symbol],hourly.BTCUSDT,ticker,policy,direction),observed_at:observedAt,
+      category:'linear',rule_version:policy.version,eth_hour_return:hourly.ETHUSDT.at(-1).close/hourly.ETHUSDT.at(-2).close-1};
+    row.notify=takeSignal(state,row,observedAt,policy);rows.push(row);
+  }
 }
 // Save both qualifying and rejected observations, with source data before external delivery.
 const scan={asof,observed_at:observedAt,policy,watchlist,instruments,rows,errors,hourly,quarters,tickers:tickerData.result.list.filter(x=>universe.includes(x.symbol)),
@@ -67,7 +71,8 @@ fs.writeFileSync(stateFile+'.tmp',JSON.stringify(state));fs.renameSync(stateFile
 for(const row of rows)if(row.notify)notifier.send('momentum_observation',formatSignal(row));
 const flushed=await notifier.flush(45000);notifier.close();
 const result={asof:new Date(asof).toISOString(),mode,watchlist:watchlist.symbols,scanned:rows.length,
-  observations:rows.filter(r=>r.notify).map(r=>r.symbol),errors,notifications:notifier.stats,flushed};
+  scanned_symbols:new Set(rows.map(r=>r.symbol)).size,directions:policy.directions,
+  observations:rows.filter(r=>r.notify).map(({symbol,direction})=>({symbol,direction})),errors,notifications:notifier.stats,flushed};
 fs.writeFileSync(path.join(output,'last_'+mode+'_scan.json'),JSON.stringify(result,null,2));
 console.log(JSON.stringify(result,null,2));
 process.exitCode=errors.length||!flushed||notifier.stats.failed||notifier.stats.dropped?1:0;
